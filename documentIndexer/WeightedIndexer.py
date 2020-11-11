@@ -31,7 +31,6 @@ class WeightedIndexer:
     # lnc.ltc
     def weighted_index_lnc_ltc(self):
         for term in self.inverted_index:
-            idf_docsWeight=[] 
             docsWeigh={} # {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}  only with documents where the term occurs
             
             self.idf_calculation(term)           
