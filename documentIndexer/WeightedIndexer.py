@@ -49,7 +49,7 @@ class WeightedIndexer:
             #the cossine normalization is sqrt the inverse of the sum of all the weights of a document, 
             #each one to the pow of 2
             for doc_id in doc_pow_sum:
-                docsWeigh[doc_id] = math.sqrt(doc_pow_sum[doc_id])
+                docsWeigh[doc_id] = 1 / math.sqrt(doc_pow_sum[doc_id])
                         
             idf_docsWeight.append(docsWeigh)
 
