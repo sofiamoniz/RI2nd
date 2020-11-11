@@ -36,7 +36,7 @@ class WeightedIndexer:
             
             self.idf_calculation(term)           
 
-            doc_length = defaultdict(int) #This will be used as the normalization factor.
+            doc_pow_sum = defaultdict(int) #This will be used as the normalization factor.
                                         #This is a default dictionary so that if a certain value doesn't exist,
                                         # it will have a default value of 0
 
@@ -44,24 +44,18 @@ class WeightedIndexer:
             for doc_id in self.inverted_index[term][1]: #self.inverted_index[term][1]) contains : {docID: tf}
                 tf = self.inverted_index[term][1][doc_id] #term frequency (tf) - number of times each term appears in a doc
                 weight = 1+math.log10(tf) #this calculates the weight of term-document
-                docsWeigh[doc_id] = weight
-                doc_length[doc_id] += weight ** 2
-                print("weight ", weight)
+                #docsWeigh[doc_id] = weight
+                doc_pow_sum[doc_id] += weight ** 2 # sum of all the weights of each document
+                                                    #each weight to the pow of 2
+                                                    #this will be used in the cossine normalization
 
-            
-            idf_docsWeight.append(docsWeigh) #sem normalizar já fica feito aqui
-
-
-            #normalization
-            '''
-            for doc_id in doc_length:
-                    doc_length[doc_id] = math.sqrt(doc_length[doc_id])
-
-            for doc_id in docsWeigh:
-                docsWeigh[doc_id] /= doc_length[doc_id]
-             #   for doc_id in 
-            '''
-            #idf_docsWeight.append(docsWeigh)
+            #normalization - cossine normalization
+            #the cossine normalization is sqrt the inverse of the sum of all the weights of a document, 
+            #each one to the pow of 2
+            for doc_id in doc_pow_sum:
+                docsWeigh[doc_id] = math.sqrt(doc_pow_sum[doc_id])
+                        
+            idf_docsWeight.append(docsWeigh)
 
             self.weighted_index[term]=idf_docsWeight
             
