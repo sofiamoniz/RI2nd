@@ -18,22 +18,19 @@ class WeightedIndexer:
         self.total_docs=total_docs
         self.inverted_index=inverted_index
         self.weighted_index={}
-        self.idf_docsWeight = [] # [idf,docWeights_with_lnc_ltc]  
-                              # In python, the order of an array is mantained, so no problem!
         
     ## inverted_index = { "term" : [ doc_freq, {"doc1":occurrences_of_term_in_doc1, "doc2": occurrences_of_term_in_doc2,...}],...  }
     ## weighted_index = { "term" : [ idf, {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}],...  }
     
-    def idf_calculation(self, term):
-        idf = math.log10(self.total_docs/self.inverted_index[term][0]) #self.inverted_index[term][0] = term_info["document_frequency"]
-        self.idf_docsWeight.append(idf)
 
     # lnc.ltc
     def weighted_index_lnc_ltc(self):
         for term in self.inverted_index:
             docsWeigh={} # {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}  only with documents where the term occurs
-            
-            self.idf_calculation(term)           
+            idf_docsWeight=[] # [idf,docWeights_with_lnc_ltc]  
+                              # In python, the order of an array is mantained, so no problem!
+            idf = math.log10(self.total_docs/self.inverted_index[term][0])
+            idf_docsWeight.append(idf)         
 
             doc_pow_sum = defaultdict(int) #This will be used as the normalization factor.
                                         #This is a default dictionary so that if a certain value doesn't exist,
