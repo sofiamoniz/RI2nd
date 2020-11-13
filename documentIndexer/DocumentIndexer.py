@@ -61,8 +61,6 @@ class DocumentIndexer:
             generated_id=i+1 
             indexer.index_document(corpus[i],generated_id)
             doc_ids[generated_id]=real_doc_ids[i]
-            indexer.calculate_doc_len(corpus[i], generated_id) 
-            #all_docs.append(corpus[i])
         indexer.sort_inverted_index() ## All documents have been indexed and the final Inverted Indexer created!
         indexing_time=time.time()-start_time
         inverted_index=indexer.get_inverted_index()

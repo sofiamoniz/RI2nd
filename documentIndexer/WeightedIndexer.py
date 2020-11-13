@@ -70,7 +70,7 @@ class WeightedIndexer:
             # TO DO: calcular as weights
 
             self.weighted_index[term]=idf_docsWeight
-        #print(self.document_len)
+        print(self.document_len)
   
 
             

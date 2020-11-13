@@ -31,7 +31,10 @@ class Indexer:
                                     the document frequency and the second is the dictionary with documents IDs and ocurrences
         """
 
+        term_count=0
         for term in document_terms:
+            term_count += 1
+            self.id_len[document_id] = term_count #map {id : doc_len_in_words} in order to use it in weightedIndexer
             if term not in self.inverted_index:
                 freq_posting=[] # [doc_freq,posting]  where doc_freq is the number total of documents where the term occurs
                                 # In python, the order of an array is mantained, so no problem!
@@ -49,15 +52,13 @@ class Indexer:
                     posting[document_id]=1
                     freq_posting[0]=freq_posting[0]+1
                     
-    def calculate_doc_len(self,document_terms,document_id):
-        term_count=0
-        for term in document_terms:
-                term_count += 1
-                self.id_len[document_id] = term_count
-        return self.id_len
-
 
     def get_doc_len(self):
+
+        """
+        Returns the dictionary with the len in words for each document
+        """
+        
         return self.id_len
 
 
