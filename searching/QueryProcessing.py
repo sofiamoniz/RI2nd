@@ -5,61 +5,65 @@ Autors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
 
-from documentIndexer.ImprovedTokenizer import ImprovedTokenizer
-from documentIndexer.SimpleTokenizer import SimpleTokenizer
+from indexing.ImprovedTokenizer import ImprovedTokenizer
+from indexing.SimpleTokenizer import SimpleTokenizer
 import math
+import collections
 
 ## Class that
 
 class QueryProcessing:
 
-    def __init__(self,tokenizer,file_name,weighted_index):
-        self.file_name = file_name;
-        self.weighted_index=weighted_index;
+    def __init__(self,tokenizer,ranking,queries,weighted_index):
+        self.tokenizer=tokenizer
+        self.ranking=ranking
+        self.weighted_index=weighted_index
+        self.queries=queries
 
-        self.queries=[];
         self.weighted_queries=[]
+        self.scores=[]
 
 
 
-    def read_content(self):
 
-        file = open(file_name, 'r') 
-
-        for line in file: 
-            self.queries.append(line)
-
-        file.close()
-
-        return self.queries
-
-
-
-    def weighted_queries(self):
-
-        weighted_query=defaultdict(int)
-
+    def weight_queries_lnc_ltc(self):
 
         for query in self.queries:
 
-            if self.tokenizer=='-s':
+            weighted_query={}
+
+            if self.tokenizer=='s':
                 simpleTokenizer=SimpleTokenizer()
                 query_terms=simpleTokenizer.simple_tokenizer(query)
             else:
                 improvedTokenizer=ImprovedTokenizer()
                 query_terms=improvedTokenizer.improved_tokenizer(query)
-
             for term in query_terms:
-                weighted_query[term]=weighted_query[term]+1
-            
+                if term in weighted_query:
+                    weighted_query[term]=weighted_query[term]+1
+                else:
+                    weighted_query[term]=1  
             for term in weighted_query:
-                if term in self.weighted_index.keys():
-                    weighted_query[term]=(1+math.log10(weighted_query[term]) * self.weighted_index[term][0])
+                if term in self.weighted_index.keys():     
+                    weighted_query[term]=(1+math.log10(weighted_query[term])) * self.weighted_index[term][0]        
                 else:
                     weighted_query[term]=0
-            
-            self.weighted_queries.append(weighted_query)
-        
+                
+                self.weighted_queries.append(weighted_query)
+                
      
 
+    def score_lnc_ltc(self):
+        
+        for i in range(0,len(self.weighted_queries)):
+            query_score={}
+            for term,query_weight in self.weighted_queries[i].items():
+                if term in self.weighted_index:
+                    for doc_id,doc_weight in self.weighted_index[term][1].items():
+                        if doc_id in query_score:
+                            query_score[doc_id]=query_score[doc_id]+(query_weight*doc_weight)
+                        else:
+                            query_score[doc_id]=query_weight*doc_weight
 
+            query_score={k: v for k, v in sorted(query_score.items(), key=lambda item: item[1])}
+            self.scores.append(query_score)
