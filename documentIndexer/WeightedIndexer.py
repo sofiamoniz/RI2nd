@@ -64,7 +64,7 @@ class WeightedIndexer:
 
         for term in self.inverted_index:  
             docsWeigh={} # {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}  only with documents where the term occurs
-            idf_docsWeight=[] # [idf,docWeights_with_lnc_ltc]  
+            #idf_docsWeight=[] # [idf,docWeights_with_lnc_ltc]  
                                     # In python, the order of an array is mantained, so no problem!
             final_score = defaultdict(int)          
             idf = math.log10(self.total_docs/self.inverted_index[term][0])
@@ -76,11 +76,8 @@ class WeightedIndexer:
                 avgdl = len_of_doc / total_terms
                 final_score[doc_id] += (idf * tf * k
                       / (tf + k * (1 - b + b * len_of_doc / avgdl)))
-                
-            for doc_id in final_score:
-                docsWeigh[doc_id] = final_score[doc_id]
-
-            idf_docsWeight.append(docsWeigh)
+           
+            idf_docsWeight.append(final_score)
 
             self.weighted_index[term]=idf_docsWeight
         
