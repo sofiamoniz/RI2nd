@@ -15,6 +15,7 @@ class Indexer:
     def __init__(self,total_docs):
         self.inverted_index=dict()
         self.weighted_index=dict()
+        self.id_len = {}
         self.total_docs=total_docs
        
     def index_document(self,document_terms,document_id):
@@ -48,8 +49,17 @@ class Indexer:
                     posting[document_id]=1
                     freq_posting[0]=freq_posting[0]+1
                     
-        
-    
+    def calculate_doc_len(self,document_terms,document_id):
+        term_count=0
+        for term in document_terms:
+                term_count += 1
+                self.id_len[document_id] = term_count
+        return self.id_len
+
+
+    def get_doc_len(self):
+        return self.id_len
+
 
     def get_inverted_index(self):
 

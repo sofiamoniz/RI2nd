@@ -61,5 +61,5 @@ class CorpusReader:
                             doc_content=self.improv.improved_tokenizer(title_abstract)
                         corpus_tokenized.append(doc_content) # Save the content of the document after passing through the tokenizer
 
-
-        return corpus_tokenized,real_doc_ids
+       
+        return corpus_tokenized,real_doc_ids                

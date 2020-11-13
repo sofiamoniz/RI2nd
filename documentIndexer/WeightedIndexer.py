@@ -14,9 +14,10 @@ from collections import defaultdict
 
 class WeightedIndexer:
 
-    def __init__(self,total_docs,inverted_index):
+    def __init__(self,total_docs,inverted_index, document_len):
         self.total_docs=total_docs
         self.inverted_index=inverted_index
+        self.document_len=document_len
         self.weighted_index={}
         
     ## inverted_index = { "term" : [ doc_freq, {"doc1":occurrences_of_term_in_doc1, "doc2": occurrences_of_term_in_doc2,...}],...  }
@@ -25,6 +26,7 @@ class WeightedIndexer:
 
     # lnc.ltc
     def weighted_index_lnc_ltc(self):
+
         for term in self.inverted_index:
             docsWeigh={} # {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}  only with documents where the term occurs
             idf_docsWeight=[] # [idf,docWeights_with_lnc_ltc]  
@@ -57,19 +59,22 @@ class WeightedIndexer:
             
 
     # bm25
-    def weighted_index_bm25(self):
-       
+    def weighted_index_bm25(self, k = 1.2 , b = 0.75): # k is a value between 1.2 and 2.0
         for term in self.inverted_index:
             docsWeigh={} # {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}  only with documents where the term occurs
-            
-            self.idf_calculation(term)         
+            idf_docsWeight=[] # [idf,docWeights_with_lnc_ltc]  
+                                # In python, the order of an array is mantained, so no problem!
+            idf = math.log10(self.total_docs/self.inverted_index[term][0])
+            idf_docsWeight.append(idf)        
 
-            
             # TO DO: calcular as weights
 
             self.weighted_index[term]=idf_docsWeight
+        #print(self.document_len)
+  
+
             
-        
+
 
 
     def get_weighted_index(self):
