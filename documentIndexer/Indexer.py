@@ -56,7 +56,7 @@ class Indexer:
     def get_doc_len(self):
 
         """
-        Returns the dictionary with the len in words for each document
+        Returns the dictionary with the len, in words, for each document
         """
         
         return self.id_len

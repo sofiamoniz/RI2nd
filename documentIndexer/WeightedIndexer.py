@@ -25,12 +25,13 @@ class WeightedIndexer:
     
 
     # lnc.ltc
-    def weighted_index_lnc_ltc(self):
+    def weighted_index_lnc_ltc(self):       
 
         for term in self.inverted_index:
             docsWeigh={} # {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}  only with documents where the term occurs
             idf_docsWeight=[] # [idf,docWeights_with_lnc_ltc]  
-                              # In python, the order of an array is mantained, so no problem!
+                        # In python, the order of an array is mantained, so no problem!
+            
             idf = math.log10(self.total_docs/self.inverted_index[term][0])
             idf_docsWeight.append(idf)         
 
@@ -59,18 +60,30 @@ class WeightedIndexer:
             
 
     # bm25
-    def weighted_index_bm25(self, k = 1.2 , b = 0.75): # k is a value between 1.2 and 2.0
-        for term in self.inverted_index:
+    def weighted_index_bm25(self, total_terms, k = 1.2 , b = 0.75): # k is a value between 1.2 and 2.0     
+
+        for term in self.inverted_index:  
             docsWeigh={} # {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}  only with documents where the term occurs
             idf_docsWeight=[] # [idf,docWeights_with_lnc_ltc]  
-                                # In python, the order of an array is mantained, so no problem!
+                                    # In python, the order of an array is mantained, so no problem!
+            final_score = defaultdict(int)          
             idf = math.log10(self.total_docs/self.inverted_index[term][0])
-            idf_docsWeight.append(idf)        
+            idf_docsWeight.append(idf)
 
-            # TO DO: calcular as weights
+            for doc_id in self.inverted_index[term][1]: #self.inverted_index[term][1]) contains : {docID: tf}
+                tf = self.inverted_index[term][1][doc_id] #term frequency (tf) - number of times each term appears in a doc
+                len_of_doc = self.document_len[doc_id]
+                avgdl = len_of_doc / total_terms
+                final_score[doc_id] += (idf * tf * k
+                      / (tf + k * (1 - b + b * len_of_doc / avgdl)))
+                
+            for doc_id in final_score:
+                docsWeigh[doc_id] = final_score[doc_id]
+
+            idf_docsWeight.append(docsWeigh)
 
             self.weighted_index[term]=idf_docsWeight
-        print(self.document_len)
+        
   
 
             

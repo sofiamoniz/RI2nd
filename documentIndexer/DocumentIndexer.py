@@ -66,8 +66,8 @@ class DocumentIndexer:
         inverted_index=indexer.get_inverted_index()
         weighted_index = WeightedIndexer(total_docs, inverted_index ,indexer.get_doc_len())
         #weighted_index.weighted_index_lnc_ltc()
-        weighted_index.weighted_index_bm25()
-        #weighted_index.show_weighted_index()
+        weighted_index.weighted_index_bm25(total_terms)
+        weighted_index.show_weighted_index()
 
 """
         results = Results(inverted_index,doc_ids,self.tokenizer_type,self.input_file) ## Results ( writes informations to files )
