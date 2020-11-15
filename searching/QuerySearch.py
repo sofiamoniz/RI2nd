@@ -25,7 +25,9 @@ class QuerySearch:
         self.weighted_queries={}
 
         self.queries=[]
-        self.retrieved_documents=[]
+
+        self.real_doc_ids={}
+
 
 
 
@@ -33,27 +35,32 @@ class QuerySearch:
 
         self.read_index_file()
         self.read_queries_file()
+        self.read_doc_ids_file()
 
         queryProcessing = QueryProcessing(self.tokenizer,self.ranking,self.queries,self.weighted_index)
         
         if self.ranking=="lnc.ltc":
             queryProcessing.weight_queries_lnc_ltc()
             queryProcessing.score_lnc_ltc()
-            for i in range(0,len(self.queries)):
-                sorted_docs=[]
-                for doc in queryProcessing.scores[i].keys():
-                    sorted_docs.append(doc)
-                self.retrieved_documents.append(sorted_docs)
-
-            for i in range(0,len(self.queries)):
-                print("\n -> Query: "+self.queries[i]
-                    +"\n    Retrieved ordered documents: "+str(self.retrieved_documents[i])+"\n\n")
+        
         else:
-            pass
-        
-        
-        
+            queryProcessing.score_bm25()
 
+
+            # Results:
+
+        for i in range(0,len(self.queries)):
+            print("\n -> Query: "+self.queries[i]+"\n")
+            print("10 Top Ranked Documents: \n")
+            j=0 # Só para retornar apenas 10 docs
+            for doc,score in queryProcessing.scores[i].items():
+                if j==10: break
+                else: 
+                    print("Document: "+self.real_doc_ids[doc]+"                  Score: "+str(score))
+                    j=j+1
+
+        
+        
         
 
 
@@ -75,6 +82,9 @@ class QuerySearch:
             self.queries.append(line.rstrip())
         file.close()
 
+    def read_doc_ids_file(self):
+        with open('results/documentIDs.txt') as file_ids:
+            self.real_doc_ids = json.load(file_ids)
 
 
 

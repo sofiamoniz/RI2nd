@@ -82,6 +82,7 @@ class DocumentIndexer:
         results.write_weighted_index_to_file()
         results.write_document_ids_to_file()
 
+
         # Print results:
         if(self.tokenizer_type=="s"):
             print("\n    Tokenizer used: Simple     Ranking Method: "+self.weighted_indexer_type[1:]+"\n"

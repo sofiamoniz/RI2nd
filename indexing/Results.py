@@ -22,7 +22,7 @@ class Results:
 
 
 
-    def write_index_to_file(self):
+    def write_inverted_index_to_file(self):
 
         """
         Writes the Inverted Index to a file.
