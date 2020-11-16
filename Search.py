@@ -28,10 +28,11 @@ def main():
         sys.exit()
 
 
+
     index_file=sys.argv[1]
     query_file=sys.argv[2]
     tokenizer=index_file[8:9] # type of tokenizer in the weighted index ('s' or 'i')
-    if "bm25" in index_file: ranking="bm25"   # type of ranking in the weighted index ('bm25' or 'lnc.ltc')
+    if "bm25" in index_file: ranking_type="bm25"   # type of ranking in the weighted index ('bm25' or 'lnc.ltc')
     else: ranking_type="lnc.ltc"
  
     search = RetrievalEngine(tokenizer,ranking_type,index_file,query_file)

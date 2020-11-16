@@ -65,9 +65,9 @@ class DocumentIndexer:
         inverted_index=indexer.get_inverted_index()
 
 
-        weighted_indexer = WeightedIndexer(total_docs, inverted_index ,indexer.get_doc_len())  ## Weighted Indexer
+        weighted_indexer = WeightedIndexer(total_docs, inverted_index ,indexer.get_doc_len(), total_terms)  ## Weighted Indexer
         if(self.weighted_indexer_type=="-bm25"):    # BM25
-            weighted_indexer.weighted_index_bm25(total_terms)
+            weighted_indexer.weighted_index_bm25()
         else:
             weighted_indexer.weighted_index_lnc_ltc()  # LNC.LTC
         weighted_index=weighted_indexer.get_weighted_index()
