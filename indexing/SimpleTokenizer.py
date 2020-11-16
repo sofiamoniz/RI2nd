@@ -1,6 +1,6 @@
 """
-IR, October 2020
-Assignment 1: Indexing documents
+IR, November 2020
+Assignment 2: Ranked Retrieval
 Autors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
@@ -8,7 +8,6 @@ Autors: Alina Yanchuk, 89093
 import re
 
 ## Class that acts as the Simple Tokenizer
-
 class SimpleTokenizer:
 
     def __init__(self):

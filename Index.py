@@ -1,27 +1,26 @@
 """
-IR, October 2020
-Assignment 1: Indexing documents
+IR, November 2020
+Assignment 2: Ranked Retrieval
 Autors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
 
-
 import sys, getopt
 from indexing.DocumentIndexer import DocumentIndexer
 
-## Main class that runs the project ( gets the arguments from command line and starts the program )
+## Main class that runs the indexing part of the program ( gets the arguments from command line and starts the program )
 def main():
 
     """
-    The program needs 3 arguments: type of tokenizer, file to read and type of weighted indexer.
+    The program needs 3 arguments: type of tokenizer, file to read and type of weighted indexer/ranking.
 
     And PyStemmer instaled: pip install pystemmer
                             pip install psutil
 
     Examples of usage:
 
-        python3 Main.py -s "all_sources_metadata_2020-03-13.csv" -bm25
-        python3 Main.py -i "all_sources_metadata_2020-03-13.csv" -lnc.ltc
+        python3 Index.py -s all_sources_metadata_2020-03-13.csv -bm25
+        python3 Index.py -i all_sources_metadata_2020-03-13.csv -lnc.ltc
 
     After running, the results files are stored in the "results" folder.
     """

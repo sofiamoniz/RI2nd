@@ -1,10 +1,9 @@
 """
-IR, October 2020
-Assignment 1: Indexing documents
+IR, November 2020
+Assignment 2: Ranked Retrieval
 Autors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
-
 
 import re
 import Stemmer

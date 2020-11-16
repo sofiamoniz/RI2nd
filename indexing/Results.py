@@ -1,6 +1,6 @@
 """
-IR, October 2020
-Assignment 1: Indexing documents
+IR, November 2020
+Assignment 2: Ranked Retrieval
 Autors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
@@ -9,7 +9,6 @@ import json
 import operator
 
 ## Class that writes the results files and answers the questions in the assignment guide
-
 class Results:
 
     def __init__(self,inverted_index,docIds,tokenizer_type,input_file,weighted_index,weighted_index_type):
@@ -84,7 +83,28 @@ class Results:
         #   dic = json.load(file_ids)
 
 
+
+
     def write_weighted_index_to_file(self):
+
+        """
+        Writes the Weighted Index to a file.
+
+        Example: tokenizer used -> Improved       ranking used -> bm25
+
+        File generated:
+
+
+        documentIndexer
+        results
+            ├── improvedTokenizer
+            │           └── weightedIndex_bm25.txt        <----- file generated
+            │   
+            └── simpleTokenizer                  
+
+
+        """
+
         if(self.tokenizer_type=="s"):
             with open("results/simpleTokenizer/weightedIndex_"+self.weighted_index_type+".txt", 'w') as file_weighted_index:
                 for term in self.weighted_index:

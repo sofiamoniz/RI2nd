@@ -1,6 +1,6 @@
 """
-IR, October 2020
-Assignment 1: Indexing documents
+IR, November 2020
+Assignment 2: Ranked Retrieval
 Autors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
@@ -9,7 +9,6 @@ from sys import getsizeof
 import math
 
 ## Class that creates the Inverted Index for the document Corpus
-
 class InvertedIndexer:
 
     def __init__(self,total_docs):

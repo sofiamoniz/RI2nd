@@ -1,10 +1,9 @@
 """
-IR, October 2020
-Assignment 1: Indexing documents
+IR, November 2020
+Assignment 2: Ranked Retrieval
 Autors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
-
 
 import csv
 from indexing.ImprovedTokenizer import ImprovedTokenizer
@@ -12,7 +11,6 @@ from indexing.SimpleTokenizer import SimpleTokenizer
 
 
 ## Class that reads the documents of the .csv file, calls the tokenizer class and returns the corpus tokenized
-
 class CorpusReader:
 
     def __init__(self, file_name, chosen_arg):
