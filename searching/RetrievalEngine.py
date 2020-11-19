@@ -56,19 +56,24 @@ class RetrievalEngine:
             ranking.score_bm25() # no need to weight the queries
 
     
-        # Print results:
-        for i in range(0,len(self.queries)):
-            print("\n -> Query: "+self.queries[i]+"\n")
-            print("Ranked Documents Retrieved: \n")
-            j=0 # Só para retornar apenas 10 docs
-            for doc,score in ranking.scores[i].items():
-                if j==10: break
-                else: 
-                    print("Document: "+self.real_doc_ids[doc]+"                  Score: "+str(score))
-                    j=j+1
+        # Write results to file:
+        with open("results/ranking_"+self.ranking_type+".txt", 'w') as file_ranking:
+            file_ranking.write("***  TOP 10 RETURNED DOCUMENTS *** ")
+            file_ranking.write("\n\nRanking: "+self.ranking_type)
+            file_ranking.write("\nQueries file: "+self.query_file)
+            file_ranking.write("\nIndex file: "+self.index_file)
+            file_ranking.write("\nTokenizer: "+"Improved\n" if self.tokenizer=='i' else "Simple\n")
+            for i in range(0,len(self.queries)):
+                file_ranking.write("\n\n -> Query: "+self.queries[i]+"\n")
+                number_of_docs_returned=0 # Só para retornar apenas 10 docs
+                for doc,score in ranking.scores[i].items():
+                    if number_of_docs_returned==10: break
+                    else: 
+                        file_ranking.write("\nDocument: "+self.real_doc_ids[doc]+"                  Score: "+str(score))
+                        number_of_docs_returned=number_of_docs_returned+1
            
 
-
+        print("Results of Ranking in: "+"results/ranking_"+self.ranking_type+".txt")
 
  ## AUXILIAR FUNCTIONS:
 

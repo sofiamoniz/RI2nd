@@ -1,0 +1,657 @@
+***  TOP 10 RETURNED DOCUMENTS *** 
+
+Ranking: lnc.ltc
+Queries file: queries.txt
+Index file: results/improvedTokenizer/weightedIndex_lnc_ltc.txt
+Tokenizer: Improved
+
+
+ -> Query: coronavirus origin
+
+Document: 8kdtpwbv                  Score: 1.3510666186879494
+Document: 4i97fpzc                  Score: 1.3510666186879494
+Document: 172tl3fb                  Score: 1.3510666186879494
+Document: 7odpslba                  Score: 1.3510666186879494
+Document: 99sbhbuo                  Score: 1.3510666186879494
+Document: ragcpbl6                  Score: 1.3510666186879494
+Document: dqxfcwyu                  Score: 1.3510666186879494
+Document: nbu6bsb3                  Score: 1.3510666186879494
+Document: b2znv6pa                  Score: 1.3510666186879494
+Document: 4k1i6y98                  Score: 1.3510666186879494
+
+ -> Query: coronavirus response to weather changes
+
+Document: tuhesrpb                  Score: 1.5346685076648645
+Document: zvngy7zz                  Score: 1.4426648577347354
+Document: k260c04b                  Score: 1.4426648577347354
+Document: 0qaoam29                  Score: 1.4426648577347354
+Document: 3hn0xkst                  Score: 1.3579050204845395
+Document: 8ozauxlk                  Score: 1.2733118758419235
+Document: d2tx02m4                  Score: 1.2497936615305498
+Document: m9evk9i5                  Score: 1.2232467881620361
+Document: its36j6t                  Score: 1.2232467881620361
+Document: ov6k4bdi                  Score: 1.2232467881620361
+
+ -> Query: coronavirus immunity
+
+Document: iu2ziccm                  Score: 1.4098402413418398
+Document: mjhez5im                  Score: 1.4098402413418398
+Document: 7t41wvw3                  Score: 1.4098402413418398
+Document: 1s0exznp                  Score: 1.4098402413418398
+Document: owjgs6ja                  Score: 1.4098402413418398
+Document: fn7l93wh                  Score: 1.4098402413418398
+Document: ukz73rp2                  Score: 1.4098402413418398
+Document: y4qz8dez                  Score: 1.4098402413418398
+Document: yv9or7cu                  Score: 1.4098402413418398
+Document: 33yyg2z5                  Score: 1.4098402413418398
+
+ -> Query: how do people die from the coronavirus
+
+Document: g4mtpn2p                  Score: 1.6337560002614038
+Document: fmymklz6                  Score: 1.5688599388150661
+Document: y24qtqjj                  Score: 1.5688599388150661
+Document: qdmuhxaw                  Score: 1.5688599388150661
+Document: l48iq9yj                  Score: 1.5688599388150661
+Document: m88ha8ry                  Score: 1.5688599388150661
+Document: 3e31i6sn                  Score: 1.5688599388150661
+Document: ar9zp6fj                  Score: 1.5688599388150661
+Document: 7w9uqinh                  Score: 1.5431601106734638
+Document: sxbmd0df                  Score: 1.5431601106734638
+
+ -> Query: animal models of COVID-19
+
+Document: iyv86437                  Score: 1.6670024910339318
+Document: p4q64ksa                  Score: 1.488159400850176
+Document: 5f95gve3                  Score: 1.488159400850176
+Document: 3pxc5wot                  Score: 1.488159400850176
+Document: 2w0zr9c0                  Score: 1.460137523509389
+Document: n8fwy791                  Score: 1.3314974471767773
+Document: 9il7coyk                  Score: 1.2606728612219542
+Document: 2inlyd0t                  Score: 1.257957231375695
+Document: erdity4m                  Score: 1.257957231375695
+Document: hq5um68k                  Score: 1.257957231375695
+
+ -> Query: coronavirus test rapid testing
+
+Document: 7t41wvw3                  Score: 1.7027761540027098
+Document: hhsfq8bz                  Score: 1.7027761540027098
+Document: 9ynljm2r                  Score: 1.7027761540027098
+Document: 8znnq0rh                  Score: 1.7027761540027098
+Document: ydm77mhk                  Score: 1.7027761540027098
+Document: zblitbo0                  Score: 1.7027761540027098
+Document: 7a3wdduq                  Score: 1.7027761540027098
+Document: 6nrvqt6j                  Score: 1.7027761540027098
+Document: yzmt1e0l                  Score: 1.7027761540027098
+Document: fzi1ilpj                  Score: 1.7027761540027098
+
+ -> Query: serological tests for coronavirus
+
+Document: pxfwe67t                  Score: 1.5951499815693884
+Document: pbs95hy0                  Score: 1.5951499815693884
+Document: qk1ruj5q                  Score: 1.5951499815693884
+Document: oywidlvp                  Score: 1.5951499815693884
+Document: zu5ns4yq                  Score: 1.5951499815693884
+Document: i3xz1rfi                  Score: 1.5951499815693884
+Document: 4ibh8tin                  Score: 1.5951499815693884
+Document: stao519y                  Score: 1.5951499815693884
+Document: fwgkpiex                  Score: 1.5951499815693884
+Document: fd41czxh                  Score: 1.5951499815693884
+
+ -> Query: coronavirus under reporting
+
+Document: j5gjipdn                  Score: 1.4130448408965592
+Document: f1ixbzx8                  Score: 1.4130448408965592
+Document: mjhez5im                  Score: 1.4130448408965592
+Document: 8kdtpwbv                  Score: 1.4130448408965592
+Document: 9fd5a49o                  Score: 1.4130448408965592
+Document: 4i97fpzc                  Score: 1.4130448408965592
+Document: py6qu4tl                  Score: 1.4130448408965592
+Document: juiomzb3                  Score: 1.4130448408965592
+Document: 6u9q0ox9                  Score: 1.4130448408965592
+Document: o7pz0rst                  Score: 1.4130448408965592
+
+ -> Query: coronavirus in Canada
+
+Document: do5c85ad                  Score: 1.2582047074426561
+Document: nyocnvvj                  Score: 1.2582047074426561
+Document: uxq43me8                  Score: 1.2582047074426561
+Document: 9k6klcno                  Score: 1.2582047074426561
+Document: g11vfemb                  Score: 1.2582047074426561
+Document: vic6rbnb                  Score: 1.2582047074426561
+Document: jiz0oyx8                  Score: 1.2582047074426561
+Document: pk6ji4nj                  Score: 1.2582047074426561
+Document: c0bf5iab                  Score: 1.2582047074426561
+Document: wu1ygt6w                  Score: 1.2582047074426561
+
+ -> Query: coronavirus social distancing impact
+
+Document: qrzt4zva                  Score: 1.8320508362211414
+Document: 5y1qgjr8                  Score: 1.8320508362211414
+Document: jslfu3qt                  Score: 1.8320508362211414
+Document: yfn8sy1m                  Score: 1.6515194890796567
+Document: 36dhfptw                  Score: 1.6515194890796567
+Document: jvdph782                  Score: 1.6515194890796567
+Document: h51zr96k                  Score: 1.6515194890796567
+Document: 5ghslfgt                  Score: 1.6515194890796567
+Document: e2p46wa8                  Score: 1.5977460052257944
+Document: i46n70gb                  Score: 1.5580440423404476
+
+ -> Query: coronavirus hospital rationing
+
+Document: wu1ygt6w                  Score: 1.577818762323088
+Document: x8tcmtpj                  Score: 1.2970266183486063
+Document: k84rcpav                  Score: 1.2970266183486063
+Document: 4apxnusv                  Score: 1.2970266183486063
+Document: w30hsr4m                  Score: 1.1932552538069094
+Document: d4fymkg9                  Score: 1.1932552538069094
+Document: 8mvsqh6t                  Score: 1.1521602139030402
+Document: asbnfwm0                  Score: 1.1521602139030402
+Document: mp3a9c9u                  Score: 1.1293263864655294
+Document: ee63ehmg                  Score: 1.1293263864655294
+
+ -> Query: coronavirus quarantine
+
+Document: u8goc7io                  Score: 1.2626206578017847
+Document: ssdx8xwi                  Score: 1.2626206578017847
+Document: 4ah705nc                  Score: 1.2626206578017847
+Document: c800ynvc                  Score: 1.2626206578017847
+Document: atnz63pk                  Score: 1.2626206578017847
+Document: m9icky9z                  Score: 1.2626206578017847
+Document: utlponna                  Score: 1.2626206578017847
+Document: v6wt9mhh                  Score: 1.2626206578017847
+Document: r9itwxcp                  Score: 1.2626206578017847
+Document: ha9fn3pr                  Score: 1.2626206578017847
+
+ -> Query: how does coronavirus spread
+
+Document: 59rcogfc                  Score: 1.373644794127245
+Document: e85xdrcw                  Score: 1.373644794127245
+Document: xtmozkf6                  Score: 1.373644794127245
+Document: 4i97fpzc                  Score: 1.373644794127245
+Document: 6u9q0ox9                  Score: 1.373644794127245
+Document: o7pz0rst                  Score: 1.373644794127245
+Document: 5xki1ulf                  Score: 1.373644794127245
+Document: dbwfn27p                  Score: 1.373644794127245
+Document: tzdgc3dw                  Score: 1.373644794127245
+Document: zvngy7zz                  Score: 1.373644794127245
+
+ -> Query: coronavirus super spreaders
+
+Document: 901m6zw0                  Score: 1.555088019998251
+Document: 82d0s6po                  Score: 1.555088019998251
+Document: bnh65bqg                  Score: 1.555088019998251
+Document: nu98xedb                  Score: 1.5170593415373577
+Document: sjrnu3f3                  Score: 1.4874701325809938
+Document: a12708qd                  Score: 1.3907308061466777
+Document: px0twvhs                  Score: 1.3907308061466777
+Document: bjx5td52                  Score: 1.3907308061466777
+Document: c1a957ef                  Score: 1.3907308061466777
+Document: g381rbsq                  Score: 1.3907308061466777
+
+ -> Query: coronavirus outside body
+
+Document: hgau3922                  Score: 1.6174526892292809
+Document: zg17f7bd                  Score: 1.6174526892292809
+Document: cr22vp8b                  Score: 1.5572795022306272
+Document: 3wvcuboc                  Score: 1.5334500042590644
+Document: tuhesrpb                  Score: 1.3829956271112491
+Document: 4od8qt36                  Score: 1.3829956271112491
+Document: m1v9q7gk                  Score: 1.3573885017808878
+Document: 387htidy                  Score: 1.3573885017808878
+Document: 4g85h6ta                  Score: 1.3573885017808878
+Document: khqx4t4q                  Score: 1.3573885017808878
+
+ -> Query: how long does coronavirus survive on surfaces
+
+Document: 2chmny8w                  Score: 1.6587852833908807
+Document: 52c4xhiw                  Score: 1.6124868049125047
+Document: 0qvnisq6                  Score: 1.5179515514651856
+Document: 5gayhkxx                  Score: 1.4787081799895085
+Document: 4c23d77d                  Score: 1.4658488893644628
+Document: 2klytw6c                  Score: 1.4244536242360037
+Document: bicg5ozr                  Score: 1.4244536242360037
+Document: xuj99v5x                  Score: 1.4011352194580708
+Document: opa4ddpe                  Score: 1.359884028753152
+Document: x1wemzgn                  Score: 1.359884028753152
+
+ -> Query: coronavirus clinical trials
+
+Document: qebbkr6d                  Score: 1.6014929431044251
+Document: h10o18ss                  Score: 1.6014929431044251
+Document: vt71qrz9                  Score: 1.6014929431044251
+Document: 201jppkd                  Score: 1.6014929431044251
+Document: uajl5wyk                  Score: 1.6014929431044251
+Document: x46w59mf                  Score: 1.6014929431044251
+Document: xg5ao1y5                  Score: 1.6014929431044251
+Document: b44qnmbm                  Score: 1.6014929431044251
+Document: pnpaqchs                  Score: 1.6014929431044251
+Document: do9r8q84                  Score: 1.6014929431044251
+
+ -> Query: masks prevent coronavirus
+
+Document: arjtjy53                  Score: 1.550673210817421
+Document: sf55n6kf                  Score: 1.550673210817421
+Document: 77b8ocfc                  Score: 1.550673210817421
+Document: hc9tkujz                  Score: 1.550673210817421
+Document: 8o3l3rsf                  Score: 1.4850997369945578
+Document: 7z7zxcm2                  Score: 1.4850997369945578
+Document: eufdzgp2                  Score: 1.4850997369945578
+Document: 98e02f3b                  Score: 1.4850997369945578
+Document: vo49287v                  Score: 1.4850997369945578
+Document: zrdsr3nh                  Score: 1.4850997369945578
+
+ -> Query: what alcohol sanitizer kills coronavirus
+
+Document: lyewg2c9                  Score: 1.4171417787769995
+Document: vzqrxj2w                  Score: 1.2199050543535863
+Document: t7dcn6kb                  Score: 1.1060897810310344
+Document: pqr5keuu                  Score: 1.1060897810310344
+Document: 0mu67f0w                  Score: 1.1060897810310344
+Document: qrwxqhws                  Score: 0.9758119242017376
+Document: mcmazu1v                  Score: 0.9484741352954993
+Document: jlvcebhn                  Score: 0.9456963237771702
+Document: 706bf8qr                  Score: 0.9376456026526947
+Document: 1zzyfmkb                  Score: 0.9329105337870516
+
+ -> Query: coronavirus and ACE inhibitors
+
+Document: p4q64ksa                  Score: 1.6057669430454742
+Document: 69toerzi                  Score: 1.6057669430454742
+Document: 503qwsn1                  Score: 1.6057669430454742
+Document: g4omrg37                  Score: 1.6057669430454742
+Document: 0vhy44iq                  Score: 1.5421373962582376
+Document: 1i12ff55                  Score: 1.5421373962582376
+Document: 036syndn                  Score: 1.5421373962582376
+Document: cil5czqp                  Score: 1.5421373962582376
+Document: 3egv50vb                  Score: 1.484083423324457
+Document: jgtbp5r6                  Score: 1.4204538765372208
+
+ -> Query: coronavirus mortality
+
+Document: 8xcplab3                  Score: 1.3626836656079981
+Document: ssdx8xwi                  Score: 1.3626836656079981
+Document: oknxic4q                  Score: 1.3626836656079981
+Document: ukh84gvu                  Score: 1.3626836656079981
+Document: qg2o0ug4                  Score: 1.3626836656079981
+Document: 370fqkat                  Score: 1.3626836656079981
+Document: 38f8ftmh                  Score: 1.3626836656079981
+Document: tg5wbwf9                  Score: 1.3626836656079981
+Document: 6rs86u5v                  Score: 1.3626836656079981
+Document: 50oy9qqy                  Score: 1.3626836656079981
+
+ -> Query: coronavirus heart impacts
+
+Document: 51b7hss1                  Score: 1.5275811969209367
+Document: rbk87iw0                  Score: 1.5275811969209367
+Document: iw5xmpoq                  Score: 1.4808895031544937
+Document: mfde6juv                  Score: 1.3121635205585722
+Document: 8kl5wyms                  Score: 1.3121635205585722
+Document: xipwslcb                  Score: 1.3121635205585722
+Document: nnbrp3oo                  Score: 1.3121635205585722
+Document: n2qlj4sj                  Score: 1.3121635205585722
+Document: 138odey2                  Score: 1.3121635205585722
+Document: 8h3twtbe                  Score: 1.3121635205585722
+
+ -> Query: coronavirus hypertension
+
+Document: tkvgzbuk                  Score: 1.2409141903592906
+Document: owjgs6ja                  Score: 1.2409141903592906
+Document: 9hh17k86                  Score: 1.2409141903592906
+Document: 2vdvswda                  Score: 1.2409141903592906
+Document: 14he8n3u                  Score: 1.2409141903592906
+Document: yx8b2moc                  Score: 1.2409141903592906
+Document: yypg4iqh                  Score: 1.2409141903592906
+Document: iw5xmpoq                  Score: 1.2409141903592906
+Document: lhbkt4te                  Score: 1.2409141903592906
+Document: vuc9loqi                  Score: 1.2409141903592906
+
+ -> Query: coronavirus diabetes
+
+Document: tkvgzbuk                  Score: 1.2593125709348854
+Document: 9hh17k86                  Score: 1.2593125709348854
+Document: 5zrywg58                  Score: 1.2593125709348854
+Document: 14he8n3u                  Score: 1.2593125709348854
+Document: yx8b2moc                  Score: 1.2593125709348854
+Document: yypg4iqh                  Score: 1.2593125709348854
+Document: iw5xmpoq                  Score: 1.2593125709348854
+Document: lhbkt4te                  Score: 1.2593125709348854
+Document: vuc9loqi                  Score: 1.2593125709348854
+Document: 2fx7a0ta                  Score: 1.2593125709348854
+
+ -> Query: coronavirus biomarkers
+
+Document: km0b1z64                  Score: 1.2643138367081088
+Document: xiynfpuw                  Score: 1.2643138367081088
+Document: 9hh17k86                  Score: 1.2643138367081088
+Document: ap2go2my                  Score: 1.2643138367081088
+Document: 9qsukr5l                  Score: 1.2643138367081088
+Document: fvr5j04s                  Score: 1.2643138367081088
+Document: 3egv50vb                  Score: 1.2643138367081088
+Document: zz2907h0                  Score: 1.2643138367081088
+Document: 7jnw66gk                  Score: 1.2643138367081088
+Document: qbxx6yae                  Score: 1.1913527365512855
+
+ -> Query: coronavirus early symptoms
+
+Document: b2znv6pa                  Score: 1.685977255385244
+Document: nsrm0axa                  Score: 1.685977255385244
+Document: 38f8ftmh                  Score: 1.685977255385244
+Document: 0xzsa21a                  Score: 1.685977255385244
+Document: tv9xsned                  Score: 1.685977255385244
+Document: wjm8ju3v                  Score: 1.685977255385244
+Document: ijw5bl20                  Score: 1.685977255385244
+Document: ek80ff7o                  Score: 1.685977255385244
+Document: 8bkr5rpd                  Score: 1.685977255385244
+Document: x2gxgave                  Score: 1.685977255385244
+
+ -> Query: coronavirus asymptomatic
+
+Document: f1ixbzx8                  Score: 1.2854098759844435
+Document: 2wshgzjk                  Score: 1.2854098759844435
+Document: ssdx8xwi                  Score: 1.2854098759844435
+Document: tne83uu0                  Score: 1.2854098759844435
+Document: 38f8ftmh                  Score: 1.2854098759844435
+Document: it4ka7v0                  Score: 1.2854098759844435
+Document: kgkcgpmq                  Score: 1.2854098759844435
+Document: pvb5c4ih                  Score: 1.2854098759844435
+Document: 6su2x8mk                  Score: 1.2854098759844435
+Document: wx0nhx8i                  Score: 1.2854098759844435
+
+ -> Query: coronavirus hydroxychloroquine
+
+Document: t1wpujpm                  Score: 1.111670948720768
+Document: da61tfr9                  Score: 1.0946441058529988
+Document: lzybfwc2                  Score: 0.981275373578206
+Document: 74g4bb5c                  Score: 0.981275373578206
+Document: thkoailw                  Score: 0.981275373578206
+Document: 7u0av6pc                  Score: 0.981275373578206
+Document: sbs9umml                  Score: 0.981275373578206
+Document: xc4bxin4                  Score: 0.981275373578206
+Document: 3egv50vb                  Score: 0.9468397065864789
+Document: 6hhauza0                  Score: 0.7542296310220055
+
+ -> Query: coronavirus drug repurposing
+
+Document: 57w29u1s                  Score: 1.5169170021483822
+Document: wicc796j                  Score: 1.463138457571223
+Document: v9h4rlln                  Score: 1.463138457571223
+Document: l76lspvx                  Score: 1.4418413353339767
+Document: ju35nyir                  Score: 1.4252318165810183
+Document: pidar1gz                  Score: 1.421294652914717
+Document: msohf5oa                  Score: 1.4007035007932935
+Document: lwmlbz6p                  Score: 1.388923087519539
+Document: tgcqe5v2                  Score: 1.388923087519539
+Document: f6muhf3d                  Score: 1.388923087519539
+
+ -> Query: coronavirus remdesivir
+
+Document: 69toerzi                  Score: 1.1833021418761884
+Document: gizxnw4n                  Score: 1.1833021418761884
+Document: h97dui9n                  Score: 1.1833021418761884
+Document: a66sszp2                  Score: 1.136004138554836
+Document: 8ruux4sw                  Score: 1.136004138554836
+Document: u8i3kbl4                  Score: 1.136004138554836
+Document: 31y378jx                  Score: 1.136004138554836
+Document: ol0bj3hs                  Score: 1.136004138554836
+Document: v9h4rlln                  Score: 1.136004138554836
+Document: yf5g53a9                  Score: 1.1172734092977945
+
+ -> Query: difference between coronavirus and flu
+
+Document: 30r8zd0l                  Score: 1.4951180550210208
+Document: 8sp12c7z                  Score: 1.4951180550210208
+Document: hq0bdn70                  Score: 1.4951180550210208
+Document: ghox6gur                  Score: 1.4951180550210208
+Document: 92vctd9p                  Score: 1.429549022360808
+Document: 5y1qgjr8                  Score: 1.425408064611339
+Document: alky9bbt                  Score: 1.425408064611339
+Document: qgurte98                  Score: 1.425408064611339
+Document: iyv86437                  Score: 1.425408064611339
+Document: 1vo72gop                  Score: 1.403582687374948
+
+ -> Query: coronavirus subtypes
+
+Document: suhqgmlo                  Score: 1.2902663644518957
+Document: 6blcrkat                  Score: 1.2902663644518957
+Document: 5zjnzsik                  Score: 1.2902663644518957
+Document: ioth30hh                  Score: 1.2902663644518957
+Document: sr53cekh                  Score: 1.2902663644518957
+Document: qdety098                  Score: 1.2902663644518957
+Document: sk72rr8h                  Score: 1.2902663644518957
+Document: fzi1ilpj                  Score: 1.2902663644518957
+Document: 0bma2749                  Score: 1.2902663644518957
+Document: gblixli2                  Score: 1.2902663644518957
+
+ -> Query: coronavirus vaccine candidates
+
+Document: iu2ziccm                  Score: 1.3276968562304712
+Document: ukh84gvu                  Score: 1.3276968562304712
+Document: 99sbhbuo                  Score: 1.3276968562304712
+Document: wx7nheay                  Score: 1.3276968562304712
+Document: qmg58cgr                  Score: 1.3276968562304712
+Document: myh73pe6                  Score: 1.3276968562304712
+Document: fn7l93wh                  Score: 1.3276968562304712
+Document: ebbzx8yr                  Score: 1.3276968562304712
+Document: amg5dice                  Score: 1.3276968562304712
+Document: yv9or7cu                  Score: 1.3276968562304712
+
+ -> Query: coronavirus recovery
+
+Document: x2bl5lcn                  Score: 1.2834366045590617
+Document: owjgs6ja                  Score: 1.2834366045590617
+Document: xiynfpuw                  Score: 1.2834366045590617
+Document: q4i9kh65                  Score: 1.2834366045590617
+Document: fuqtwn5a                  Score: 1.2834366045590617
+Document: qljywb1t                  Score: 1.2834366045590617
+Document: vr5hnzp8                  Score: 1.2834366045590617
+Document: 5i0w74q4                  Score: 1.2834366045590617
+Document: 15rtwl26                  Score: 1.2834366045590617
+Document: fbilhauu                  Score: 1.2834366045590617
+
+ -> Query: coronavirus public datasets
+
+Document: jc1k3fki                  Score: 1.5678215689876696
+Document: 3svnvozz                  Score: 1.5033457407614037
+Document: rql9fjug                  Score: 1.5033457407614037
+Document: wulg3bbb                  Score: 1.5033457407614037
+Document: vpcx2t3w                  Score: 1.477812331371487
+Document: s5w8rf6t                  Score: 1.477812331371487
+Document: 0xqhpqm4                  Score: 1.477812331371487
+Document: dbwfn27p                  Score: 1.4681371395789544
+Document: 66rygtoa                  Score: 1.4681371395789544
+Document: thu861hj                  Score: 1.4631001640818302
+
+ -> Query: SARS-CoV-2 spike structure
+
+Document: pg58hy81                  Score: 1.7539993919348107
+Document: sty7myg4                  Score: 1.7350922533918807
+Document: 93bwhhft                  Score: 1.7180513426663362
+Document: 86t5b2vc                  Score: 1.7115727701490164
+Document: oq79dfhr                  Score: 1.6946631863743655
+Document: 2o8u4eny                  Score: 1.6681651342010002
+Document: lcu1mgno                  Score: 1.664761785245435
+Document: 535lw99y                  Score: 1.6597029133916488
+Document: xxcx7hg5                  Score: 1.6443128016241408
+Document: tid8a464                  Score: 1.6440258211202414
+
+ -> Query: SARS-CoV-2 phylogenetic analysis
+
+Document: skk4c3a5                  Score: 1.9400579474449882
+Document: aeogp8c7                  Score: 1.9400579474449882
+Document: xuczplaf                  Score: 1.9400579474449882
+Document: 4fp34pbh                  Score: 1.8336349679116362
+Document: gxstlzuk                  Score: 1.828439503753775
+Document: t0q8l7ly                  Score: 1.828439503753775
+Document: fqxjzavm                  Score: 1.7842369010631738
+Document: mn0l7nar                  Score: 1.7508297822828638
+Document: hc0ma2cq                  Score: 1.722016524220423
+Document: 9le7uk7m                  Score: 1.719104314391065
+
+ -> Query: COVID inflammatory response
+
+Document: mk62bybt                  Score: 1.415031121908183
+Document: 5fbcjhqj                  Score: 1.3562169771101624
+Document: myh73pe6                  Score: 1.3424688389884551
+Document: b3ui95vx                  Score: 1.337461391426683
+Document: 8l1vfsbc                  Score: 1.3228596612740167
+Document: 0g7wy4yw                  Score: 1.3228596612740167
+Document: qw5x4b8x                  Score: 1.3228596612740167
+Document: 9ukf9vpg                  Score: 1.2744286258177169
+Document: j0ufth5d                  Score: 1.197422141150978
+Document: g41pd9uz                  Score: 1.1924146935892057
+
+ -> Query: COVID-19 cytokine storm
+
+Document: 6wdwrttn                  Score: 1.652814381234648
+Document: p4q64ksa                  Score: 1.549761470642334
+Document: 8eh90ber                  Score: 1.549761470642334
+Document: ctd9sutv                  Score: 1.549761470642334
+Document: fcmzdcuh                  Score: 1.5089509494382947
+Document: 73gxq2w6                  Score: 1.4695784553894335
+Document: msohf5oa                  Score: 1.4695784553894335
+Document: b3ui95vx                  Score: 1.4579048308633795
+Document: 68193u0a                  Score: 1.3623294731139348
+Document: 8l1vfsbc                  Score: 1.35324124104752
+
+ -> Query: coronavirus mutations
+
+Document: bgdcm1i1                  Score: 1.3513560271070717
+Document: mp3a9c9u                  Score: 1.3513560271070717
+Document: s4d442kx                  Score: 1.3513560271070717
+Document: wynyrumi                  Score: 1.3513560271070717
+Document: fn7l93wh                  Score: 1.3513560271070717
+Document: amg5dice                  Score: 1.3513560271070717
+Document: fvp45ho6                  Score: 1.3513560271070717
+Document: 69toerzi                  Score: 1.3513560271070717
+Document: covwyddp                  Score: 1.3513560271070717
+Document: 6z7rt5dd                  Score: 1.3513560271070717
+
+ -> Query: COVID-19 in African-Americans
+
+Document: pne9qolr                  Score: 1.2528251315104275
+Document: kifsxqq2                  Score: 1.2528251315104275
+Document: bbgcen1u                  Score: 1.2528251315104275
+Document: gabcaqfu                  Score: 1.2528251315104275
+Document: xfwojl20                  Score: 1.2528251315104275
+Document: 59c9cpfe                  Score: 1.2528251315104275
+Document: db79kb5c                  Score: 1.2528251315104275
+Document: jia7rliz                  Score: 1.2528251315104275
+Document: 857qqfxr                  Score: 1.2528251315104275
+Document: bghvdaw0                  Score: 1.2528251315104275
+
+ -> Query: Vitamin D and COVID-19
+
+Document: gbdaad4l                  Score: 0.8642184306301235
+Document: hlu1noym                  Score: 0.8642184306301235
+Document: 0mn1gbll                  Score: 0.8642184306301235
+Document: cgks5ap7                  Score: 0.8642184306301235
+Document: 5b6z7cqx                  Score: 0.8642184306301235
+Document: 617zol31                  Score: 0.8642184306301235
+Document: ki3yd87z                  Score: 0.8642184306301235
+Document: thkzoirr                  Score: 0.8642184306301235
+Document: u61mcemm                  Score: 0.8642184306301235
+Document: gvh0wdxn                  Score: 0.8642184306301235
+
+ -> Query: violence during pandemic
+
+Document: x8hbm1b7                  Score: 1.301506784442199
+Document: itp1hnql                  Score: 0.9273759193455761
+Document: 3twpkrpo                  Score: 0.9273759193455761
+Document: iv053h6i                  Score: 0.9273759193455761
+Document: kxbhlcce                  Score: 0.9273759193455761
+Document: jtj12571                  Score: 0.9273759193455761
+Document: vr65eg6g                  Score: 0.9273759193455761
+Document: mappbzc6                  Score: 0.9273759193455761
+Document: k8gry749                  Score: 0.9273759193455761
+Document: wrv2ru2q                  Score: 0.9273759193455761
+
+ -> Query: impact of masks on coronavirus transmission
+
+Document: jsttsnqz                  Score: 1.446564807156757
+Document: ytsqfqvh                  Score: 1.4164202415913645
+Document: 5ve8einm                  Score: 1.4019935239457693
+Document: sf55n6kf                  Score: 1.4019935239457693
+Document: ioemd0ij                  Score: 1.3973131127296006
+Document: sysxn8qo                  Score: 1.343394732776334
+Document: mxb9f713                  Score: 1.343394732776334
+Document: 4spjox0r                  Score: 1.343394732776334
+Document: kromgrnu                  Score: 1.343394732776334
+Document: 3t0jhzji                  Score: 1.343394732776334
+
+ -> Query: coronavirus mental health impact
+
+Document: 4xpkzx0h                  Score: 1.6897238796585552
+Document: 27mqgts7                  Score: 1.543554815782033
+Document: 35c6mak0                  Score: 1.520584019120134
+Document: y30na770                  Score: 1.520584019120134
+Document: 6b1y7yxg                  Score: 1.520584019120134
+Document: xda778b3                  Score: 1.505950142245544
+Document: javgi3gr                  Score: 1.4758454154600393
+Document: p8yu17dy                  Score: 1.4307032080302964
+Document: 6k92cnxn                  Score: 1.4307032080302964
+Document: alwieb64                  Score: 1.4307032080302964
+
+ -> Query: dexamethasone coronavirus
+
+Document: ksbha7kz                  Score: 1.1996079269931204
+Document: 1vimqhdp                  Score: 1.1996079269931204
+Document: 2cvpzlu1                  Score: 1.1996079269931204
+Document: bffgx3sj                  Score: 1.1996079269931204
+Document: t3wy3enj                  Score: 1.1474728508484966
+Document: 7wthyc3z                  Score: 1.1268265671264235
+Document: cq8ojfit                  Score: 0.9742838766745798
+Document: bctefhu9                  Score: 0.9742838766745798
+Document: ip4bxki8                  Score: 0.9742838766745798
+Document: 0e9lq1b5                  Score: 0.9742838766745798
+
+ -> Query: COVID-19 outcomes in children
+
+Document: fn9b7adi                  Score: 1.7265584871852808
+Document: ti9b1etu                  Score: 1.5784226475495453
+Document: pth2d40p                  Score: 1.4859567970585505
+Document: xsgxd5sy                  Score: 1.2504530344455855
+Document: j0ufth5d                  Score: 1.1884094965438863
+Document: ohba2n2o                  Score: 1.1884094965438863
+Document: z9jk1n7o                  Score: 1.1884094965438863
+Document: 61snvddh                  Score: 1.1884094965438863
+Document: 7y1uoj8l                  Score: 1.1884094965438863
+Document: 6wdwrttn                  Score: 1.1884094965438863
+
+ -> Query: school reopening coronavirus
+
+Document: mz06mkqf                  Score: 1.442135811463064
+Document: 36rnb6et                  Score: 1.3318998474606334
+Document: vc1ljugn                  Score: 0.8809522689837603
+Document: qqsefagq                  Score: 0.5943678742449702
+Document: 5zukxemu                  Score: 0.5943678742449702
+Document: enzfpvlx                  Score: 0.5943678742449702
+Document: ga7dh4nv                  Score: 0.5943678742449702
+Document: n4h08jxc                  Score: 0.5943678742449702
+Document: 1vimqhdp                  Score: 0.5943678742449702
+Document: kcdhfarq                  Score: 0.5943678742449702
+
+ -> Query: post-infection COVID-19 immunity
+
+Document: wmgobb2h                  Score: 1.4436091921115368
+Document: dptgg05n                  Score: 1.4343803149945005
+Document: ntra3jhs                  Score: 1.4298958975678036
+Document: z0qzgu5m                  Score: 1.3768586539831171
+Document: 2kwfcgz9                  Score: 1.3687925868797977
+Document: 8hg6wi7z                  Score: 1.2851394447581468
+Document: ksbha7kz                  Score: 1.2680592240931559
+Document: jljjqs6m                  Score: 1.2525928518889362
+Document: ejre2jwf                  Score: 1.2397039057080486
+Document: 944pn0k9                  Score: 1.1898364198057205
+
+ -> Query: mRNA vaccine coronavirus
+
+Document: x3hr1y6o                  Score: 1.3271190028050794
+Document: 2okcuviq                  Score: 1.3271190028050794
+Document: yv9or7cu                  Score: 1.3271190028050794
+Document: efrv5nvf                  Score: 1.3271190028050794
+Document: 6z7rt5dd                  Score: 1.3271190028050794
+Document: dff7y6dr                  Score: 1.3271190028050794
+Document: mib0dy32                  Score: 1.3271190028050794
+Document: kyj6etnc                  Score: 1.3271190028050794
+Document: hzh5tyoo                  Score: 1.3271190028050794
+Document: 100ir651                  Score: 1.3271190028050794
