@@ -74,7 +74,7 @@ class WeightedIndexer:
                 tf = self.inverted_index[term][1][doc_id] # term frequency (tf) - number of times each term appears in a doc
                 #len_of_doc = self.document_len[doc_id]
                 #avgdl = len_of_doc / total_terms
-                docsWeigh[doc_id] += (idf * tf * k
+                docsWeigh[doc_id] += (idf * tf * (k+1)
                       / (tf + k * (1 - b + b * self.document_len[doc_id] / self.avgdl)))
            
             idf_docsWeight.append(docsWeigh)
