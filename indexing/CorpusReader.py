@@ -46,8 +46,8 @@ class CorpusReader:
                 if row['abstract'] != "":
                     title=row['title'] 
                     if title not in already_read: # Verifies if the document was already read
-                        if row['doi'] == "": real_id=row['pmcid']
-                        else: real_id=row['doi']   
+                        if row['cord_uid'] == "": real_id=row['doi']
+                        else: real_id=row['cord_uid']   
                         doc_content = []
                         already_read.append(title) # Add to the list that has the documents that were already read
                         real_doc_ids.append(real_id)
