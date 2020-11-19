@@ -81,7 +81,7 @@ class DocumentIndexer:
 
 
         # Print results:
-        if(self.tokenizer_type=="s"):
+        if(self.tokenizer_type=="-s"):
             print("\n    Tokenizer used: Simple     Ranking Method: "+self.weighted_indexer_type[1:]+"\n"
                     +"\n--- Indexation time:  %s seconds." % (round(indexing_time,3))
                     + "\n--- File with the Weighted Index: results/simpleTokenizer/weightedIndex_"+self.weighted_indexer_type[1:]+".txt")

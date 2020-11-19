@@ -41,7 +41,7 @@ class Results:
 
         """
 
-        if(self.tokenizer_type=="s"):
+        if(self.tokenizer_type=="-s"):
             with open("results/simpleTokenizer/invertedIndex_"+self.file_name[:-4]+".txt",'w') as file_index:
                 json.dump(self.inverted_index,file_index)
         else:
@@ -105,7 +105,7 @@ class Results:
 
         """
 
-        if(self.tokenizer_type=="s"):
+        if(self.tokenizer_type=="-s"):
             with open("results/simpleTokenizer/weightedIndex_"+self.weighted_index_type+".txt", 'w') as file_weighted_index:
                 for term in self.weighted_index:
                     file_weighted_index.write(term+";"+str(self.weighted_index[term][0])+";"+json.dumps(self.weighted_index[term][1])+"\n")
