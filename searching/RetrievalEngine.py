@@ -29,7 +29,7 @@ class RetrievalEngine:
 
 
         """
-        Search the query terms and prints the retrieved ordered documents, based on the ranking type choosen 
+        Search the query terms and returns the retrieved ordered documents, based on the ranking type choosen. Writes results to files.
 
         Follows this pipeline:
 
@@ -65,7 +65,7 @@ class RetrievalEngine:
             file_ranking.write("\nTokenizer: "+"Improved\n" if self.tokenizer=='i' else "Simple\n")
             for i in range(0,len(self.queries)):
                 file_ranking.write("\n\n -> Query: "+self.queries[i]+"\n")
-                number_of_docs_returned=0 # Só para retornar apenas 10 docs
+                number_of_docs_returned=0 # TOP 10
                 for doc,score in ranking.scores[i].items():
                     if number_of_docs_returned==10: break
                     else: 
@@ -75,17 +75,18 @@ class RetrievalEngine:
 
         print("Results of Ranking in: "+"results/ranking_"+self.ranking_type+".txt")
 
+
+
         # Write results to file to use in evaluation:
         with open("searching/ranking_for_evaluation_"+self.ranking_type+".txt", 'w') as file_ranking:
             query_id = 0
             for i in range(0,len(self.queries)):
-                number_of_docs_returned=0 # Só para retornar apenas 10 docs
+                number_of_docs_returned=0 
                 query_id+=1
                 for doc,score in ranking.scores[i].items():
                     if number_of_docs_returned==10: break
                     else: 
-                        # query - doc - score
-                        file_ranking.write(str(query_id)+"    "+self.real_doc_ids[doc]+"    "+str(score)+"\n")
+                        file_ranking.write(str(query_id)+"    "+self.real_doc_ids[doc]+"    "+str(score)+"\n")  # query - doc - score
                         number_of_docs_returned=number_of_docs_returned+1
                         
            

@@ -5,15 +5,20 @@ Autors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
 
+import statistics
+
 class Evaluation:
     def __init__(self, relevance_file, score_file):
-        self.relevance_file = relevance_file #queries.relevance.txt -> query_id, cord_ui, relevance
-        self.score_file = score_file
-        self.relevances = {} #{query_1 : [[doc_1 : query_relevance], [doc_2:query_relevance],...] , query_2 :[[doc_1 : query_relevance], [doc_2:query_relevance],...],... }
-        self.scores = {}
-        self.precision_dic = {}
-        self.recall_dic = {}
-        self.f1_score_dic = {}
+        self.relevance_file = relevance_file # queries.relevance.txt -> query_id, cord_ui, relevance
+        self.score_file = score_file # query_id, cord_ui, score    with the corresponding ranking method used
+        self.relevances = self.get_relevances_or_scores(self.relevance_file)  # {query_1 : {doc_1 : relevance, doc_2: relevance,...},...} 
+        self.scores = self.get_relevances_or_scores(self.score_file)  # {query_1 : {doc_1 : score , doc_2: score,...},...} 
+        self.queries_precision = {}
+        self.queries_recall = {}
+        self.queries_average_precision = {}
+  
+
+
 
     def get_relevances_or_scores(self, file_to_read):
         relevances_scores = {}
@@ -21,58 +26,111 @@ class Evaluation:
             for row in file_to_read:
                 query_id = row.split()[0]
                 cord_ui = row.split()[1]
-                content = row.split()[2]
+                content = float(row.split()[2])
                 if query_id not in relevances_scores.keys():
-                    relevances_scores[query_id] = [[cord_ui, content]]
+                    doc_scores = {}
+                    doc_scores[cord_ui]=content
+                    relevances_scores[query_id] = doc_scores
                 else:
-                    relevances_scores[query_id].append([cord_ui, content])
+                    doc_scores=relevances_scores[query_id]
+                    doc_scores[cord_ui]=content
+                    relevances_scores[query_id] = doc_scores
 
 
         return relevances_scores
-        
 
-    def precision_recall(self):
-        self.relevances = self.get_relevances_or_scores(self.relevance_file)
-        self.scores = self.get_relevances_or_scores(self.score_file)
-        total_rel_docs = 0
-        found = 0
+
+
+    def mean_precision_recall(self):
+
         for query_id in self.scores:
-            doc_counter = 0
-            found = 0
+        
+            tp_fn = 0
+            tp_fp = 0
+            tp = 0
             total_precision = 0
-            if not self.relevances.get(query_id):
-                print ("No set for query ", query_id)
-                self.precision_dic[query_id] = []
-                self.recall_dic[query_id] = []
-                continue
-            #relevance_doc_list = self.relevances[query_id]
-            #total_rel_docs = len (self.relevances[query_id]) 
-            self.precision_dic[query_id] = []
-            self.recall_dic[query_id] = []
 
-            for scores_doc in self.scores[query_id]:
-                doc_counter+=1
-                for relevance_doc in self.relevances[query_id]:
-                    if (scores_doc[0] == relevance_doc[0]):
-                        found += 1
-                    if (int(relevance_doc[1]) > 0):
-                        total_rel_docs += 1
-            self.precision_dic[query_id] = (found/doc_counter)*100
-            self.recall_dic[query_id] = (found/total_rel_docs)*100
+            for doc,relevance in self.relevances[query_id].items():
+                if (doc in self.scores[query_id]) and relevance>0:
+                    tp += 1
+                if relevance > 0:
+                    tp_fn += 1
 
+            tp_fp = len(self.scores[query_id])
+                        
+            self.queries_precision[query_id] = (tp/tp_fp)
+            if tp_fn!=0:
+                self.queries_recall[query_id] = (tp/tp_fn)
+            
+        #print(self.queries_precision)
+        #print(self.queries_recall)
+        mean_precision = statistics.mean(list(self.queries_precision.values()))
+        mean_recall = statistics.mean(list(self.queries_recall.values()))
       
-        print("Precision dic-> ", self.precision_dic) #Mais tarde escrevê-los num ficheiro
-        print("Recall dic-> ", self.recall_dic)
+        print("Mean Precision -> ", mean_precision) #Mais tarde escrevê-los num ficheiro e fazer só a média
+        print("Mean Recall ->  ", mean_recall)
 
-    def f1_score(self):
-        for query_id in self.precision_dic:
-            for query_id in self.recall_dic:
-                if self.precision_dic[query_id] != 0 and self.recall_dic != 0 :
-                    self.f1_score_dic[query_id] = 2 * ((self.precision_dic[query_id]*self.recall_dic[query_id])
-                                                        /(self.precision_dic[query_id]+self.recall_dic[query_id])) * 100
-                else:
-                    self.f1_score_dic[query_id] = 0
-      
-        print("F1 score -> ", self.f1_score_dic)
 
+
+    def mean_f1(self):
+
+        queries_f1 = {}
+
+        for query_id in self.queries_precision:
+            if self.queries_precision[query_id] != 0 and self.queries_recall != 0 :
+                queries_f1[query_id] = 2 * ((self.queries_precision[query_id]*self.queries_recall[query_id])
+                                                     /(self.queries_precision[query_id]+self.queries_recall[query_id])) 
+            else:
+                queries_f1[query_id] = 0
+
+        #print(queries_f1)
+        mean_f1 = statistics.mean(list(queries_f1.values()))
+
+        print("Mean F-Measure -> ", mean_f1)
+
+
+
+    def average_precision(self):
+
+        for query_id in self.scores:
+
+            tp_fn = 0
+            tp_fp = 0
+            tp = 0
+            precisions = []
+            average_precision = 0
+
+            for doc,relevance in self.relevances[query_id].items():
+                if relevance > 0:
+                    tp_fn += 1
+
+            for doc,score in self.scores[query_id].items():
+                relevant = False
+                tp_fp += 1
+                if doc in self.relevances[query_id] and self.relevances[query_id][doc]>0:
+                    relevant = True
+                    tp += 1
+                precision = tp/tp_fp
+                if tp_fn!=0:
+                    recall = tp/tp_fn
+                
+                if relevant==True: precisions.append(precision)
+
+            if len(precisions)!=0:
+                average_precision = statistics.mean(precisions)
+            else:
+                average_precision = 0
+
+            self.queries_average_precision[query_id] = average_precision
+
+        #print(self.queries_average_precision)
+
+
+    def map(self):
+
+        self.average_precision()
+
+        map = statistics.mean(list(self.queries_average_precision.values()))
+        
+        print("MAP: "+str(map))
 
