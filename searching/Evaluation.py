@@ -6,6 +6,7 @@ Autors: Alina Yanchuk, 89093
 """
 
 import statistics
+import math
 
 class Evaluation:
     def __init__(self, relevance_file, score_file):
@@ -16,9 +17,9 @@ class Evaluation:
         self.queries_precision = {}
         self.queries_recall = {}
         self.queries_average_precision = {}
+        self.dcg_dic = self.dcg()
+        self.ndcg_dic = {}
   
-
-
 
     def get_relevances_or_scores(self, file_to_read):
         relevances_scores = {}
@@ -126,11 +127,53 @@ class Evaluation:
         #print(self.queries_average_precision)
 
 
-    def map(self):
+    def mean_average_precision(self): #MAP
 
         self.average_precision()
 
-        map = statistics.mean(list(self.queries_average_precision.values()))
+        mean_average_precision = statistics.mean(list(self.queries_average_precision.values()))
         
-        print("MAP: "+str(map))
+        print("MAP: "+str(mean_average_precision))
+
+    def dcg(self):
+        query_dcg = {}
+        for query_id in self.relevances:            
+            count=0
+            for doc,relevance in self.relevances[query_id].items():  #In this loop we calculate de CG (cumulative gain) at each position 
+                                                                    #(in this case, for each query)          
+                count+=1
+                if query_id not in query_dcg.keys():
+                    query_dcg[query_id] = relevance/math.log2(count+1)
+                else:
+                    query_dcg[query_id] += relevance/math.log2(count+1)
+        return query_dcg
+
+
+    def mean_ndcg(self):
+        query_ndcg = {}
+        relevances_ordered = {}
+        for query_id in self.relevances: 
+            count=0
+            for doc,relevance in self.relevances[query_id].items():
+                relevances_ordered[query_id] = {k: v for k, v in sorted(self.relevances[query_id].items(), key=lambda item: item[1], reverse=True)}
+            
+            for doc,relevance in relevances_ordered[query_id].items():
+                count+=1
+                if query_id not in query_ndcg.keys():
+                    query_ndcg[query_id] = relevance/math.log2(count+1)
+                else:
+                    query_ndcg[query_id] += relevance/math.log2(count+1)
+
+        for query_id in self.dcg_dic:
+            for query_id in query_ndcg:
+                if query_ndcg[query_id] != 0:
+                    self.ndcg_dic[query_id] = self.dcg_dic[query_id]/query_ndcg[query_id]
+                else:
+                    self.ndcg_dic[query_id] = 0
+        
+        mean_ndgc = statistics.mean(list(self.ndcg_dic.values()))
+        
+        print("Mean NDGC: "+str(mean_ndgc))
+
+
 
