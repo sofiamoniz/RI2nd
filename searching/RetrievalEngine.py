@@ -47,6 +47,7 @@ class RetrievalEngine:
         self.read_doc_ids_file()
 
         ranking = Ranking(self.tokenizer,self.queries,self.weighted_index)
+        query_latency = ranking.get_query_latency()
         
         if self.ranking_type=="lnc.ltc":
             ranking.weight_queries_lnc_ltc() # this step is only for lnc.ltc
@@ -60,19 +61,20 @@ class RetrievalEngine:
         with open("results/ranking_"+self.ranking_type+".txt", 'w') as file_ranking:
             file_ranking.write("***  TOP 10 RETURNED DOCUMENTS *** ")
             file_ranking.write("\n\nRanking: "+self.ranking_type)
-            file_ranking.write("\nQueries file: "+self.query_file)
             file_ranking.write("\nIndex file: "+self.index_file)
+            file_ranking.write("\nQuery latency: "+self.query_file)
             file_ranking.write("\nTokenizer: "+"Improved\n" if self.tokenizer=='i' else "Simple\n")
             for i in range(0,len(self.queries)):
                 file_ranking.write("\n\n -> Query: "+self.queries[i]+"\n")
+                file_ranking.write("\nQuery latency: " + str(query_latency[self.queries[i]])+"\n")
                 number_of_docs_returned=0 # TOP 10
                 for doc,score in ranking.scores[i].items():
                     if number_of_docs_returned==10: break
                     else: 
                         file_ranking.write("\nDocument: "+self.real_doc_ids[doc]+"                  Score: "+str(score))
                         number_of_docs_returned=number_of_docs_returned+1
-           
 
+        
         print("Results of Ranking in: "+"results/ranking_"+self.ranking_type+".txt")
 
 

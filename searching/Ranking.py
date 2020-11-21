@@ -9,6 +9,8 @@ from indexing.ImprovedTokenizer import ImprovedTokenizer
 from indexing.SimpleTokenizer import SimpleTokenizer
 import math
 from collections import defaultdict
+import time
+
 
 ## Class that
 class Ranking:
@@ -17,11 +19,10 @@ class Ranking:
         self.tokenizer=tokenizer
         self.weighted_index=weighted_index
         self.queries=queries
-
         self.weighted_queries=[] # only for lnc.ltc
-
         self.scores=[]
-
+        self.queries_latency = {}
+        self.start_time_lnc = 0
 
     # lnc.ltc:
 
@@ -32,7 +33,7 @@ class Ranking:
         """
 
         for query in self.queries: # one query at a time
-
+            self.start_time_lnc = time.time()
             temp=0
             query_length=0
             weighted_query=defaultdict(int)    # weighted_query = { "term1": weight_of_term1_in_query, ...}   for all terms in the query
@@ -61,7 +62,6 @@ class Ranking:
                 weighted_query[term] = value / query_length
 
             self.weighted_queries.append(weighted_query) # self.weighted_queries = [ weighted_query1, weighted_query2, ...]
-           
                 
      
     def score_lnc_ltc(self):
@@ -82,7 +82,8 @@ class Ranking:
             docs_scores={k: v for k, v in sorted(docs_scores.items(), key=lambda item: item[1], reverse=True)} # order by score ( decreasing order )
             
             self.scores.append(docs_scores) # self.scores = [ scores_for_query1, scores_for_query2, ...]
-        
+            query_latency_time=time.time()-self.start_time_lnc
+            self.queries_latency[self.queries[i]] = query_latency_time
 
 
 
@@ -92,7 +93,7 @@ class Ranking:
     def score_bm25(self):
 
         for query in self.queries: # one query at a time
-
+            start_time = time.time()
             docs_scores=defaultdict(int) # docs_score = { doc1: score1, doc2: score2, ...} for all docs that answers the query
             temp=0
             query_length=0
@@ -114,6 +115,11 @@ class Ranking:
             docs_scores={k: v for k, v in sorted(docs_scores.items(), key=lambda item: item[1], reverse=True)} # order by score ( decreasing order )
             
             self.scores.append(docs_scores) # self.scores = [ scores_for_query1, scores_for_query2, ...]
+            query_latency_time=time.time()-start_time
+            self.queries_latency[query] = query_latency_time
         
+
+    def get_query_latency(self):
+        return self.queries_latency
         
     
