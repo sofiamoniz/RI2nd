@@ -139,8 +139,7 @@ class Evaluation:
         query_dcg = {}
         for query_id in self.relevances:            
             count=0
-            for doc,relevance in self.relevances[query_id].items():  #In this loop we calculate de CG (cumulative gain) at each position 
-                                                                    #(in this case, for each query)          
+            for doc,relevance in self.relevances[query_id].items():       
                 count+=1
                 if query_id not in query_dcg.keys():
                     query_dcg[query_id] = relevance/math.log2(count+1)
