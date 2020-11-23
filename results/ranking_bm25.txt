@@ -7,7 +7,7 @@ Tokenizer: Improved
 
  -> Query: coronavirus origin
 
-Query latency: 0.006810665130615234 seconds
+Query latency: 0.006479501724243164 seconds
 
 Document: 9dj07sac                  Score: 0.4999272500218067
 Document: wuegn0jg                  Score: 0.32438027673170666
@@ -62,7 +62,7 @@ Document: l0kc731z                  Score: 0.15284841310489777
 
  -> Query: coronavirus response to weather changes
 
-Query latency: 0.012117624282836914 seconds
+Query latency: 0.011861324310302734 seconds
 
 Document: kftchnhz                  Score: 0.5505124635122322
 Document: lv8dvdp7                  Score: 0.4718757081987005
@@ -117,7 +117,7 @@ Document: b4dsr0im                  Score: 0.16170852824496654
 
  -> Query: coronavirus immunity
 
-Query latency: 0.00914454460144043 seconds
+Query latency: 0.008929252624511719 seconds
 
 Document: t9u7d029                  Score: 0.3389618372647303
 Document: 4068kzp0                  Score: 0.30895589614236146
@@ -172,7 +172,7 @@ Document: puxz2f9g                  Score: 0.1618052014107633
 
  -> Query: how do people die from the coronavirus
 
-Query latency: 0.006155967712402344 seconds
+Query latency: 0.00590062141418457 seconds
 
 Document: s9mqv4lo                  Score: 0.3962895614822682
 Document: ursd3h22                  Score: 0.33665430660105444
@@ -227,7 +227,7 @@ Document: 7qatfxoj                  Score: 0.165150527518753
 
  -> Query: animal models of COVID-19
 
-Query latency: 0.040349483489990234 seconds
+Query latency: 0.03747081756591797 seconds
 
 Document: je66bmzu                  Score: 0.4309920667510548
 Document: 3aozpdr3                  Score: 0.4309920667510548
@@ -282,7 +282,7 @@ Document: qpt5dj8p                  Score: 0.2688819506113937
 
  -> Query: coronavirus test rapid testing
 
-Query latency: 0.014885663986206055 seconds
+Query latency: 0.014800548553466797 seconds
 
 Document: mnshxou5                  Score: 0.5525230914765824
 Document: zkz55pmg                  Score: 0.5390684373528014
@@ -337,7 +337,7 @@ Document: pkuo2hvy                  Score: 0.2778874831396401
 
  -> Query: serological tests for coronavirus
 
-Query latency: 0.012290716171264648 seconds
+Query latency: 0.01252603530883789 seconds
 
 Document: hxial3gi                  Score: 0.3405582083512154
 Document: 4068kzp0                  Score: 0.30895589614236146
@@ -392,7 +392,7 @@ Document: gbyyehbu                  Score: 0.18914177965285028
 
  -> Query: coronavirus under reporting
 
-Query latency: 0.011419296264648438 seconds
+Query latency: 0.011974811553955078 seconds
 
 Document: 4068kzp0                  Score: 0.30895589614236146
 Document: 944w4qgq                  Score: 0.2597416825975606
@@ -447,7 +447,7 @@ Document: 2sfw6uy4                  Score: 0.15447794807118073
 
  -> Query: coronavirus in Canada
 
-Query latency: 0.0060062408447265625 seconds
+Query latency: 0.00605010986328125 seconds
 
 Document: jkzxjk54                  Score: 0.4868047710120355
 Document: 9tumplp3                  Score: 0.3817266413959873
@@ -502,7 +502,7 @@ Document: exbylvf2                  Score: 0.14587877799962398
 
  -> Query: coronavirus social distancing impact
 
-Query latency: 0.008985042572021484 seconds
+Query latency: 0.00858449935913086 seconds
 
 Document: uo4j7nax                  Score: 0.5196283471654394
 Document: qtc4lrk6                  Score: 0.5046755792605212
@@ -557,7 +557,7 @@ Document: z7a3g6e8                  Score: 0.2169143532266437
 
  -> Query: coronavirus hospital rationing
 
-Query latency: 0.00733637809753418 seconds
+Query latency: 0.007194995880126953 seconds
 
 Document: swwz4kzd                  Score: 0.3547843909110509
 Document: 4068kzp0                  Score: 0.30895589614236146
@@ -612,7 +612,7 @@ Document: ew2x1aee                  Score: 0.18544414893380898
 
  -> Query: coronavirus quarantine
 
-Query latency: 0.0064580440521240234 seconds
+Query latency: 0.005341053009033203 seconds
 
 Document: d0dblf7y                  Score: 0.5088596403871218
 Document: 64igat2s                  Score: 0.5074292663024251
@@ -667,7 +667,7 @@ Document: 2xflheth                  Score: 0.18041119696778815
 
  -> Query: how does coronavirus spread
 
-Query latency: 0.006782054901123047 seconds
+Query latency: 0.006516933441162109 seconds
 
 Document: j472b35n                  Score: 0.377342399049851
 Document: 9fkrf3tf                  Score: 0.3533297009284968
@@ -722,7 +722,7 @@ Document: fjsrg656                  Score: 0.1602118457070106
 
  -> Query: coronavirus super spreaders
 
-Query latency: 0.005994558334350586 seconds
+Query latency: 0.005373477935791016 seconds
 
 Document: 414grqif                  Score: 1.019657182358749
 Document: v5egtgdo                  Score: 0.8597137733086859
@@ -777,7 +777,7 @@ Document: stnjl8f8                  Score: 0.1482364148157795
 
  -> Query: coronavirus outside body
 
-Query latency: 0.00648188591003418 seconds
+Query latency: 0.006071329116821289 seconds
 
 Document: hgau3922                  Score: 0.5498358393391135
 Document: 7reqkx3h                  Score: 0.3094229293612373
@@ -832,7 +832,7 @@ Document: 1f5hn3ig                  Score: 0.1561213304974699
 
  -> Query: how long does coronavirus survive on surfaces
 
-Query latency: 0.008726835250854492 seconds
+Query latency: 0.008519649505615234 seconds
 
 Document: hgau3922                  Score: 0.6221698015338131
 Document: tjplc5j6                  Score: 0.36521207003370637
@@ -887,7 +887,7 @@ Document: lwpzlhw2                  Score: 0.19083751712304514
 
  -> Query: coronavirus clinical trials
 
-Query latency: 0.009742259979248047 seconds
+Query latency: 0.009339332580566406 seconds
 
 Document: g6rpxady                  Score: 0.44422048333585346
 Document: wm0forsu                  Score: 0.4410449867234144
@@ -942,7 +942,7 @@ Document: f3lv7o4d                  Score: 0.18730624034129864
 
  -> Query: masks prevent coronavirus
 
-Query latency: 0.007859945297241211 seconds
+Query latency: 0.008712291717529297 seconds
 
 Document: tev33cjh                  Score: 0.6233780860671903
 Document: 9pb2eqoa                  Score: 0.5277390027025878
@@ -997,7 +997,7 @@ Document: 578oxkpf                  Score: 0.2144734588592597
 
  -> Query: what alcohol sanitizer kills coronavirus
 
-Query latency: 0.005162715911865234 seconds
+Query latency: 0.005285024642944336 seconds
 
 Document: qlm83r6n                  Score: 0.6472453795499034
 Document: wmb5v9xf                  Score: 0.5012887659554545
@@ -1052,7 +1052,7 @@ Document: w4sr6zhr                  Score: 0.1671802766984436
 
  -> Query: coronavirus and ACE inhibitors
 
-Query latency: 0.0058171749114990234 seconds
+Query latency: 0.006411314010620117 seconds
 
 Document: gic43uwz                  Score: 0.6869646914994043
 Document: zutavvrf                  Score: 0.6807104818453813
@@ -1107,7 +1107,7 @@ Document: quwqecsf                  Score: 0.383490436699576
 
  -> Query: coronavirus mortality
 
-Query latency: 0.005898237228393555 seconds
+Query latency: 0.0061511993408203125 seconds
 
 Document: 4068kzp0                  Score: 0.30895589614236146
 Document: 944w4qgq                  Score: 0.2597416825975606
@@ -1162,7 +1162,7 @@ Document: 6o0jikd2                  Score: 0.153964396801881
 
  -> Query: coronavirus heart impacts
 
-Query latency: 0.007531881332397461 seconds
+Query latency: 0.0063669681549072266 seconds
 
 Document: h6ezeyzd                  Score: 0.557259567523365
 Document: e8sl0qa0                  Score: 0.35338411599042663
@@ -1217,7 +1217,7 @@ Document: ppw80s0l                  Score: 0.15590542265499788
 
  -> Query: coronavirus hypertension
 
-Query latency: 0.005422353744506836 seconds
+Query latency: 0.004866838455200195 seconds
 
 Document: tz3hqv5g                  Score: 0.32419434610747666
 Document: 7l0b4loi                  Score: 0.32419434610747666
@@ -1272,7 +1272,7 @@ Document: o56j4qio                  Score: 0.14405649183503516
 
  -> Query: coronavirus diabetes
 
-Query latency: 0.005470991134643555 seconds
+Query latency: 0.004845619201660156 seconds
 
 Document: 3bj567gr                  Score: 0.47392658616973327
 Document: 89ovdnxl                  Score: 0.4720056467442055
@@ -1327,7 +1327,7 @@ Document: x6bryq9d                  Score: 0.16186108529517101
 
  -> Query: coronavirus biomarkers
 
-Query latency: 0.005865335464477539 seconds
+Query latency: 0.0048503875732421875 seconds
 
 Document: 8glsl2ka                  Score: 0.43512371783361264
 Document: 8cixsjrf                  Score: 0.4231843475272026
@@ -1382,7 +1382,7 @@ Document: 81kuduex                  Score: 0.15250365110535807
 
  -> Query: coronavirus early symptoms
 
-Query latency: 0.008745670318603516 seconds
+Query latency: 0.007794857025146484 seconds
 
 Document: 4068kzp0                  Score: 0.30895589614236146
 Document: 168onmwf                  Score: 0.2805107212007144
@@ -1437,7 +1437,7 @@ Document: niw61l9r                  Score: 0.164089944682012
 
  -> Query: coronavirus asymptomatic
 
-Query latency: 0.005561113357543945 seconds
+Query latency: 0.004929780960083008 seconds
 
 Document: atnz63pk                  Score: 0.41734402402652415
 Document: f3h74j1n                  Score: 0.3666129193458403
@@ -1492,7 +1492,7 @@ Document: uj7lyawj                  Score: 0.16759411596553378
 
  -> Query: coronavirus hydroxychloroquine
 
-Query latency: 0.00518488883972168 seconds
+Query latency: 0.0047588348388671875 seconds
 
 Document: tdlcb9bf                  Score: 0.4450335102165835
 Document: sdij1d90                  Score: 0.4408445144225039
@@ -1547,7 +1547,7 @@ Document: wggeweth                  Score: 0.1397657625405921
 
  -> Query: coronavirus drug repurposing
 
-Query latency: 0.0065724849700927734 seconds
+Query latency: 0.0061419010162353516 seconds
 
 Document: cdctlduc                  Score: 0.5267282499492271
 Document: 7jhjlxtf                  Score: 0.5097094118810153
@@ -1602,7 +1602,7 @@ Document: ljosmial                  Score: 0.21311407046497693
 
  -> Query: coronavirus remdesivir
 
-Query latency: 0.004859209060668945 seconds
+Query latency: 0.004687786102294922 seconds
 
 Document: x50tvq3a                  Score: 0.3870640742311126
 Document: rn3bjc9d                  Score: 0.38007025472123135
@@ -1657,7 +1657,7 @@ Document: 02qy72vt                  Score: 0.1411096641034824
 
  -> Query: difference between coronavirus and flu
 
-Query latency: 0.010650634765625 seconds
+Query latency: 0.010835886001586914 seconds
 
 Document: ayznunl1                  Score: 0.6619111770728561
 Document: t9u7d029                  Score: 0.6279090843685482
@@ -1712,7 +1712,7 @@ Document: lwpzlhw2                  Score: 0.19083751712304514
 
  -> Query: coronavirus subtypes
 
-Query latency: 0.005221366882324219 seconds
+Query latency: 0.005289554595947266 seconds
 
 Document: f7j43xaz                  Score: 0.3766244120186133
 Document: tcz01unx                  Score: 0.34588645552202685
@@ -1767,7 +1767,7 @@ Document: el1vyyj9                  Score: 0.15865302774878023
 
  -> Query: coronavirus vaccine candidates
 
-Query latency: 0.0053501129150390625 seconds
+Query latency: 0.005298137664794922 seconds
 
 Document: 4068kzp0                  Score: 0.30895589614236146
 Document: 944w4qgq                  Score: 0.2597416825975606
@@ -1822,7 +1822,7 @@ Document: hrb0shhg                  Score: 0.14144968739047875
 
  -> Query: coronavirus recovery
 
-Query latency: 0.004921674728393555 seconds
+Query latency: 0.005334615707397461 seconds
 
 Document: mt83sfi3                  Score: 0.5363790031185024
 Document: q59axo1w                  Score: 0.38796345371192653
@@ -1877,7 +1877,7 @@ Document: ne5r4d4b                  Score: 0.14612778871598178
 
  -> Query: coronavirus public datasets
 
-Query latency: 0.007720232009887695 seconds
+Query latency: 0.007159709930419922 seconds
 
 Document: k4ra1job                  Score: 0.339025661644089
 Document: li35ju4z                  Score: 0.33814184251895885
@@ -1932,7 +1932,7 @@ Document: oj5z1vmd                  Score: 0.18576462109825534
 
  -> Query: SARS-CoV-2 spike structure
 
-Query latency: 0.006395101547241211 seconds
+Query latency: 0.006339073181152344 seconds
 
 Document: rbzl0txp                  Score: 0.6820307775687532
 Document: trlni6iq                  Score: 0.6038240960579395
@@ -1987,7 +1987,7 @@ Document: d1mxoche                  Score: 0.4082390489755527
 
  -> Query: SARS-CoV-2 phylogenetic analysis
 
-Query latency: 0.009680032730102539 seconds
+Query latency: 0.007962942123413086 seconds
 
 Document: rbzl0txp                  Score: 0.6820307775687532
 Document: t5ar9pp0                  Score: 0.561972679227514
@@ -2042,7 +2042,7 @@ Document: kfhxm9oi                  Score: 0.3789300512080206
 
  -> Query: COVID inflammatory response
 
-Query latency: 0.007079362869262695 seconds
+Query latency: 0.0062253475189208984 seconds
 
 Document: je66bmzu                  Score: 0.4309920667510548
 Document: 3aozpdr3                  Score: 0.4309920667510548
@@ -2097,7 +2097,7 @@ Document: 8eh90ber                  Score: 0.25677009077711765
 
  -> Query: COVID-19 cytokine storm
 
-Query latency: 0.0022346973419189453 seconds
+Query latency: 0.0017344951629638672 seconds
 
 Document: urr5iuy2                  Score: 0.7878376459376063
 Document: 44babp7t                  Score: 0.7640532577217531
@@ -2152,7 +2152,7 @@ Document: kk2zu9gq                  Score: 0.27525543758890897
 
  -> Query: coronavirus mutations
 
-Query latency: 0.006900310516357422 seconds
+Query latency: 0.0057790279388427734 seconds
 
 Document: l57zckk9                  Score: 0.43982386655554556
 Document: rx0os4ke                  Score: 0.3474181150766021
@@ -2207,7 +2207,7 @@ Document: wqir1u0k                  Score: 0.16729961189117995
 
  -> Query: COVID-19 in African-Americans
 
-Query latency: 0.0012557506561279297 seconds
+Query latency: 0.0011508464813232422 seconds
 
 Document: 9jmya3jx                  Score: 0.5963103533826937
 Document: je66bmzu                  Score: 0.4309920667510548
@@ -2262,7 +2262,7 @@ Document: 5e68dk8v                  Score: 0.2549058137982892
 
  -> Query: Vitamin D and COVID-19
 
-Query latency: 0.0008342266082763672 seconds
+Query latency: 0.0007953643798828125 seconds
 
 Document: 86j5nx7c                  Score: 0.6529776087161066
 Document: 2ba4cgb5                  Score: 0.4337168489568439
@@ -2317,7 +2317,7 @@ Document: adf5ttfd                  Score: 0.2684868612547554
 
  -> Query: violence during pandemic
 
-Query latency: 0.0011713504791259766 seconds
+Query latency: 0.0010120868682861328 seconds
 
 Document: sswimukk                  Score: 0.6076992303482434
 Document: v4cf95qh                  Score: 0.5108975830361339
@@ -2372,7 +2372,7 @@ Document: eioez25e                  Score: 0.22848849689874584
 
  -> Query: impact of masks on coronavirus transmission
 
-Query latency: 0.010322093963623047 seconds
+Query latency: 0.008849382400512695 seconds
 
 Document: tev33cjh                  Score: 0.6233780860671903
 Document: iu1d9i57                  Score: 0.5391809317873851
@@ -2427,7 +2427,7 @@ Document: qz9rzie2                  Score: 0.2276560155811419
 
  -> Query: coronavirus mental health impact
 
-Query latency: 0.0106353759765625 seconds
+Query latency: 0.00943899154663086 seconds
 
 Document: 54t8xg3a                  Score: 0.6305800843844225
 Document: fc9yc35c                  Score: 0.5600758804428366
@@ -2482,7 +2482,7 @@ Document: 8ldkbl2g                  Score: 0.24167571393008436
 
  -> Query: dexamethasone coronavirus
 
-Query latency: 0.005221128463745117 seconds
+Query latency: 0.00472259521484375 seconds
 
 Document: buz3o8x9                  Score: 0.3237516513009373
 Document: 4068kzp0                  Score: 0.30895589614236146
@@ -2537,7 +2537,7 @@ Document: i6um5iu2                  Score: 0.1397657625405921
 
  -> Query: COVID-19 outcomes in children
 
-Query latency: 0.0033142566680908203 seconds
+Query latency: 0.0029261112213134766 seconds
 
 Document: ufcvecwo                  Score: 0.4513989081581641
 Document: je66bmzu                  Score: 0.4309920667510548
@@ -2592,7 +2592,7 @@ Document: cgcb3qsp                  Score: 0.280331333095629
 
  -> Query: school reopening coronavirus
 
-Query latency: 0.00528264045715332 seconds
+Query latency: 0.0048236846923828125 seconds
 
 Document: 3smc4ye3                  Score: 0.4734479933331646
 Document: xx785tpq                  Score: 0.4723405160820603
@@ -2647,7 +2647,7 @@ Document: shdioe5e                  Score: 0.16077689829887956
 
  -> Query: post-infection COVID-19 immunity
 
-Query latency: 0.01998448371887207 seconds
+Query latency: 0.018568992614746094 seconds
 
 Document: je66bmzu                  Score: 0.4309920667510548
 Document: 3aozpdr3                  Score: 0.4309920667510548
@@ -2702,7 +2702,7 @@ Document: vnnnevrl                  Score: 0.2625386950629656
 
  -> Query: mRNA vaccine coronavirus
 
-Query latency: 0.0063898563385009766 seconds
+Query latency: 0.006087064743041992 seconds
 
 Document: wi2hhsmh                  Score: 0.345517725499896
 Document: t1nfyzf5                  Score: 0.33549459805502413
