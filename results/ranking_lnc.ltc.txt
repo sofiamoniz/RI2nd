@@ -1,14 +1,13 @@
-***  TOP 10 RETURNED DOCUMENTS *** 
+***  TOP 50 RETURNED DOCUMENTS *** 
 
 Ranking: lnc.ltc
 Index file: results/improvedTokenizer/weightedIndex_lnc_ltc.txt
-Query latency: queries.txt
 Tokenizer: Improved
 
 
  -> Query: coronavirus origin
 
-Query latency: 0.0055599212646484375
+Query latency: 0.00640416145324707 seconds
 
 Document: 8kdtpwbv                  Score: 1.3510666186879494
 Document: 4i97fpzc                  Score: 1.3510666186879494
@@ -20,10 +19,50 @@ Document: dqxfcwyu                  Score: 1.3510666186879494
 Document: nbu6bsb3                  Score: 1.3510666186879494
 Document: b2znv6pa                  Score: 1.3510666186879494
 Document: 4k1i6y98                  Score: 1.3510666186879494
+Document: mrsya6wz                  Score: 1.3510666186879494
+Document: utlponna                  Score: 1.3510666186879494
+Document: xckkdci1                  Score: 1.3510666186879494
+Document: s956fh59                  Score: 1.3510666186879494
+Document: rr8qet8c                  Score: 1.3510666186879494
+Document: j5sb3g1u                  Score: 1.3510666186879494
+Document: fcd07krs                  Score: 1.3510666186879494
+Document: b376751x                  Score: 1.3510666186879494
+Document: w9ev4iy9                  Score: 1.3510666186879494
+Document: h8ahn8fw                  Score: 1.3510666186879494
+Document: gmupz1gf                  Score: 1.3510666186879494
+Document: 46idf595                  Score: 1.3510666186879494
+Document: u3ups8em                  Score: 1.3510666186879494
+Document: 6yfj4co0                  Score: 1.3510666186879494
+Document: 1wswi7us                  Score: 1.3510666186879494
+Document: bs3j3nss                  Score: 1.3510666186879494
+Document: 97tcohzf                  Score: 1.3510666186879494
+Document: buzyani0                  Score: 1.3510666186879494
+Document: p8wp6yvo                  Score: 1.3510666186879494
+Document: nvyknvc7                  Score: 1.3510666186879494
+Document: tbks021u                  Score: 1.3510666186879494
+Document: 2pnqpljt                  Score: 1.3510666186879494
+Document: 3egio7z7                  Score: 1.3510666186879494
+Document: rsj0j8fa                  Score: 1.3510666186879494
+Document: 5zi1i54p                  Score: 1.3510666186879494
+Document: q5j3vcfm                  Score: 1.3510666186879494
+Document: wp6yklrx                  Score: 1.3510666186879494
+Document: 5jau2gjn                  Score: 1.3510666186879494
+Document: 1n9b4kv7                  Score: 1.3510666186879494
+Document: jmj7se6c                  Score: 1.3510666186879494
+Document: ds5mauer                  Score: 1.3510666186879494
+Document: uxzm5z3c                  Score: 1.3510666186879494
+Document: h32821u0                  Score: 1.3510666186879494
+Document: w94u5d39                  Score: 1.3510666186879494
+Document: ek80ff7o                  Score: 1.3510666186879494
+Document: c0bf5iab                  Score: 1.3510666186879494
+Document: vda01gj6                  Score: 1.3510666186879494
+Document: wet0go35                  Score: 1.3510666186879494
+Document: 8tuenv8q                  Score: 1.3510666186879494
+Document: v4gjabp3                  Score: 1.3510666186879494
 
  -> Query: coronavirus response to weather changes
 
-Query latency: 0.015458106994628906
+Query latency: 0.018381834030151367 seconds
 
 Document: tuhesrpb                  Score: 1.5346685076648645
 Document: zvngy7zz                  Score: 1.4426648577347354
@@ -35,10 +74,50 @@ Document: d2tx02m4                  Score: 1.2497936615305498
 Document: m9evk9i5                  Score: 1.2232467881620361
 Document: its36j6t                  Score: 1.2232467881620361
 Document: ov6k4bdi                  Score: 1.2232467881620361
+Document: qm8kalyt                  Score: 1.2232467881620361
+Document: 5j6f529x                  Score: 1.2232467881620361
+Document: 3p542sqs                  Score: 1.2232467881620361
+Document: gbdaad4l                  Score: 1.1470131533243721
+Document: b32zmfru                  Score: 1.1470131533243721
+Document: f53i4n02                  Score: 1.1131885695544508
+Document: ntskj1bj                  Score: 1.1131885695544508
+Document: jc1k3fki                  Score: 1.1067826420992504
+Document: dqwzqyd4                  Score: 1.1046623671419191
+Document: xzps65et                  Score: 1.0876975777638274
+Document: 124czudi                  Score: 1.0831548322546252
+Document: kxbhlcce                  Score: 1.07906198635514
+Document: 5c0ho2jx                  Score: 1.062420008681756
+Document: 8aefwki9                  Score: 1.0365427107845755
+Document: 0p480zhb                  Score: 1.0365427107845755
+Document: 9tqivs5f                  Score: 1.0164477669013539
+Document: b0wd2jd3                  Score: 1.0164477669013539
+Document: 60qmiwjm                  Score: 1.0126899637794606
+Document: delk2zeg                  Score: 0.9952007468931537
+Document: zytu7wue                  Score: 0.9402141320636896
+Document: 4pztbu51                  Score: 0.8978633458812366
+Document: 9u8mszad                  Score: 0.8937704999817516
+Document: e666nvl3                  Score: 0.8937704999817516
+Document: s5zr6tvk                  Score: 0.8937704999817516
+Document: znhsyiw6                  Score: 0.8937704999817516
+Document: tplf7fcj                  Score: 0.8937704999817516
+Document: i47fgp6q                  Score: 0.8937704999817516
+Document: e07vuojz                  Score: 0.8937704999817516
+Document: lf3djgx8                  Score: 0.8937704999817516
+Document: p7gbj751                  Score: 0.8937704999817516
+Document: lq1f53qv                  Score: 0.8937704999817516
+Document: 80vpn72e                  Score: 0.8937704999817516
+Document: 7xo4bwv9                  Score: 0.8937704999817516
+Document: 1yv3dk99                  Score: 0.8937704999817516
+Document: 79k1lx73                  Score: 0.8937704999817516
+Document: plz4fuz6                  Score: 0.8937704999817516
+Document: h5xetfm0                  Score: 0.8937704999817516
+Document: mkk3uuv4                  Score: 0.8937704999817516
+Document: j9kadxu9                  Score: 0.8937704999817516
+Document: j6ybcv93                  Score: 0.8937704999817516
 
  -> Query: coronavirus immunity
 
-Query latency: 0.022607088088989258
+Query latency: 0.027573585510253906 seconds
 
 Document: iu2ziccm                  Score: 1.4098402413418398
 Document: mjhez5im                  Score: 1.4098402413418398
@@ -50,10 +129,50 @@ Document: ukz73rp2                  Score: 1.4098402413418398
 Document: y4qz8dez                  Score: 1.4098402413418398
 Document: yv9or7cu                  Score: 1.4098402413418398
 Document: 33yyg2z5                  Score: 1.4098402413418398
+Document: 5dle3e3c                  Score: 1.4098402413418398
+Document: s2ia7avo                  Score: 1.4098402413418398
+Document: h9hjslvb                  Score: 1.4098402413418398
+Document: plede1kn                  Score: 1.4098402413418398
+Document: bs3j3nss                  Score: 1.4098402413418398
+Document: 4bf8eiix                  Score: 1.4098402413418398
+Document: k2mrd2rs                  Score: 1.4098402413418398
+Document: 19noki6p                  Score: 1.4098402413418398
+Document: dff7y6dr                  Score: 1.4098402413418398
+Document: k751ryv4                  Score: 1.4098402413418398
+Document: sva2otk4                  Score: 1.4098402413418398
+Document: tolikanw                  Score: 1.4098402413418398
+Document: 100ir651                  Score: 1.4098402413418398
+Document: 7598qcp0                  Score: 1.4098402413418398
+Document: jlfipzvt                  Score: 1.4098402413418398
+Document: cqc4fvbo                  Score: 1.4098402413418398
+Document: 0x6ctb3f                  Score: 1.4098402413418398
+Document: k6oq9lb6                  Score: 1.4098402413418398
+Document: odc5yx7g                  Score: 1.4098402413418398
+Document: 0bma2749                  Score: 1.4098402413418398
+Document: p350i54m                  Score: 1.4098402413418398
+Document: sa4rvzau                  Score: 1.4098402413418398
+Document: kzblr469                  Score: 1.4098402413418398
+Document: h1hriihu                  Score: 1.4098402413418398
+Document: d5v1iumx                  Score: 1.4098402413418398
+Document: xnqkqgvy                  Score: 1.4098402413418398
+Document: 0atk3n2f                  Score: 1.4098402413418398
+Document: yxwvchvu                  Score: 1.4098402413418398
+Document: 5zi1i54p                  Score: 1.4098402413418398
+Document: x4yqw0yl                  Score: 1.4098402413418398
+Document: ztvvh6wx                  Score: 1.4098402413418398
+Document: 1vimqhdp                  Score: 1.4098402413418398
+Document: 2klytw6c                  Score: 1.4098402413418398
+Document: 83x77xte                  Score: 1.4098402413418398
+Document: qi6qmgk2                  Score: 1.4098402413418398
+Document: l93978vq                  Score: 1.4098402413418398
+Document: p7rvupjo                  Score: 1.4098402413418398
+Document: 0kihygau                  Score: 1.4098402413418398
+Document: r9eum17i                  Score: 1.4098402413418398
+Document: jj2u35z4                  Score: 1.4098402413418398
 
  -> Query: how do people die from the coronavirus
 
-Query latency: 0.02723407745361328
+Query latency: 0.03337836265563965 seconds
 
 Document: g4mtpn2p                  Score: 1.6337560002614038
 Document: fmymklz6                  Score: 1.5688599388150661
@@ -65,10 +184,50 @@ Document: 3e31i6sn                  Score: 1.5688599388150661
 Document: ar9zp6fj                  Score: 1.5688599388150661
 Document: 7w9uqinh                  Score: 1.5431601106734638
 Document: sxbmd0df                  Score: 1.5431601106734638
+Document: 5nue46dm                  Score: 1.5431601106734638
+Document: vruq4r7z                  Score: 1.528352054093131
+Document: 0tetqt33                  Score: 1.4245980333145987
+Document: s9mqv4lo                  Score: 1.4245980333145987
+Document: b8s728nx                  Score: 1.3988982051729963
+Document: thnj9c8f                  Score: 1.37430253354075
+Document: dbzrd23n                  Score: 1.3532798890489406
+Document: qpt5dj8p                  Score: 1.3532798890489406
+Document: 0nm7wgf5                  Score: 1.3532798890489406
+Document: o2tjysfb                  Score: 1.3532798890489406
+Document: k19banyn                  Score: 1.3532798890489406
+Document: p0mmq1n2                  Score: 1.3532798890489406
+Document: dq0xu85c                  Score: 1.3532798890489406
+Document: 2vp35fwv                  Score: 1.3532798890489406
+Document: 6ofeit1e                  Score: 1.3532798890489406
+Document: otqcd9ba                  Score: 1.3532798890489406
+Document: owafe7qc                  Score: 1.3532798890489406
+Document: pjk5dkns                  Score: 1.3532798890489406
+Document: q4xh8xts                  Score: 1.3532798890489406
+Document: pwx27kdi                  Score: 1.3532798890489406
+Document: 6i9p58mi                  Score: 1.3532798890489406
+Document: c1oau8cf                  Score: 1.3532798890489406
+Document: uk5khcoz                  Score: 1.3532798890489406
+Document: jmrqvtvl                  Score: 1.3532798890489406
+Document: l492w2i2                  Score: 1.3532798890489406
+Document: ue6e3ua3                  Score: 1.3532798890489406
+Document: ndi53z0t                  Score: 1.2940423936512975
+Document: 5y1qgjr8                  Score: 1.2729899575152088
+Document: ursd3h22                  Score: 1.2090179835484731
+Document: hwkouyzd                  Score: 1.2090179835484731
+Document: 73q9w1py                  Score: 1.2090179835484731
+Document: b8l71xbq                  Score: 1.2090179835484731
+Document: iddn9onx                  Score: 1.2090179835484731
+Document: vy417a8w                  Score: 1.1844223119162267
+Document: g8h6cpzr                  Score: 1.1518880731022465
+Document: a14ltdnk                  Score: 1.1518880731022465
+Document: bz038f71                  Score: 1.1518880731022465
+Document: xuiswu2l                  Score: 1.1271520076730825
+Document: 1ul8owic                  Score: 1.117552141123096
+Document: 34oh1tm5                  Score: 1.117552141123096
 
  -> Query: animal models of COVID-19
 
-Query latency: 0.0410001277923584
+Query latency: 0.07228851318359375 seconds
 
 Document: iyv86437                  Score: 1.6670024910339318
 Document: p4q64ksa                  Score: 1.488159400850176
@@ -80,10 +239,50 @@ Document: 9il7coyk                  Score: 1.2606728612219542
 Document: 2inlyd0t                  Score: 1.257957231375695
 Document: erdity4m                  Score: 1.257957231375695
 Document: hq5um68k                  Score: 1.257957231375695
+Document: vvhhpchm                  Score: 1.257957231375695
+Document: 75k84bk1                  Score: 1.257957231375695
+Document: yv24g3ex                  Score: 1.257957231375695
+Document: 4vnheihi                  Score: 1.257957231375695
+Document: 73a7uvyz                  Score: 1.257957231375695
+Document: ydm77mhk                  Score: 1.2112466156091881
+Document: 25uy4lrw                  Score: 1.181992235699885
+Document: 86opxdjd                  Score: 1.181992235699885
+Document: 2vvqczj7                  Score: 1.181992235699885
+Document: ad3tct5b                  Score: 1.181992235699885
+Document: acmfhbtm                  Score: 1.181992235699885
+Document: owjgs6ja                  Score: 1.181992235699885
+Document: wynyrumi                  Score: 1.181992235699885
+Document: bc9retcq                  Score: 1.181992235699885
+Document: xckkdci1                  Score: 1.181992235699885
+Document: n7ylgqfu                  Score: 1.181992235699885
+Document: f03ka7bd                  Score: 1.181992235699885
+Document: fb8mca1h                  Score: 1.181992235699885
+Document: edu1zuzt                  Score: 1.181992235699885
+Document: j5sb3g1u                  Score: 1.181992235699885
+Document: qljywb1t                  Score: 1.181992235699885
+Document: lioj0tkn                  Score: 1.181992235699885
+Document: ptgpxpad                  Score: 1.181992235699885
+Document: 4xpkzx0h                  Score: 1.181992235699885
+Document: cktcol7e                  Score: 1.181992235699885
+Document: 96v185b2                  Score: 1.181992235699885
+Document: ubm8j1xe                  Score: 1.181992235699885
+Document: kwdvais7                  Score: 1.181992235699885
+Document: zknmfgsh                  Score: 1.1457364251323447
+Document: 6wdwrttn                  Score: 1.1457364251323447
+Document: nmpi5hun                  Score: 1.1457364251323447
+Document: aeogp8c7                  Score: 1.1457364251323447
+Document: szsb1oan                  Score: 1.1457364251323447
+Document: sjod3q3j                  Score: 1.0873480744186925
+Document: fn9b7adi                  Score: 1.0873480744186925
+Document: yuxb2jz9                  Score: 1.0791141411919392
+Document: smt0gi7a                  Score: 1.0791141411919392
+Document: ztcyvsoi                  Score: 1.0791141411919392
+Document: 9y4xl32d                  Score: 1.0756886074158998
+Document: asyrijyg                  Score: 1.0498675459347868
 
  -> Query: coronavirus test rapid testing
 
-Query latency: 0.049355268478393555
+Query latency: 0.08565449714660645 seconds
 
 Document: 7t41wvw3                  Score: 1.7027761540027098
 Document: hhsfq8bz                  Score: 1.7027761540027098
@@ -95,10 +294,50 @@ Document: 7a3wdduq                  Score: 1.7027761540027098
 Document: 6nrvqt6j                  Score: 1.7027761540027098
 Document: yzmt1e0l                  Score: 1.7027761540027098
 Document: fzi1ilpj                  Score: 1.7027761540027098
+Document: d5v1iumx                  Score: 1.7027761540027098
+Document: i5jg7mgo                  Score: 1.7027761540027098
+Document: mymamv27                  Score: 1.7027761540027098
+Document: 8pemuei4                  Score: 1.7027761540027098
+Document: upnixbu4                  Score: 1.7027761540027098
+Document: d5l5rpcr                  Score: 1.7027761540027098
+Document: y09kkm8d                  Score: 1.7027761540027098
+Document: uzfsv2df                  Score: 1.7027761540027098
+Document: akxfos29                  Score: 1.7027761540027098
+Document: 9ujofcsm                  Score: 1.7027761540027098
+Document: x4mafbtb                  Score: 1.7027761540027098
+Document: twog1fpj                  Score: 1.7027761540027098
+Document: cszqykpu                  Score: 1.6060344611857105
+Document: tb37l9yp                  Score: 1.6060344611857105
+Document: kbd2h4l0                  Score: 1.6060344611857105
+Document: fnj57b0l                  Score: 1.6060344611857105
+Document: 6xu7q927                  Score: 1.6060344611857105
+Document: 6g34qwer                  Score: 1.6060344611857105
+Document: dj9rs6me                  Score: 1.6060344611857105
+Document: fv4qonnf                  Score: 1.6060344611857105
+Document: 5ipj2z86                  Score: 1.6060344611857105
+Document: 0tetqt33                  Score: 1.6060344611857105
+Document: 99umkd7h                  Score: 1.6060344611857105
+Document: 8ruux4sw                  Score: 1.6060344611857105
+Document: 5afkr3uy                  Score: 1.6060344611857105
+Document: 7qk98wku                  Score: 1.6060344611857105
+Document: 796okubs                  Score: 1.6060344611857105
+Document: alu8q5l2                  Score: 1.6060344611857105
+Document: i4tevhqf                  Score: 1.6060344611857105
+Document: huan94tf                  Score: 1.6060344611857105
+Document: wbd0s4fo                  Score: 1.6060344611857105
+Document: rxyu2wwg                  Score: 1.6060344611857105
+Document: a0kguan3                  Score: 1.6060344611857105
+Document: kdcl99rp                  Score: 1.6060344611857105
+Document: l5phd2bp                  Score: 1.6060344611857105
+Document: m6t882fy                  Score: 1.6060344611857105
+Document: 7244u6e4                  Score: 1.6060344611857105
+Document: phxyx1r2                  Score: 1.6060344611857105
+Document: xxc7vdnt                  Score: 1.6060344611857105
+Document: my16g91c                  Score: 1.6060344611857105
 
  -> Query: serological tests for coronavirus
 
-Query latency: 0.0564274787902832
+Query latency: 0.09673380851745605 seconds
 
 Document: pxfwe67t                  Score: 1.5951499815693884
 Document: pbs95hy0                  Score: 1.5951499815693884
@@ -110,10 +349,50 @@ Document: 4ibh8tin                  Score: 1.5951499815693884
 Document: stao519y                  Score: 1.5951499815693884
 Document: fwgkpiex                  Score: 1.5951499815693884
 Document: fd41czxh                  Score: 1.5951499815693884
+Document: gho57ijh                  Score: 1.5951499815693884
+Document: jp9w1jcr                  Score: 1.5951499815693884
+Document: u6db53am                  Score: 1.5951499815693884
+Document: ksd3my1g                  Score: 1.5951499815693884
+Document: 4xhcamks                  Score: 1.5951499815693884
+Document: kwdvais7                  Score: 1.5951499815693884
+Document: q6tivb7h                  Score: 1.5951499815693884
+Document: yxtepbta                  Score: 1.5951499815693884
+Document: tb37l9yp                  Score: 1.5158252969512993
+Document: gunn55f9                  Score: 1.5158252969512993
+Document: 5148p1nx                  Score: 1.5158252969512993
+Document: c7ftvgio                  Score: 1.5158252969512993
+Document: eln8ljjj                  Score: 1.5158252969512993
+Document: nat8xl41                  Score: 1.5158252969512993
+Document: olyzmson                  Score: 1.5158252969512993
+Document: wkyh3x39                  Score: 1.5158252969512993
+Document: fddk5xrz                  Score: 1.5158252969512993
+Document: 5484r72t                  Score: 1.5158252969512993
+Document: qy2iqjcz                  Score: 1.5158252969512993
+Document: kdcl99rp                  Score: 1.5158252969512993
+Document: 45v1kbk2                  Score: 1.5158252969512993
+Document: d6y5s6ib                  Score: 1.5158252969512993
+Document: i936ad8e                  Score: 1.5158252969512993
+Document: uhi66unn                  Score: 1.5158252969512993
+Document: 1abp6oom                  Score: 1.5158252969512993
+Document: arjtjy53                  Score: 1.501571651954564
+Document: 1awz5712                  Score: 1.501571651954564
+Document: dzmw20fq                  Score: 1.501571651954564
+Document: 6i66zf0e                  Score: 1.501571651954564
+Document: 88nihy7q                  Score: 1.4844115144098513
+Document: 7zu8dm94                  Score: 1.4844115144098513
+Document: pb47bs1t                  Score: 1.4844115144098513
+Document: nbb6an14                  Score: 1.4844115144098513
+Document: d3bvhhig                  Score: 1.4844115144098513
+Document: 2t0ba8m8                  Score: 1.466311118301637
+Document: yuomsrss                  Score: 1.466311118301637
+Document: ws6kda16                  Score: 1.466311118301637
+Document: rbn3foj3                  Score: 1.466311118301637
+Document: msz16zh8                  Score: 1.4645132090339894
+Document: uy3s6443                  Score: 1.4645132090339894
 
  -> Query: coronavirus under reporting
 
-Query latency: 0.0635690689086914
+Query latency: 0.1074824333190918 seconds
 
 Document: j5gjipdn                  Score: 1.4130448408965592
 Document: f1ixbzx8                  Score: 1.4130448408965592
@@ -125,10 +404,50 @@ Document: py6qu4tl                  Score: 1.4130448408965592
 Document: juiomzb3                  Score: 1.4130448408965592
 Document: 6u9q0ox9                  Score: 1.4130448408965592
 Document: o7pz0rst                  Score: 1.4130448408965592
+Document: oknxic4q                  Score: 1.4130448408965592
+Document: x2bl5lcn                  Score: 1.4130448408965592
+Document: nav88l73                  Score: 1.4130448408965592
+Document: goqgv2cc                  Score: 1.4130448408965592
+Document: kqanoog7                  Score: 1.4130448408965592
+Document: 1s0exznp                  Score: 1.4130448408965592
+Document: ragcpbl6                  Score: 1.4130448408965592
+Document: nbu6bsb3                  Score: 1.4130448408965592
+Document: 9tgnx7du                  Score: 1.4130448408965592
+Document: m9icky9z                  Score: 1.4130448408965592
+Document: 7reqkx3h                  Score: 1.4130448408965592
+Document: qmg58cgr                  Score: 1.4130448408965592
+Document: utlponna                  Score: 1.4130448408965592
+Document: e2p46wa8                  Score: 1.4130448408965592
+Document: wuvry51z                  Score: 1.4130448408965592
+Document: it4ka7v0                  Score: 1.4130448408965592
+Document: q4i9kh65                  Score: 1.4130448408965592
+Document: ha9fn3pr                  Score: 1.4130448408965592
+Document: kgkcgpmq                  Score: 1.4130448408965592
+Document: j181i5pr                  Score: 1.4130448408965592
+Document: rike3ukb                  Score: 1.4130448408965592
+Document: qebbkr6d                  Score: 1.4130448408965592
+Document: mlo8zypy                  Score: 1.4130448408965592
+Document: y353snxw                  Score: 1.4130448408965592
+Document: 42pjc0lo                  Score: 1.4130448408965592
+Document: aa7slcnc                  Score: 1.4130448408965592
+Document: 5hpbjkft                  Score: 1.4130448408965592
+Document: grx4gx95                  Score: 1.4130448408965592
+Document: ebbzx8yr                  Score: 1.4130448408965592
+Document: rr8qet8c                  Score: 1.4130448408965592
+Document: yx8b2moc                  Score: 1.4130448408965592
+Document: tg5wbwf9                  Score: 1.4130448408965592
+Document: wx0nhx8i                  Score: 1.4130448408965592
+Document: qljywb1t                  Score: 1.4130448408965592
+Document: mzcajw8c                  Score: 1.4130448408965592
+Document: 7h1wg0oa                  Score: 1.4130448408965592
+Document: 7a3wdduq                  Score: 1.4130448408965592
+Document: amg5dice                  Score: 1.4130448408965592
+Document: fvp45ho6                  Score: 1.4130448408965592
+Document: 33yyg2z5                  Score: 1.4130448408965592
 
  -> Query: coronavirus in Canada
 
-Query latency: 0.06762337684631348
+Query latency: 0.11523103713989258 seconds
 
 Document: do5c85ad                  Score: 1.2582047074426561
 Document: nyocnvvj                  Score: 1.2582047074426561
@@ -140,10 +459,50 @@ Document: jiz0oyx8                  Score: 1.2582047074426561
 Document: pk6ji4nj                  Score: 1.2582047074426561
 Document: c0bf5iab                  Score: 1.2582047074426561
 Document: wu1ygt6w                  Score: 1.2582047074426561
+Document: j2br2ytx                  Score: 1.2582047074426561
+Document: t8h4vtur                  Score: 1.2582047074426561
+Document: yticn7gg                  Score: 1.2582047074426561
+Document: ys8qnytd                  Score: 1.2582047074426561
+Document: s79jvdkp                  Score: 1.2582047074426561
+Document: gynt4uml                  Score: 1.2582047074426561
+Document: eed4v2jl                  Score: 1.2582047074426561
+Document: oufi7w1d                  Score: 1.2582047074426561
+Document: v7z62tld                  Score: 1.2582047074426561
+Document: gvosriwx                  Score: 1.2582047074426561
+Document: 9g3a0zas                  Score: 1.2582047074426561
+Document: u01qv3uc                  Score: 1.2582047074426561
+Document: ihq2cpe6                  Score: 1.2582047074426561
+Document: 2io1j971                  Score: 1.2582047074426561
+Document: t4w4pw12                  Score: 1.2582047074426561
+Document: 7ua6t2aw                  Score: 1.2582047074426561
+Document: 7oeaexqo                  Score: 1.2582047074426561
+Document: e220ut9u                  Score: 1.1873439063844
+Document: nkxojtvb                  Score: 1.1873439063844
+Document: 6o7j5k9n                  Score: 1.1873439063844
+Document: yy8f30c5                  Score: 1.1873439063844
+Document: i1pl0uw1                  Score: 1.1873439063844
+Document: ly42p6gr                  Score: 1.1873439063844
+Document: 3evttl1u                  Score: 1.1873439063844
+Document: gqkg325b                  Score: 1.1873439063844
+Document: s00gvgwx                  Score: 1.1873439063844
+Document: djclli8n                  Score: 1.1873439063844
+Document: ewdfqktw                  Score: 1.1873439063844
+Document: ou4somp2                  Score: 1.1873439063844
+Document: iyv86437                  Score: 1.1873439063844
+Document: h7t7kvrp                  Score: 1.1592819505647955
+Document: 53l0yw16                  Score: 1.1592819505647955
+Document: rxrlbw60                  Score: 1.1322088048192953
+Document: nvilxnzl                  Score: 1.1322088048192953
+Document: sl5zy8nj                  Score: 1.1322088048192953
+Document: znm5ibc1                  Score: 1.1241818371148897
+Document: 8f2r1d14                  Score: 1.0379443515036328
+Document: adf5ttfd                  Score: 1.0379443515036328
+Document: bh5csogu                  Score: 1.0379443515036328
+Document: up81jotp                  Score: 1.0379443515036328
 
  -> Query: coronavirus social distancing impact
 
-Query latency: 0.07373166084289551
+Query latency: 0.1238701343536377 seconds
 
 Document: qrzt4zva                  Score: 1.8320508362211414
 Document: 5y1qgjr8                  Score: 1.8320508362211414
@@ -155,10 +514,50 @@ Document: h51zr96k                  Score: 1.6515194890796567
 Document: 5ghslfgt                  Score: 1.6515194890796567
 Document: e2p46wa8                  Score: 1.5977460052257944
 Document: i46n70gb                  Score: 1.5580440423404476
+Document: 1z4vbldd                  Score: 1.5580440423404476
+Document: movwhsc9                  Score: 1.5580440423404476
+Document: msp7p2ef                  Score: 1.5580440423404476
+Document: bjwkibz8                  Score: 1.521026342604638
+Document: gxeozzl8                  Score: 1.521026342604638
+Document: jtwb17u8                  Score: 1.5168208608433056
+Document: 2kv1ho3a                  Score: 1.5168208608433056
+Document: z7a3g6e8                  Score: 1.4824020274240204
+Document: xsqgrd5l                  Score: 1.4824020274240204
+Document: nku844kt                  Score: 1.4824020274240204
+Document: 6sgeraws                  Score: 1.4824020274240204
+Document: rh88lod0                  Score: 1.4824020274240204
+Document: fhwgdfry                  Score: 1.4327424686698031
+Document: 02qvv8le                  Score: 1.4280566767768066
+Document: rlsdznmv                  Score: 1.4280566767768066
+Document: we62087x                  Score: 1.4280566767768066
+Document: f3ikyl9d                  Score: 1.4280566767768066
+Document: 7mcfehzc                  Score: 1.4280566767768066
+Document: ht88wu6s                  Score: 1.4280566767768066
+Document: eymqlbix                  Score: 1.4280566767768066
+Document: 15bf0i7j                  Score: 1.4040924889342379
+Document: e36mlout                  Score: 1.3941345072317284
+Document: 52kqp9yw                  Score: 1.364963678529671
+Document: 517gka4h                  Score: 1.3628693074370961
+Document: g3odc7da                  Score: 1.3628693074370961
+Document: y39choxg                  Score: 1.3628693074370961
+Document: tpjxt0w5                  Score: 1.304238401150882
+Document: 9ezhwvv9                  Score: 1.3019021489301974
+Document: nf7qk8fx                  Score: 1.2933580485404557
+Document: utlponna                  Score: 1.279678727121814
+Document: 98jz8tox                  Score: 1.2693938606978872
+Document: s21obnqy                  Score: 1.2693938606978872
+Document: y01w04lc                  Score: 1.2693938606978872
+Document: o8zh8nl1                  Score: 1.2498930505036685
+Document: ngbfiws5                  Score: 1.248559441847021
+Document: ytsqfqvh                  Score: 1.248559441847021
+Document: vw3h1m5y                  Score: 1.247525329635322
+Document: 87pamw52                  Score: 1.247525329635322
+Document: uq4eobf0                  Score: 1.247525329635322
+Document: czpz3yh2                  Score: 1.247525329635322
 
  -> Query: coronavirus hospital rationing
 
-Query latency: 0.0792536735534668
+Query latency: 0.1310722827911377 seconds
 
 Document: wu1ygt6w                  Score: 1.577818762323088
 Document: x8tcmtpj                  Score: 1.2970266183486063
@@ -170,10 +569,50 @@ Document: 8mvsqh6t                  Score: 1.1521602139030402
 Document: asbnfwm0                  Score: 1.1521602139030402
 Document: mp3a9c9u                  Score: 1.1293263864655294
 Document: ee63ehmg                  Score: 1.1293263864655294
+Document: 4um88wpu                  Score: 1.1293263864655294
+Document: lal14r4s                  Score: 1.1293263864655294
+Document: eh8k8y4c                  Score: 1.1293263864655294
+Document: 0pmo3opx                  Score: 1.1293263864655294
+Document: ztvvh6wx                  Score: 1.1293263864655294
+Document: agv5puqx                  Score: 1.1293263864655294
+Document: 6o2upns3                  Score: 1.1293263864655294
+Document: 61ka5y7n                  Score: 1.1293263864655294
+Document: l56gdz3w                  Score: 1.1293263864655294
+Document: yjgjte2s                  Score: 1.1293263864655294
+Document: x3at6mgp                  Score: 1.1293263864655294
+Document: tpnvmltu                  Score: 1.1293263864655294
+Document: c3gfykvo                  Score: 1.1293263864655294
+Document: z6btg84v                  Score: 1.1293263864655294
+Document: awyln0kk                  Score: 1.1293263864655294
+Document: 430lcget                  Score: 1.1293263864655294
+Document: r0r6sqxp                  Score: 1.1293263864655294
+Document: egp4t82x                  Score: 1.1293263864655294
+Document: 3egv50vb                  Score: 1.1293263864655294
+Document: riq8p5u0                  Score: 1.1293263864655294
+Document: 4hqhty5o                  Score: 1.1293263864655294
+Document: k5leys8j                  Score: 1.12848154676509
+Document: 4qrg6lqu                  Score: 1.12848154676509
+Document: jnw3er89                  Score: 1.12848154676509
+Document: 3ftxnao6                  Score: 1.12848154676509
+Document: 9g5iw056                  Score: 1.1125132266478845
+Document: 99123nrx                  Score: 1.1006942815161578
+Document: bj142e9b                  Score: 1.064357201923416
+Document: 10wcqgaq                  Score: 1.064357201923416
+Document: x86d5pvb                  Score: 1.064357201923416
+Document: acru849v                  Score: 1.064357201923416
+Document: 86ltgee4                  Score: 1.064357201923416
+Document: ea9cvzuu                  Score: 1.064357201923416
+Document: d2xd9sn0                  Score: 1.064357201923416
+Document: rxyu2wwg                  Score: 1.064357201923416
+Document: 6fk3nsyp                  Score: 1.064357201923416
+Document: n9pqd30o                  Score: 1.064357201923416
+Document: p8cr1jq2                  Score: 1.064357201923416
+Document: 62s0ttgc                  Score: 1.064357201923416
+Document: l5phd2bp                  Score: 1.064357201923416
 
  -> Query: coronavirus quarantine
 
-Query latency: 0.08326554298400879
+Query latency: 0.13600540161132812 seconds
 
 Document: u8goc7io                  Score: 1.2626206578017847
 Document: ssdx8xwi                  Score: 1.2626206578017847
@@ -185,10 +624,50 @@ Document: utlponna                  Score: 1.2626206578017847
 Document: v6wt9mhh                  Score: 1.2626206578017847
 Document: r9itwxcp                  Score: 1.2626206578017847
 Document: ha9fn3pr                  Score: 1.2626206578017847
+Document: a0pf12jo                  Score: 1.2626206578017847
+Document: 7a3wdduq                  Score: 1.2626206578017847
+Document: ghcbttba                  Score: 1.2626206578017847
+Document: pq75mafr                  Score: 1.2626206578017847
+Document: 6yfj4co0                  Score: 1.2626206578017847
+Document: 6q8afty7                  Score: 1.2626206578017847
+Document: vpy3yzmr                  Score: 1.2626206578017847
+Document: mr851682                  Score: 1.2626206578017847
+Document: q8p187qx                  Score: 1.2626206578017847
+Document: up81jotp                  Score: 1.2626206578017847
+Document: wg4dwp6w                  Score: 1.2626206578017847
+Document: y0tyyrbt                  Score: 1.2626206578017847
+Document: 1eelddua                  Score: 1.2626206578017847
+Document: sf55n6kf                  Score: 1.2626206578017847
+Document: 120gugtu                  Score: 1.2626206578017847
+Document: 4zzu7480                  Score: 1.2626206578017847
+Document: ziepfnpz                  Score: 1.2626206578017847
+Document: ihq2cpe6                  Score: 1.2626206578017847
+Document: 2io1j971                  Score: 1.2626206578017847
+Document: zl5mhuth                  Score: 1.2626206578017847
+Document: k3f7ohzg                  Score: 1.2626206578017847
+Document: ykofrn9i                  Score: 1.190244985740223
+Document: ra3t6kmm                  Score: 1.190244985740223
+Document: 45g12waw                  Score: 1.190244985740223
+Document: w4zad1zt                  Score: 1.190244985740223
+Document: ibx89gqw                  Score: 1.190244985740223
+Document: fmymklz6                  Score: 1.190244985740223
+Document: 8o3l3rsf                  Score: 1.190244985740223
+Document: eoxrh2sl                  Score: 1.190244985740223
+Document: 8ozauxlk                  Score: 1.190244985740223
+Document: we62087x                  Score: 1.190244985740223
+Document: rfni76sv                  Score: 1.190244985740223
+Document: qdmuhxaw                  Score: 1.190244985740223
+Document: 56zhxd6e                  Score: 1.190244985740223
+Document: 030bc0h3                  Score: 1.190244985740223
+Document: m04kky95                  Score: 1.190244985740223
+Document: e5nxkvo7                  Score: 1.190244985740223
+Document: 9qq42zag                  Score: 1.190244985740223
+Document: 5y1qgjr8                  Score: 1.190244985740223
+Document: 4bdusuqq                  Score: 1.190244985740223
 
  -> Query: how does coronavirus spread
 
-Query latency: 0.08832335472106934
+Query latency: 0.14324402809143066 seconds
 
 Document: 59rcogfc                  Score: 1.373644794127245
 Document: e85xdrcw                  Score: 1.373644794127245
@@ -200,10 +679,50 @@ Document: 5xki1ulf                  Score: 1.373644794127245
 Document: dbwfn27p                  Score: 1.373644794127245
 Document: tzdgc3dw                  Score: 1.373644794127245
 Document: zvngy7zz                  Score: 1.373644794127245
+Document: 4ah705nc                  Score: 1.373644794127245
+Document: 9j5yda3k                  Score: 1.373644794127245
+Document: x2bl5lcn                  Score: 1.373644794127245
+Document: p4q64ksa                  Score: 1.373644794127245
+Document: dc8mbllr                  Score: 1.373644794127245
+Document: w9a0jopu                  Score: 1.373644794127245
+Document: ragcpbl6                  Score: 1.373644794127245
+Document: sjod3q3j                  Score: 1.373644794127245
+Document: dqxfcwyu                  Score: 1.373644794127245
+Document: rr7r7ef0                  Score: 1.373644794127245
+Document: cr0s5d1j                  Score: 1.373644794127245
+Document: yk9u4fvp                  Score: 1.373644794127245
+Document: ry3m6x8c                  Score: 1.373644794127245
+Document: mp3a9c9u                  Score: 1.373644794127245
+Document: p3dex2to                  Score: 1.373644794127245
+Document: tne83uu0                  Score: 1.373644794127245
+Document: 7reqkx3h                  Score: 1.373644794127245
+Document: mrsya6wz                  Score: 1.373644794127245
+Document: utlponna                  Score: 1.373644794127245
+Document: wynyrumi                  Score: 1.373644794127245
+Document: e2p46wa8                  Score: 1.373644794127245
+Document: fcvstps9                  Score: 1.373644794127245
+Document: 1uqjmeic                  Score: 1.373644794127245
+Document: v6wt9mhh                  Score: 1.373644794127245
+Document: wuvry51z                  Score: 1.373644794127245
+Document: it4ka7v0                  Score: 1.373644794127245
+Document: q4i9kh65                  Score: 1.373644794127245
+Document: e8qubwha                  Score: 1.373644794127245
+Document: pc16duhj                  Score: 1.373644794127245
+Document: 0xzsa21a                  Score: 1.373644794127245
+Document: wxm8kqnd                  Score: 1.373644794127245
+Document: qebbkr6d                  Score: 1.373644794127245
+Document: s956fh59                  Score: 1.373644794127245
+Document: aa7slcnc                  Score: 1.373644794127245
+Document: 5hpbjkft                  Score: 1.373644794127245
+Document: fk2wc715                  Score: 1.373644794127245
+Document: nnlynjoy                  Score: 1.373644794127245
+Document: fuqtwn5a                  Score: 1.373644794127245
+Document: fq11rhab                  Score: 1.373644794127245
+Document: y7giefdw                  Score: 1.373644794127245
 
  -> Query: coronavirus super spreaders
 
-Query latency: 0.09287214279174805
+Query latency: 0.14826226234436035 seconds
 
 Document: 901m6zw0                  Score: 1.555088019998251
 Document: 82d0s6po                  Score: 1.555088019998251
@@ -215,10 +734,50 @@ Document: px0twvhs                  Score: 1.3907308061466777
 Document: bjx5td52                  Score: 1.3907308061466777
 Document: c1a957ef                  Score: 1.3907308061466777
 Document: g381rbsq                  Score: 1.3907308061466777
+Document: 7gd3hjc3                  Score: 1.3907308061466777
+Document: 1tklz3jf                  Score: 1.3907308061466777
+Document: 6imw1l2e                  Score: 1.3907308061466777
+Document: cwcnov7s                  Score: 1.3907308061466777
+Document: gmpsniqt                  Score: 1.3907308061466777
+Document: xgp2vx6o                  Score: 1.1952745326249077
+Document: yp38t4yb                  Score: 1.1102365340649778
+Document: oen0ycsr                  Score: 1.0822676643110378
+Document: mz5gdb59                  Score: 1.068945997234228
+Document: 75pu449b                  Score: 1.068945997234228
+Document: a95hh4yk                  Score: 1.068945997234228
+Document: r6bzrkhg                  Score: 0.9763755493541726
+Document: 2wc1bxi1                  Score: 0.9535546454311121
+Document: 414grqif                  Score: 0.9535546454311121
+Document: dqkjofw2                  Score: 0.9415143148898899
+Document: v5egtgdo                  Score: 0.9351384585517556
+Document: o7pz0rst                  Score: 0.9141313417411312
+Document: q9lfnu6s                  Score: 0.9076742751227105
+Document: av8ww9fd                  Score: 0.9042748893152561
+Document: j74wnaef                  Score: 0.8848533711996502
+Document: eh8k8y4c                  Score: 0.8053138921086933
+Document: wu1ygt6w                  Score: 0.8053138921086933
+Document: s2d3q4ob                  Score: 0.8053138921086933
+Document: etl9uwt7                  Score: 0.7672852136477998
+Document: ds6x0yym                  Score: 0.7672852136477998
+Document: sdd6lvqv                  Score: 0.7672852136477998
+Document: s00gvgwx                  Score: 0.7672852136477998
+Document: y4we4rrk                  Score: 0.752225278127593
+Document: 0vu7bobr                  Score: 0.752225278127593
+Document: 6id8rb35                  Score: 0.752225278127593
+Document: gtajz6jr                  Score: 0.752225278127593
+Document: mrz3s90w                  Score: 0.7497741278895578
+Document: zv0rrvo0                  Score: 0.7497741278895578
+Document: 0nj1hmma                  Score: 0.7497741278895578
+Document: gdmp0re0                  Score: 0.6570104811807461
+Document: z6pvn9lr                  Score: 0.6409566782571199
+Document: nr8fwc8q                  Score: 0.6409566782571199
+Document: mj1lf9qs                  Score: 0.6409566782571199
+Document: svn4e6w6                  Score: 0.6409566782571199
+Document: d59xyjzr                  Score: 0.6409566782571199
 
  -> Query: coronavirus outside body
 
-Query latency: 0.09752607345581055
+Query latency: 0.1538386344909668 seconds
 
 Document: hgau3922                  Score: 1.6174526892292809
 Document: zg17f7bd                  Score: 1.6174526892292809
@@ -230,10 +789,50 @@ Document: m1v9q7gk                  Score: 1.3573885017808878
 Document: 387htidy                  Score: 1.3573885017808878
 Document: 4g85h6ta                  Score: 1.3573885017808878
 Document: khqx4t4q                  Score: 1.3573885017808878
+Document: er9kqdjw                  Score: 1.3573885017808878
+Document: mkk3uuv4                  Score: 1.3573885017808878
+Document: 4uyodkt8                  Score: 1.3573885017808878
+Document: vhnzb48q                  Score: 1.3573885017808878
+Document: xjbz9fw9                  Score: 1.3573885017808878
+Document: a1bar62m                  Score: 1.3573885017808878
+Document: dkncpt8g                  Score: 1.3573885017808878
+Document: 4p68aym1                  Score: 1.3573885017808878
+Document: ti9b1etu                  Score: 1.2432093761249625
+Document: y2nhss9u                  Score: 1.2176022507946012
+Document: vkhg20he                  Score: 1.2176022507946012
+Document: b22cioi2                  Score: 1.2176022507946012
+Document: rdb4xpyc                  Score: 1.108837898283289
+Document: 9wh2ahst                  Score: 1.0433183756752233
+Document: fk4um9nw                  Score: 1.0433183756752233
+Document: u8goc7io                  Score: 1.013306563812673
+Document: 2wshgzjk                  Score: 1.013306563812673
+Document: juiomzb3                  Score: 1.013306563812673
+Document: lvjveaob                  Score: 1.013306563812673
+Document: qg2o0ug4                  Score: 1.013306563812673
+Document: cr0s5d1j                  Score: 1.013306563812673
+Document: e8qubwha                  Score: 1.013306563812673
+Document: j181i5pr                  Score: 1.013306563812673
+Document: y7giefdw                  Score: 1.013306563812673
+Document: vsqaxqy4                  Score: 1.013306563812673
+Document: m5k28kbu                  Score: 1.013306563812673
+Document: 7mldvo3j                  Score: 1.013306563812673
+Document: atsuh8e2                  Score: 1.013306563812673
+Document: ec8lpgl3                  Score: 1.013306563812673
+Document: pxfrh4a1                  Score: 1.013306563812673
+Document: 91kk1w2g                  Score: 1.013306563812673
+Document: rcokhn8h                  Score: 1.013306563812673
+Document: sk72rr8h                  Score: 1.013306563812673
+Document: vyh77o4f                  Score: 1.013306563812673
+Document: nibm7xho                  Score: 1.013306563812673
+Document: uiou7c2b                  Score: 1.013306563812673
+Document: pztrwvib                  Score: 1.013306563812673
+Document: 82d0s6po                  Score: 1.013306563812673
+Document: tbu13dvf                  Score: 1.013306563812673
+Document: r8molh8c                  Score: 1.013306563812673
 
  -> Query: how long does coronavirus survive on surfaces
 
-Query latency: 0.10432124137878418
+Query latency: 0.16249704360961914 seconds
 
 Document: 2chmny8w                  Score: 1.6587852833908807
 Document: 52c4xhiw                  Score: 1.6124868049125047
@@ -245,10 +844,50 @@ Document: bicg5ozr                  Score: 1.4244536242360037
 Document: xuj99v5x                  Score: 1.4011352194580708
 Document: opa4ddpe                  Score: 1.359884028753152
 Document: x1wemzgn                  Score: 1.359884028753152
+Document: yylu7jpf                  Score: 1.3365656239752193
+Document: tjplc5j6                  Score: 1.3295183876123366
+Document: 00j8iq73                  Score: 1.3291771694662327
+Document: i3mebqtq                  Score: 1.3291771694662327
+Document: hc0ma2cq                  Score: 1.3291771694662327
+Document: 8s9671zf                  Score: 1.310995081324426
+Document: esjfuivf                  Score: 1.3002694173398808
+Document: o5dx4zci                  Score: 1.3002694173398808
+Document: gq0u67sn                  Score: 1.2836198923103086
+Document: hgau3922                  Score: 1.2836198923103086
+Document: naj7hytj                  Score: 1.282346383393202
+Document: 9whpjlt7                  Score: 1.282346383393202
+Document: 5an7836u                  Score: 1.282346383393202
+Document: eufdzgp2                  Score: 1.264607573983381
+Document: eblj0qw6                  Score: 1.264607573983381
+Document: jljpb7rv                  Score: 1.264607573983381
+Document: 3dms6e06                  Score: 1.264607573983381
+Document: q0hupvz2                  Score: 1.264607573983381
+Document: 50gce6f1                  Score: 1.264607573983381
+Document: w9rqnz9h                  Score: 1.2390370313325878
+Document: 1aqt65cc                  Score: 1.224303468124443
+Document: kdbggt42                  Score: 1.2143675096347157
+Document: qz68gtd4                  Score: 1.2114912948907455
+Document: xdg5mkum                  Score: 1.1843307903565616
+Document: jtgcj91t                  Score: 1.158184493112576
+Document: 90qq0xsw                  Score: 1.1516737750095996
+Document: u8ned7rr                  Score: 1.145818737918512
+Document: pxvdx7p2                  Score: 1.1453884754431551
+Document: pqmaays5                  Score: 1.1453884754431551
+Document: 4s71mh8j                  Score: 1.1453884754431551
+Document: l3ej1hdk                  Score: 1.1453884754431551
+Document: 0aiaklrn                  Score: 1.1453884754431551
+Document: vnwpzsu8                  Score: 1.1453884754431551
+Document: d2l6joyl                  Score: 1.1453884754431551
+Document: 7wndr785                  Score: 1.1453884754431551
+Document: ey9kc7zj                  Score: 1.1453884754431551
+Document: bbqx2lxw                  Score: 1.1453884754431551
+Document: hayvqf7u                  Score: 1.1453884754431551
+Document: qgjrsos6                  Score: 1.1453884754431551
+Document: 113bnmlr                  Score: 1.1453884754431551
 
  -> Query: coronavirus clinical trials
 
-Query latency: 0.1140756607055664
+Query latency: 0.17268061637878418 seconds
 
 Document: qebbkr6d                  Score: 1.6014929431044251
 Document: h10o18ss                  Score: 1.6014929431044251
@@ -260,10 +899,50 @@ Document: xg5ao1y5                  Score: 1.6014929431044251
 Document: b44qnmbm                  Score: 1.6014929431044251
 Document: pnpaqchs                  Score: 1.6014929431044251
 Document: do9r8q84                  Score: 1.6014929431044251
+Document: izdl0f2i                  Score: 1.6014929431044251
+Document: hqgwj8vs                  Score: 1.6014929431044251
+Document: 3jnszsrg                  Score: 1.6014929431044251
+Document: ghox6gur                  Score: 1.6014929431044251
+Document: mivxm8oh                  Score: 1.6014929431044251
+Document: h7xawgn4                  Score: 1.6014929431044251
+Document: naxyw03d                  Score: 1.6014929431044251
+Document: jgvgk9x2                  Score: 1.6014929431044251
+Document: yfxncid8                  Score: 1.6014929431044251
+Document: ue7v0yab                  Score: 1.6014929431044251
+Document: v8wqhyf5                  Score: 1.6014929431044251
+Document: b4rnvxfk                  Score: 1.6014929431044251
+Document: 7jnw66gk                  Score: 1.6014929431044251
+Document: x107b4kq                  Score: 1.6014929431044251
+Document: vevsgkp6                  Score: 1.6014929431044251
+Document: 38d6gb7o                  Score: 1.516401979135694
+Document: tuhesrpb                  Score: 1.516401979135694
+Document: 4bdusuqq                  Score: 1.516401979135694
+Document: xyd3iao9                  Score: 1.516401979135694
+Document: az1puj81                  Score: 1.516401979135694
+Document: nror02j6                  Score: 1.516401979135694
+Document: ol0bj3hs                  Score: 1.516401979135694
+Document: huan94tf                  Score: 1.516401979135694
+Document: c1pjt9ek                  Score: 1.516401979135694
+Document: cy45w8vq                  Score: 1.516401979135694
+Document: 48ednoqc                  Score: 1.516401979135694
+Document: ovrc2sjl                  Score: 1.516401979135694
+Document: dshatfok                  Score: 1.516401979135694
+Document: ixzymz8a                  Score: 1.516401979135694
+Document: qbu13jgc                  Score: 1.516401979135694
+Document: 2jq626ye                  Score: 1.516401979135694
+Document: 2178imf2                  Score: 1.5114499973860505
+Document: hc9n0u5s                  Score: 1.5114499973860505
+Document: jyw9srf7                  Score: 1.5114499973860505
+Document: 4sbg8kfj                  Score: 1.5114499973860505
+Document: qryvs5yp                  Score: 1.5114499973860505
+Document: lgnhlxgd                  Score: 1.5114499973860505
+Document: vi51uons                  Score: 1.4827046622005522
+Document: 7dah95yc                  Score: 1.4827046622005522
+Document: rbye73yv                  Score: 1.4827046622005522
 
  -> Query: masks prevent coronavirus
 
-Query latency: 0.12039494514465332
+Query latency: 0.1804208755493164 seconds
 
 Document: arjtjy53                  Score: 1.550673210817421
 Document: sf55n6kf                  Score: 1.550673210817421
@@ -275,10 +954,50 @@ Document: eufdzgp2                  Score: 1.4850997369945578
 Document: 98e02f3b                  Score: 1.4850997369945578
 Document: vo49287v                  Score: 1.4850997369945578
 Document: zrdsr3nh                  Score: 1.4850997369945578
+Document: nku844kt                  Score: 1.4599542256850022
+Document: h0vmnxgc                  Score: 1.4591316432406871
+Document: tku1dr32                  Score: 1.4441690139393564
+Document: apc0lm5e                  Score: 1.4441690139393564
+Document: ht88wu6s                  Score: 1.394380751862139
+Document: edmkp8n5                  Score: 1.394380751862139
+Document: zwh1xj5u                  Score: 1.394380751862139
+Document: wrjoxgcc                  Score: 1.3481736730590617
+Document: 1mu1z4xd                  Score: 1.3254681158112187
+Document: sysxn8qo                  Score: 1.3055175040848659
+Document: m5h19hy6                  Score: 1.297826376490494
+Document: 5lb2u8vb                  Score: 1.2679807737804651
+Document: ytsqfqvh                  Score: 1.2672693720230273
+Document: 3tfp9hug                  Score: 1.2672693720230273
+Document: 2basllfv                  Score: 1.2672693720230273
+Document: 29jiro0p                  Score: 1.2672693720230273
+Document: dg10rf2f                  Score: 1.2672693720230273
+Document: 9fuiind8                  Score: 1.2672693720230273
+Document: l42klpz6                  Score: 1.2672693720230273
+Document: qun1kyvw                  Score: 1.2672693720230273
+Document: b4l7b7vp                  Score: 1.2672693720230273
+Document: 5ucemm87                  Score: 1.2672693720230273
+Document: nekwhdln                  Score: 1.2672693720230273
+Document: mf20qo4s                  Score: 1.2672693720230273
+Document: gw2cow0d                  Score: 1.2672693720230273
+Document: 5bjkn2j2                  Score: 1.2672693720230273
+Document: 4bgs1awq                  Score: 1.2672693720230273
+Document: bjwohra0                  Score: 1.2672693720230273
+Document: b264k3gy                  Score: 1.2672693720230273
+Document: 21hgpngs                  Score: 1.2672693720230273
+Document: ej3xqpc0                  Score: 1.2672693720230273
+Document: v1ey298e                  Score: 1.2672693720230273
+Document: t8y6dvjt                  Score: 1.2672693720230273
+Document: rygx2d3u                  Score: 1.2672693720230273
+Document: x0q0vvbb                  Score: 1.2672693720230273
+Document: 89om8wvi                  Score: 1.2672693720230273
+Document: axyvzyen                  Score: 1.2672693720230273
+Document: rgho1osi                  Score: 1.2672693720230273
+Document: mp9g41ai                  Score: 1.2672693720230273
+Document: 9s94o7i0                  Score: 1.2672693720230273
 
  -> Query: what alcohol sanitizer kills coronavirus
 
-Query latency: 0.12451767921447754
+Query latency: 0.18532562255859375 seconds
 
 Document: lyewg2c9                  Score: 1.4171417787769995
 Document: vzqrxj2w                  Score: 1.2199050543535863
@@ -290,10 +1009,50 @@ Document: mcmazu1v                  Score: 0.9484741352954993
 Document: jlvcebhn                  Score: 0.9456963237771702
 Document: 706bf8qr                  Score: 0.9376456026526947
 Document: 1zzyfmkb                  Score: 0.9329105337870516
+Document: rike3ukb                  Score: 0.7861097336443243
+Document: pxfrh4a1                  Score: 0.7861097336443243
+Document: r9dleue6                  Score: 0.7861097336443243
+Document: 5wrj838n                  Score: 0.7861097336443243
+Document: 77b8ocfc                  Score: 0.7861097336443243
+Document: gt2g1but                  Score: 0.7830979279954577
+Document: yypg4iqh                  Score: 0.7528275781844518
+Document: 1vimqhdp                  Score: 0.7528275781844518
+Document: mf0k7h27                  Score: 0.7528275781844518
+Document: il3g34k6                  Score: 0.734584826499346
+Document: 0cjlppkp                  Score: 0.715919021346985
+Document: x11dr866                  Score: 0.715919021346985
+Document: 4yecwdlo                  Score: 0.715919021346985
+Document: qcwvsxgn                  Score: 0.7013026710394735
+Document: fn7l93wh                  Score: 0.6390123048618996
+Document: 2wg14ilf                  Score: 0.6390123048618996
+Document: 6yfj4co0                  Score: 0.6390123048618996
+Document: hjqotwtn                  Score: 0.6390123048618996
+Document: 4ha6hx0i                  Score: 0.6390123048618996
+Document: toy8lt0i                  Score: 0.6390123048618996
+Document: rtek7v5g                  Score: 0.6390123048618996
+Document: rf5zaqt6                  Score: 0.6390123048618996
+Document: 5shceekc                  Score: 0.6390123048618996
+Document: 6ivut313                  Score: 0.6390123048618996
+Document: wxunctqu                  Score: 0.6390123048618996
+Document: uq26jnkr                  Score: 0.6390123048618996
+Document: esjfuivf                  Score: 0.6390123048618996
+Document: dd1iyzhg                  Score: 0.6390123048618996
+Document: zvgvmgvj                  Score: 0.6390123048618996
+Document: wl5sjbbm                  Score: 0.6390123048618996
+Document: j5hn5p2m                  Score: 0.6390123048618996
+Document: oufi7w1d                  Score: 0.6390123048618996
+Document: xqvdko7p                  Score: 0.6390123048618996
+Document: oarf6526                  Score: 0.6390123048618996
+Document: mtftv8cb                  Score: 0.6390123048618996
+Document: 0pujch9v                  Score: 0.6390123048618996
+Document: czo533oj                  Score: 0.6265936049067294
+Document: 0b7aui02                  Score: 0.6265936049067294
+Document: miflrobg                  Score: 0.6265936049067294
+Document: t74wq8ru                  Score: 0.6265936049067294
 
  -> Query: coronavirus and ACE inhibitors
 
-Query latency: 0.12945318222045898
+Query latency: 0.19154930114746094 seconds
 
 Document: p4q64ksa                  Score: 1.6057669430454742
 Document: 69toerzi                  Score: 1.6057669430454742
@@ -305,10 +1064,50 @@ Document: 036syndn                  Score: 1.5421373962582376
 Document: cil5czqp                  Score: 1.5421373962582376
 Document: 3egv50vb                  Score: 1.484083423324457
 Document: jgtbp5r6                  Score: 1.4204538765372208
+Document: 85if4mnu                  Score: 1.419540523520857
+Document: trlni6iq                  Score: 1.419540523520857
+Document: tjkhigd0                  Score: 1.3470670814758046
+Document: h06zxykb                  Score: 1.3470670814758046
+Document: 3xpu1x9h                  Score: 1.3307646171207668
+Document: tkpkc6rz                  Score: 1.3307646171207668
+Document: ei9cj1q3                  Score: 1.3307646171207668
+Document: rv26qfmf                  Score: 1.2890412572540804
+Document: f5lmstyn                  Score: 1.2821624799752134
+Document: v1mf5lhh                  Score: 1.274642181965921
+Document: yaow639d                  Score: 1.2569642109167403
+Document: 7rqt8uyk                  Score: 1.2535468311809046
+Document: pemn2xcr                  Score: 1.239669125284442
+Document: 9ci5ukh5                  Score: 1.2342274570126035
+Document: vbayngh0                  Score: 1.2342274570126035
+Document: xpqd9j5s                  Score: 1.224108507041433
+Document: 3hshqnc8                  Score: 1.2144708562259687
+Document: tv0hsq1a                  Score: 1.20908109739975
+Document: 35j928mf                  Score: 1.2090291879541302
+Document: z0qzgu5m                  Score: 1.2055027954442283
+Document: 6fq07ifm                  Score: 1.189917284393668
+Document: 647zcjgu                  Score: 1.189917284393668
+Document: 8n4dlkjo                  Score: 1.1880126987918747
+Document: aph27ej0                  Score: 1.1734939838987137
+Document: fexs1dm6                  Score: 1.152958662244904
+Document: m52qnhtm                  Score: 1.152958662244904
+Document: dr1c9ttb                  Score: 1.1445381975961495
+Document: me88r593                  Score: 1.1445381975961495
+Document: bgdcm1i1                  Score: 1.0798595204784305
+Document: 7odpslba                  Score: 1.0798595204784305
+Document: dqxfcwyu                  Score: 1.0798595204784305
+Document: suhqgmlo                  Score: 1.0798595204784305
+Document: zcqsffxy                  Score: 1.0798595204784305
+Document: nm6zztnw                  Score: 1.0798595204784305
+Document: fbwz8oxp                  Score: 1.0798595204784305
+Document: her1bbfr                  Score: 1.0798595204784305
+Document: dy6fx1a6                  Score: 1.0798595204784305
+Document: 7rjjwekf                  Score: 1.0798595204784305
+Document: 20ha0m69                  Score: 1.0798595204784305
+Document: 17oiye59                  Score: 1.0798595204784305
 
  -> Query: coronavirus mortality
 
-Query latency: 0.1346437931060791
+Query latency: 0.1995530128479004 seconds
 
 Document: 8xcplab3                  Score: 1.3626836656079981
 Document: ssdx8xwi                  Score: 1.3626836656079981
@@ -320,10 +1119,50 @@ Document: 38f8ftmh                  Score: 1.3626836656079981
 Document: tg5wbwf9                  Score: 1.3626836656079981
 Document: 6rs86u5v                  Score: 1.3626836656079981
 Document: 50oy9qqy                  Score: 1.3626836656079981
+Document: tv9xsned                  Score: 1.3626836656079981
+Document: izsmxy00                  Score: 1.3626836656079981
+Document: gizxnw4n                  Score: 1.3626836656079981
+Document: efryn8ul                  Score: 1.3626836656079981
+Document: 4um88wpu                  Score: 1.3626836656079981
+Document: jh9e85c0                  Score: 1.3626836656079981
+Document: k2mrd2rs                  Score: 1.3626836656079981
+Document: 6anybxnk                  Score: 1.3626836656079981
+Document: dff7y6dr                  Score: 1.3626836656079981
+Document: xvx6jt9w                  Score: 1.3626836656079981
+Document: 15rtwl26                  Score: 1.3626836656079981
+Document: ioth30hh                  Score: 1.3626836656079981
+Document: ba5dus2j                  Score: 1.3626836656079981
+Document: 203i3gyx                  Score: 1.3626836656079981
+Document: 470r0ies                  Score: 1.3626836656079981
+Document: cqc4fvbo                  Score: 1.3626836656079981
+Document: na54ad45                  Score: 1.3626836656079981
+Document: nokowfdi                  Score: 1.3626836656079981
+Document: k6oq9lb6                  Score: 1.3626836656079981
+Document: 48wao8a0                  Score: 1.3626836656079981
+Document: vv7x6h1i                  Score: 1.3626836656079981
+Document: ostmi6b5                  Score: 1.3626836656079981
+Document: y7kl4adk                  Score: 1.3626836656079981
+Document: mcg1v24t                  Score: 1.3626836656079981
+Document: l1qm05pu                  Score: 1.3626836656079981
+Document: e32dzhij                  Score: 1.3626836656079981
+Document: dnuu6jok                  Score: 1.3626836656079981
+Document: 47ovbto5                  Score: 1.3626836656079981
+Document: 13cotyfb                  Score: 1.3626836656079981
+Document: qqohijqi                  Score: 1.3626836656079981
+Document: 6g39lu1y                  Score: 1.3626836656079981
+Document: qg73804g                  Score: 1.3626836656079981
+Document: 7id5mitl                  Score: 1.3626836656079981
+Document: g11vfemb                  Score: 1.3626836656079981
+Document: ws3tvbtv                  Score: 1.3626836656079981
+Document: kmpbdvof                  Score: 1.3626836656079981
+Document: 87bvym6i                  Score: 1.3626836656079981
+Document: h8fqijk5                  Score: 1.3626836656079981
+Document: pztrwvib                  Score: 1.3626836656079981
+Document: soiimy63                  Score: 1.3626836656079981
 
  -> Query: coronavirus heart impacts
 
-Query latency: 0.14007306098937988
+Query latency: 0.20583271980285645 seconds
 
 Document: 51b7hss1                  Score: 1.5275811969209367
 Document: rbk87iw0                  Score: 1.5275811969209367
@@ -335,10 +1174,50 @@ Document: nnbrp3oo                  Score: 1.3121635205585722
 Document: n2qlj4sj                  Score: 1.3121635205585722
 Document: 138odey2                  Score: 1.3121635205585722
 Document: 8h3twtbe                  Score: 1.3121635205585722
+Document: tf1lu0np                  Score: 1.3121635205585722
+Document: reo85q5j                  Score: 1.3121635205585722
+Document: 9y9gjyby                  Score: 1.3121635205585722
+Document: 2rf5g6q7                  Score: 1.3121635205585722
+Document: er3ndh79                  Score: 1.2006246446108215
+Document: caxz025z                  Score: 1.156453551957764
+Document: nsp2t0i6                  Score: 1.1222491061274353
+Document: qdehf6rb                  Score: 1.1200963457460615
+Document: mahp1wkn                  Score: 1.1200963457460615
+Document: hu3qo7xd                  Score: 1.1200963457460615
+Document: qlorz1yi                  Score: 1.1200963457460615
+Document: 9ynljm2r                  Score: 1.1103653774715045
+Document: w9ev4iy9                  Score: 1.1103653774715045
+Document: 5c91xnhz                  Score: 1.1103653774715045
+Document: 0qhjk7lh                  Score: 1.1103653774715045
+Document: 996mqp0p                  Score: 1.1103653774715045
+Document: u1uup5da                  Score: 1.1103653774715045
+Document: o16kpx9s                  Score: 1.1103653774715045
+Document: 8n4dlkjo                  Score: 1.1103653774715045
+Document: kr2bhxox                  Score: 1.1103653774715045
+Document: sxznxse5                  Score: 1.1103653774715045
+Document: sn72mkzq                  Score: 1.1103653774715045
+Document: jgvgk9x2                  Score: 1.1103653774715045
+Document: w4zad1zt                  Score: 1.0455181952901969
+Document: g1kr7s11                  Score: 1.0455181952901969
+Document: qbxx6yae                  Score: 1.0455181952901969
+Document: r8x24jjd                  Score: 1.0455181952901969
+Document: 09vuwtzr                  Score: 1.0455181952901969
+Document: vg2baps5                  Score: 1.0455181952901969
+Document: 6f2sl0bp                  Score: 1.0455181952901969
+Document: 8ij8b3w3                  Score: 1.0455181952901969
+Document: k38xlki3                  Score: 1.0455181952901969
+Document: ycnq3jfo                  Score: 1.0455181952901969
+Document: ddi7fw4o                  Score: 1.0455181952901969
+Document: 3xe2jjl4                  Score: 1.0455181952901969
+Document: k36rymkv                  Score: 1.0455181952901969
+Document: ol2exczc                  Score: 1.0455181952901969
+Document: xdh86nh5                  Score: 1.0440348209891812
+Document: 6nwbc2nr                  Score: 1.0440348209891812
+Document: dxyrpfea                  Score: 1.0440348209891812
 
  -> Query: coronavirus hypertension
 
-Query latency: 0.14423179626464844
+Query latency: 0.2111213207244873 seconds
 
 Document: tkvgzbuk                  Score: 1.2409141903592906
 Document: owjgs6ja                  Score: 1.2409141903592906
@@ -350,10 +1229,50 @@ Document: yypg4iqh                  Score: 1.2409141903592906
 Document: iw5xmpoq                  Score: 1.2409141903592906
 Document: lhbkt4te                  Score: 1.2409141903592906
 Document: vuc9loqi                  Score: 1.2409141903592906
+Document: 2fx7a0ta                  Score: 1.2409141903592906
+Document: 8n4dlkjo                  Score: 1.2409141903592906
+Document: 61xioybu                  Score: 1.2409141903592906
+Document: qhld3bbh                  Score: 1.2409141903592906
+Document: 7idn4raw                  Score: 1.2409141903592906
+Document: 3egv50vb                  Score: 1.2409141903592906
+Document: osbk041e                  Score: 1.2409141903592906
+Document: niw61l9r                  Score: 1.1758293606835497
+Document: kbd2h4l0                  Score: 1.1758293606835497
+Document: g1kr7s11                  Score: 1.1758293606835497
+Document: qbxx6yae                  Score: 1.1758293606835497
+Document: igfur3l9                  Score: 1.1758293606835497
+Document: 51b7hss1                  Score: 1.1758293606835497
+Document: qdmuhxaw                  Score: 1.1758293606835497
+Document: 5l6c0it4                  Score: 1.1758293606835497
+Document: 5xyt8d5u                  Score: 1.1758293606835497
+Document: u8i3kbl4                  Score: 1.1758293606835497
+Document: 09vuwtzr                  Score: 1.1758293606835497
+Document: 7bgerq3r                  Score: 1.1758293606835497
+Document: gwnpgpj1                  Score: 1.1758293606835497
+Document: e08oqa86                  Score: 1.1758293606835497
+Document: lgbyaczs                  Score: 1.1758293606835497
+Document: sn7rswab                  Score: 1.1758293606835497
+Document: nu98xedb                  Score: 1.1758293606835497
+Document: 2zq44poq                  Score: 1.1758293606835497
+Document: cusk2t80                  Score: 1.1758293606835497
+Document: k36rymkv                  Score: 1.1758293606835497
+Document: ol2exczc                  Score: 1.1758293606835497
+Document: j00m2ctc                  Score: 1.1758293606835497
+Document: bpnqz1cn                  Score: 1.1500547774497871
+Document: jg6v644y                  Score: 1.1500547774497871
+Document: str19r9a                  Score: 1.1500547774497871
+Document: 0nhgxoim                  Score: 1.1500547774497871
+Document: ejg393zs                  Score: 1.100268213396019
+Document: qg2o0ug4                  Score: 1.0188785119851096
+Document: 7s9ot4vq                  Score: 1.0188785119851096
+Document: 1vimqhdp                  Score: 1.0188785119851096
+Document: hxvh11l3                  Score: 1.0188785119851096
+Document: fexs1dm6                  Score: 1.0188785119851096
+Document: lj0ar2v5                  Score: 0.9596222364327474
 
  -> Query: coronavirus diabetes
 
-Query latency: 0.14836978912353516
+Query latency: 0.2159421443939209 seconds
 
 Document: tkvgzbuk                  Score: 1.2593125709348854
 Document: 9hh17k86                  Score: 1.2593125709348854
@@ -365,10 +1284,50 @@ Document: iw5xmpoq                  Score: 1.2593125709348854
 Document: lhbkt4te                  Score: 1.2593125709348854
 Document: vuc9loqi                  Score: 1.2593125709348854
 Document: 2fx7a0ta                  Score: 1.2593125709348854
+Document: pztrwvib                  Score: 1.2593125709348854
+Document: g42n51n9                  Score: 1.2593125709348854
+Document: 8n4dlkjo                  Score: 1.2593125709348854
+Document: vhymj0rw                  Score: 1.2593125709348854
+Document: 3egv50vb                  Score: 1.2593125709348854
+Document: dl194hu8                  Score: 1.2593125709348854
+Document: osbk041e                  Score: 1.2593125709348854
+Document: yqiggzk9                  Score: 1.188073324244321
+Document: g1kr7s11                  Score: 1.188073324244321
+Document: qbxx6yae                  Score: 1.188073324244321
+Document: igfur3l9                  Score: 1.188073324244321
+Document: 51b7hss1                  Score: 1.188073324244321
+Document: qdmuhxaw                  Score: 1.188073324244321
+Document: 5l6c0it4                  Score: 1.188073324244321
+Document: 5xyt8d5u                  Score: 1.188073324244321
+Document: 75w76le4                  Score: 1.188073324244321
+Document: 09vuwtzr                  Score: 1.188073324244321
+Document: vg2baps5                  Score: 1.188073324244321
+Document: ygld2n66                  Score: 1.188073324244321
+Document: fddk5xrz                  Score: 1.188073324244321
+Document: gwnpgpj1                  Score: 1.188073324244321
+Document: e08oqa86                  Score: 1.188073324244321
+Document: lgbyaczs                  Score: 1.188073324244321
+Document: rbk87iw0                  Score: 1.188073324244321
+Document: sn7rswab                  Score: 1.188073324244321
+Document: 2zq44poq                  Score: 1.188073324244321
+Document: xxc7vdnt                  Score: 1.188073324244321
+Document: cusk2t80                  Score: 1.188073324244321
+Document: 6hadssmh                  Score: 1.188073324244321
+Document: k36rymkv                  Score: 1.188073324244321
+Document: ol2exczc                  Score: 1.188073324244321
+Document: j00m2ctc                  Score: 1.188073324244321
+Document: o56j4qio                  Score: 1.188073324244321
+Document: mlkxcn5k                  Score: 1.1598614981938504
+Document: jg6v644y                  Score: 1.1598614981938504
+Document: 0wbu1yap                  Score: 1.1598614981938504
+Document: 0nhgxoim                  Score: 1.1598614981938504
+Document: wit4v3n6                  Score: 1.1436060464418754
+Document: pai9avke                  Score: 1.1436060464418754
+Document: vrcul1t5                  Score: 1.1436060464418754
 
  -> Query: coronavirus biomarkers
 
-Query latency: 0.15242981910705566
+Query latency: 0.2207193374633789 seconds
 
 Document: km0b1z64                  Score: 1.2643138367081088
 Document: xiynfpuw                  Score: 1.2643138367081088
@@ -380,10 +1339,50 @@ Document: 3egv50vb                  Score: 1.2643138367081088
 Document: zz2907h0                  Score: 1.2643138367081088
 Document: 7jnw66gk                  Score: 1.2643138367081088
 Document: qbxx6yae                  Score: 1.1913527365512855
+Document: 0g7wy4yw                  Score: 1.1913527365512855
+Document: qw5x4b8x                  Score: 1.1913527365512855
+Document: mfl0iagr                  Score: 1.1913527365512855
+Document: d378ighp                  Score: 1.1913527365512855
+Document: jg6v644y                  Score: 1.1624590303191575
+Document: 8edimrol                  Score: 1.1624590303191575
+Document: 6rs86u5v                  Score: 1.0447402604542504
+Document: 5ebten0d                  Score: 1.0447402604542504
+Document: ytlb8p6w                  Score: 1.0447402604542504
+Document: qgc8o6ps                  Score: 0.9489812081064428
+Document: bx49tbui                  Score: 0.9489812081064428
+Document: nc3tevnd                  Score: 0.9489812081064428
+Document: 6lezilfv                  Score: 0.9489812081064428
+Document: umso5uv0                  Score: 0.9489812081064428
+Document: x33tda6r                  Score: 0.9489812081064428
+Document: yebwy2nd                  Score: 0.9489812081064428
+Document: ydzxp0oe                  Score: 0.9489812081064428
+Document: y0gdjn64                  Score: 0.9489812081064428
+Document: 2n5vetzw                  Score: 0.9489812081064428
+Document: ak11d8zi                  Score: 0.9489812081064428
+Document: j58qvyum                  Score: 0.9489812081064428
+Document: 44bm52ch                  Score: 0.9489812081064428
+Document: rxudwp2v                  Score: 0.9489812081064428
+Document: m1tk6782                  Score: 0.9489812081064428
+Document: bw2zz5he                  Score: 0.9489812081064428
+Document: zwp2ujli                  Score: 0.9489812081064428
+Document: mhdi16wz                  Score: 0.9489812081064428
+Document: cav9n18w                  Score: 0.9489812081064428
+Document: g55witln                  Score: 0.9489812081064428
+Document: sl02wdlm                  Score: 0.9489812081064428
+Document: 0epeljaf                  Score: 0.9489812081064428
+Document: gj4vjldd                  Score: 0.9489812081064428
+Document: h7hj64q5                  Score: 0.9489812081064428
+Document: t6n95laz                  Score: 0.9489812081064428
+Document: ue7hu8ww                  Score: 0.9489812081064428
+Document: 6ypvcpfn                  Score: 0.9489812081064428
+Document: 85o1qwma                  Score: 0.9489812081064428
+Document: er0a2jm0                  Score: 0.9489812081064428
+Document: 0zkeoa1z                  Score: 0.9489812081064428
+Document: lli46azw                  Score: 0.9489812081064428
 
  -> Query: coronavirus early symptoms
 
-Query latency: 0.1592116355895996
+Query latency: 0.23006057739257812 seconds
 
 Document: b2znv6pa                  Score: 1.685977255385244
 Document: nsrm0axa                  Score: 1.685977255385244
@@ -395,10 +1394,50 @@ Document: ijw5bl20                  Score: 1.685977255385244
 Document: ek80ff7o                  Score: 1.685977255385244
 Document: 8bkr5rpd                  Score: 1.685977255385244
 Document: x2gxgave                  Score: 1.685977255385244
+Document: z4l3pk23                  Score: 1.685977255385244
+Document: 566pbuic                  Score: 1.5980003852276563
+Document: fv4qonnf                  Score: 1.5980003852276563
+Document: 0g7wy4yw                  Score: 1.5980003852276563
+Document: bhjc1jcs                  Score: 1.5980003852276563
+Document: 97x8q2j9                  Score: 1.5980003852276563
+Document: jrcc3ria                  Score: 1.5980003852276563
+Document: t1n4fbsi                  Score: 1.5980003852276563
+Document: qw5x4b8x                  Score: 1.5980003852276563
+Document: ua500pfa                  Score: 1.5980003852276563
+Document: xpog8ghu                  Score: 1.5980003852276563
+Document: n2m66jqy                  Score: 1.5980003852276563
+Document: honeavwj                  Score: 1.5980003852276563
+Document: x72m6shg                  Score: 1.5980003852276563
+Document: e08oqa86                  Score: 1.5980003852276563
+Document: bojb8rol                  Score: 1.5980003852276563
+Document: 22xysksc                  Score: 1.5980003852276563
+Document: 554iw63z                  Score: 1.5980003852276563
+Document: wmfcwqfw                  Score: 1.5631602055141975
+Document: ntra3jhs                  Score: 1.5631602055141975
+Document: 0y122bxf                  Score: 1.5631602055141975
+Document: vamubr7j                  Score: 1.5631602055141975
+Document: yiy2y2x3                  Score: 1.5631602055141975
+Document: e0bp8cuj                  Score: 1.5631602055141975
+Document: o349msnm                  Score: 1.5631602055141975
+Document: kgkcgpmq                  Score: 1.5437831955037022
+Document: k3f7ohzg                  Score: 1.5437831955037022
+Document: kfsuiz5t                  Score: 1.5430855439396827
+Document: uusi3nph                  Score: 1.5430855439396827
+Document: 3x6nwd91                  Score: 1.5430855439396827
+Document: jqjssnzu                  Score: 1.5430855439396827
+Document: s7uqawbd                  Score: 1.5295476779610415
+Document: gcwtn3ei                  Score: 1.5295476779610415
+Document: ot933axv                  Score: 1.5295476779610415
+Document: 7cb88t8n                  Score: 1.5295476779610415
+Document: lioj0tkn                  Score: 1.52604978064534
+Document: urlmoyrk                  Score: 1.52604978064534
+Document: j176zykq                  Score: 1.52604978064534
+Document: kfw1wnqo                  Score: 1.52604978064534
+Document: o38e4v0v                  Score: 1.52604978064534
 
  -> Query: coronavirus asymptomatic
 
-Query latency: 0.16326665878295898
+Query latency: 0.2350761890411377 seconds
 
 Document: f1ixbzx8                  Score: 1.2854098759844435
 Document: 2wshgzjk                  Score: 1.2854098759844435
@@ -410,10 +1449,50 @@ Document: kgkcgpmq                  Score: 1.2854098759844435
 Document: pvb5c4ih                  Score: 1.2854098759844435
 Document: 6su2x8mk                  Score: 1.2854098759844435
 Document: wx0nhx8i                  Score: 1.2854098759844435
+Document: knt1f78p                  Score: 1.2854098759844435
+Document: 9zeqigqa                  Score: 1.2854098759844435
+Document: uz6usokd                  Score: 1.2854098759844435
+Document: vspnwp72                  Score: 1.2854098759844435
+Document: zhtbzsyf                  Score: 1.2854098759844435
+Document: 83mydcrm                  Score: 1.2854098759844435
+Document: 46la29tm                  Score: 1.2854098759844435
+Document: pxfwe67t                  Score: 1.2854098759844435
+Document: sk72rr8h                  Score: 1.2854098759844435
+Document: sgmssck4                  Score: 1.2854098759844435
+Document: nyocnvvj                  Score: 1.2854098759844435
+Document: 13cotyfb                  Score: 1.2854098759844435
+Document: wnwzmech                  Score: 1.2854098759844435
+Document: 9nun7ogp                  Score: 1.2854098759844435
+Document: 55nawxos                  Score: 1.2854098759844435
+Document: 7vi3xtx6                  Score: 1.2854098759844435
+Document: 0vqe58hu                  Score: 1.2854098759844435
+Document: d0fonyex                  Score: 1.2854098759844435
+Document: 3hh2r4vc                  Score: 1.2854098759844435
+Document: znu0gtcd                  Score: 1.2854098759844435
+Document: 62shndp7                  Score: 1.2854098759844435
+Document: amv0los1                  Score: 1.2854098759844435
+Document: x0cfue3z                  Score: 1.2854098759844435
+Document: r2os3kn9                  Score: 1.2854098759844435
+Document: q9trdi90                  Score: 1.2854098759844435
+Document: uaxc6fwv                  Score: 1.2854098759844435
+Document: grv1gfio                  Score: 1.2854098759844435
+Document: 1kzmjvq0                  Score: 1.2854098759844435
+Document: 0j0s5pph                  Score: 1.2854098759844435
+Document: qijk3x3v                  Score: 1.2854098759844435
+Document: pkqv8cmr                  Score: 1.2854098759844435
+Document: rybzt80z                  Score: 1.2854098759844435
+Document: 7y29fzy8                  Score: 1.2854098759844435
+Document: jmqd5ge9                  Score: 1.2854098759844435
+Document: aydgtz49                  Score: 1.2854098759844435
+Document: ybd4rla7                  Score: 1.2854098759844435
+Document: xwzfwbbz                  Score: 1.2854098759844435
+Document: hq77l95d                  Score: 1.2854098759844435
+Document: dksh41wz                  Score: 1.2854098759844435
+Document: msxut0qc                  Score: 1.2854098759844435
 
  -> Query: coronavirus hydroxychloroquine
 
-Query latency: 0.16719603538513184
+Query latency: 0.23988056182861328 seconds
 
 Document: t1wpujpm                  Score: 1.111670948720768
 Document: da61tfr9                  Score: 1.0946441058529988
@@ -425,10 +1504,50 @@ Document: sbs9umml                  Score: 0.981275373578206
 Document: xc4bxin4                  Score: 0.981275373578206
 Document: 3egv50vb                  Score: 0.9468397065864789
 Document: 6hhauza0                  Score: 0.7542296310220055
+Document: 51c22b8w                  Score: 0.7542296310220055
+Document: sud0r8kz                  Score: 0.7542296310220055
+Document: sdij1d90                  Score: 0.6501699930528172
+Document: tdlcb9bf                  Score: 0.5518514655974804
+Document: 5o9bbspc                  Score: 0.5518514655974804
+Document: wafvnbdu                  Score: 0.19261007556447338
+Document: iedh762s                  Score: 0.19261007556447338
+Document: ahdz5078                  Score: 0.19261007556447338
+Document: km0b1z64                  Score: 0.19261007556447338
+Document: j5gjipdn                  Score: 0.19261007556447338
+Document: 8xcplab3                  Score: 0.19261007556447338
+Document: f1ixbzx8                  Score: 0.19261007556447338
+Document: 59rcogfc                  Score: 0.19261007556447338
+Document: n93cm6ws                  Score: 0.19261007556447338
+Document: u8goc7io                  Score: 0.19261007556447338
+Document: iu2ziccm                  Score: 0.19261007556447338
+Document: x443k65a                  Score: 0.19261007556447338
+Document: ac00tai9                  Score: 0.19261007556447338
+Document: e85xdrcw                  Score: 0.19261007556447338
+Document: 2wshgzjk                  Score: 0.19261007556447338
+Document: mjhez5im                  Score: 0.19261007556447338
+Document: f3h74j1n                  Score: 0.19261007556447338
+Document: f5yjz0zp                  Score: 0.19261007556447338
+Document: 8kdtpwbv                  Score: 0.19261007556447338
+Document: 9fd5a49o                  Score: 0.19261007556447338
+Document: xtmozkf6                  Score: 0.19261007556447338
+Document: 4i97fpzc                  Score: 0.19261007556447338
+Document: py6qu4tl                  Score: 0.19261007556447338
+Document: g5wpa2ee                  Score: 0.19261007556447338
+Document: q14x0i2c                  Score: 0.19261007556447338
+Document: juiomzb3                  Score: 0.19261007556447338
+Document: 6u9q0ox9                  Score: 0.19261007556447338
+Document: er3zmcz2                  Score: 0.19261007556447338
+Document: 172tl3fb                  Score: 0.19261007556447338
+Document: o7pz0rst                  Score: 0.19261007556447338
+Document: qng05jry                  Score: 0.19261007556447338
+Document: bgdcm1i1                  Score: 0.19261007556447338
+Document: 5xki1ulf                  Score: 0.19261007556447338
+Document: 1f5hn3ig                  Score: 0.19261007556447338
+Document: ssdx8xwi                  Score: 0.19261007556447338
 
  -> Query: coronavirus drug repurposing
 
-Query latency: 0.17238497734069824
+Query latency: 0.24609017372131348 seconds
 
 Document: 57w29u1s                  Score: 1.5169170021483822
 Document: wicc796j                  Score: 1.463138457571223
@@ -440,10 +1559,50 @@ Document: msohf5oa                  Score: 1.4007035007932935
 Document: lwmlbz6p                  Score: 1.388923087519539
 Document: tgcqe5v2                  Score: 1.388923087519539
 Document: f6muhf3d                  Score: 1.388923087519539
+Document: 4bdusuqq                  Score: 1.3714532720038588
+Document: 2jq626ye                  Score: 1.3714532720038588
+Document: qmg58cgr                  Score: 1.3538937574174448
+Document: 100ir651                  Score: 1.3538937574174448
+Document: yf5g53a9                  Score: 1.3501561497666126
+Document: qebbkr6d                  Score: 1.343507845707011
+Document: d7n1zy0b                  Score: 1.343507845707011
+Document: ol0bj3hs                  Score: 1.3351445429423796
+Document: 38d6gb7o                  Score: 1.3001152128402855
+Document: p4gf8cr5                  Score: 1.2844899994382049
+Document: gmw8gl2r                  Score: 1.2844899994382049
+Document: rg45m42j                  Score: 1.2844899994382049
+Document: nuep8nim                  Score: 1.2844899994382049
+Document: e4sl5zaj                  Score: 1.2844899994382049
+Document: 8anxp3mh                  Score: 1.2844899994382049
+Document: kmynes6p                  Score: 1.2844899994382049
+Document: vbr20xz4                  Score: 1.2844899994382049
+Document: c1vusq2g                  Score: 1.2844899994382049
+Document: t996fbad                  Score: 1.2844899994382049
+Document: cszqykpu                  Score: 1.281643588279053
+Document: b3y9zxjr                  Score: 1.2576206422469949
+Document: mp3a9c9u                  Score: 1.2197140012567902
+Document: w6bk2x1n                  Score: 1.2168522064449845
+Document: egntml7e                  Score: 1.192804813870841
+Document: 5hfenevk                  Score: 1.192804813870841
+Document: tm99olh4                  Score: 1.192804813870841
+Document: m2fsrwvw                  Score: 1.192804813870841
+Document: za8k9niv                  Score: 1.192804813870841
+Document: t0oz35cm                  Score: 1.192804813870841
+Document: h8zqis1p                  Score: 1.192804813870841
+Document: t6ogxz7n                  Score: 1.192804813870841
+Document: uz0m1o0q                  Score: 1.1564960848093617
+Document: nfibuobt                  Score: 1.1564960848093617
+Document: 161ck1i9                  Score: 1.1564960848093617
+Document: pxahhwr9                  Score: 1.1564960848093617
+Document: fzgwfb27                  Score: 1.1564960848093617
+Document: 8xuwaban                  Score: 1.1355752556372787
+Document: ed38l9zm                  Score: 1.1355752556372787
+Document: epk8p8j5                  Score: 1.1355752556372787
+Document: wkkz4dry                  Score: 1.1355752556372787
 
  -> Query: coronavirus remdesivir
 
-Query latency: 0.17640256881713867
+Query latency: 0.2506883144378662 seconds
 
 Document: 69toerzi                  Score: 1.1833021418761884
 Document: gizxnw4n                  Score: 1.1833021418761884
@@ -455,10 +1614,50 @@ Document: 31y378jx                  Score: 1.136004138554836
 Document: ol0bj3hs                  Score: 1.136004138554836
 Document: v9h4rlln                  Score: 1.136004138554836
 Document: yf5g53a9                  Score: 1.1172734092977945
+Document: pth2d40p                  Score: 1.106480897491843
+Document: fuljgago                  Score: 1.0938448668915546
+Document: 0xhho1sh                  Score: 1.0938448668915546
+Document: 8xuwaban                  Score: 0.9788835724895604
+Document: 393k3lq6                  Score: 0.9568098099821123
+Document: l2r0rlo0                  Score: 0.8907810774037183
+Document: 3pxc5wot                  Score: 0.8907810774037183
+Document: 6dqy7tzc                  Score: 0.8799885655977668
+Document: t1wpujpm                  Score: 0.8010866664434824
+Document: lg45goe2                  Score: 0.8010866664434824
+Document: coryaz2s                  Score: 0.7523912405954842
+Document: x50tvq3a                  Score: 0.6888961968708902
+Document: 1291y3oq                  Score: 0.6110155535924435
+Document: rn3bjc9d                  Score: 0.4894417862447802
+Document: wafvnbdu                  Score: 0.204418569386628
+Document: iedh762s                  Score: 0.204418569386628
+Document: ahdz5078                  Score: 0.204418569386628
+Document: km0b1z64                  Score: 0.204418569386628
+Document: j5gjipdn                  Score: 0.204418569386628
+Document: 8xcplab3                  Score: 0.204418569386628
+Document: f1ixbzx8                  Score: 0.204418569386628
+Document: 59rcogfc                  Score: 0.204418569386628
+Document: n93cm6ws                  Score: 0.204418569386628
+Document: u8goc7io                  Score: 0.204418569386628
+Document: iu2ziccm                  Score: 0.204418569386628
+Document: x443k65a                  Score: 0.204418569386628
+Document: ac00tai9                  Score: 0.204418569386628
+Document: e85xdrcw                  Score: 0.204418569386628
+Document: 2wshgzjk                  Score: 0.204418569386628
+Document: mjhez5im                  Score: 0.204418569386628
+Document: f3h74j1n                  Score: 0.204418569386628
+Document: f5yjz0zp                  Score: 0.204418569386628
+Document: 8kdtpwbv                  Score: 0.204418569386628
+Document: 9fd5a49o                  Score: 0.204418569386628
+Document: xtmozkf6                  Score: 0.204418569386628
+Document: 4i97fpzc                  Score: 0.204418569386628
+Document: py6qu4tl                  Score: 0.204418569386628
+Document: g5wpa2ee                  Score: 0.204418569386628
+Document: q14x0i2c                  Score: 0.204418569386628
+Document: juiomzb3                  Score: 0.204418569386628
 
  -> Query: difference between coronavirus and flu
 
-Query latency: 0.18491506576538086
+Query latency: 0.26101088523864746 seconds
 
 Document: 30r8zd0l                  Score: 1.4951180550210208
 Document: 8sp12c7z                  Score: 1.4951180550210208
@@ -470,10 +1669,50 @@ Document: alky9bbt                  Score: 1.425408064611339
 Document: qgurte98                  Score: 1.425408064611339
 Document: iyv86437                  Score: 1.425408064611339
 Document: 1vo72gop                  Score: 1.403582687374948
+Document: qysqc0tc                  Score: 1.3886210714631257
+Document: 1vimqhdp                  Score: 1.3653212624570172
+Document: 2fx7a0ta                  Score: 1.2844593340572565
+Document: 3x192cnt                  Score: 1.2147493436475747
+Document: zd011ca5                  Score: 1.2117334106122615
+Document: up81jotp                  Score: 1.2117334106122615
+Document: yoszzgfr                  Score: 1.2117334106122615
+Document: 35y21yfx                  Score: 1.2117334106122615
+Document: hgau3922                  Score: 1.2117334106122615
+Document: 7a6mxxm7                  Score: 1.2117334106122615
+Document: kv5zcpf9                  Score: 1.2117334106122615
+Document: 0gtcjqkm                  Score: 1.2117334106122615
+Document: naxyw03d                  Score: 1.2117334106122615
+Document: e4bwrobw                  Score: 1.2117334106122615
+Document: t9u7d029                  Score: 1.2117334106122615
+Document: b6eiamup                  Score: 1.193836488975089
+Document: ryksi3zz                  Score: 1.193836488975089
+Document: goo993eg                  Score: 1.193836488975089
+Document: rvxxv1dn                  Score: 1.193836488975089
+Document: z1ftfsu0                  Score: 1.193836488975089
+Document: z6vddid9                  Score: 1.193836488975089
+Document: jzr8xge6                  Score: 1.193836488975089
+Document: q8pagn56                  Score: 1.193836488975089
+Document: hp2d68su                  Score: 1.193836488975089
+Document: le2ax3yj                  Score: 1.193836488975089
+Document: 4atavuzj                  Score: 1.193836488975089
+Document: 7zm15jvm                  Score: 1.193836488975089
+Document: 2zrqsyyo                  Score: 1.193836488975089
+Document: 9wh2ahst                  Score: 1.193836488975089
+Document: wgrsaf0k                  Score: 1.193836488975089
+Document: 744juy8r                  Score: 1.193836488975089
+Document: 6ensifjp                  Score: 1.193836488975089
+Document: h2hm73u1                  Score: 1.193836488975089
+Document: hz3oiywo                  Score: 1.193836488975089
+Document: cqxgel5e                  Score: 1.193836488975089
+Document: xgczt523                  Score: 1.193836488975089
+Document: xrn6jv4z                  Score: 1.193836488975089
+Document: y5y2yxsg                  Score: 1.193836488975089
+Document: pf5m3gm3                  Score: 1.1420234202025799
+Document: 2g0zq9dh                  Score: 1.1420234202025799
 
  -> Query: coronavirus subtypes
 
-Query latency: 0.18921422958374023
+Query latency: 0.2660713195800781 seconds
 
 Document: suhqgmlo                  Score: 1.2902663644518957
 Document: 6blcrkat                  Score: 1.2902663644518957
@@ -485,10 +1724,50 @@ Document: sk72rr8h                  Score: 1.2902663644518957
 Document: fzi1ilpj                  Score: 1.2902663644518957
 Document: 0bma2749                  Score: 1.2902663644518957
 Document: gblixli2                  Score: 1.2902663644518957
+Document: ux5t1wfr                  Score: 1.2902663644518957
+Document: xiph1ecx                  Score: 1.2902663644518957
+Document: n4h08jxc                  Score: 1.2902663644518957
+Document: jol1lmh6                  Score: 1.2902663644518957
+Document: lwld8z0t                  Score: 1.2902663644518957
+Document: rp27kag6                  Score: 1.2902663644518957
+Document: 08kqtw8s                  Score: 1.2902663644518957
+Document: 8ti75mru                  Score: 1.2902663644518957
+Document: 979e3ae0                  Score: 1.2902663644518957
+Document: vehyjqgk                  Score: 1.2902663644518957
+Document: 746xk8hv                  Score: 1.2902663644518957
+Document: oshnna8o                  Score: 1.2902663644518957
+Document: a8uncf5a                  Score: 1.2902663644518957
+Document: jrzpkdra                  Score: 1.2902663644518957
+Document: 77yma44s                  Score: 1.2902663644518957
+Document: l4bd8d43                  Score: 1.2902663644518957
+Document: 0gtcjqkm                  Score: 1.2902663644518957
+Document: 81brg4yy                  Score: 1.2902663644518957
+Document: ko0gp2nd                  Score: 1.2902663644518957
+Document: e4bwrobw                  Score: 1.2902663644518957
+Document: kcyao9i9                  Score: 1.2079777677341625
+Document: lvf1z9i4                  Score: 1.2079777677341625
+Document: bx04ldmn                  Score: 1.2079777677341625
+Document: thbtygv6                  Score: 1.2079777677341625
+Document: gdpiaxbr                  Score: 1.2079777677341625
+Document: cdsir930                  Score: 1.2079777677341625
+Document: u0amf1oh                  Score: 1.2079777677341625
+Document: ihw2qckn                  Score: 1.2079777677341625
+Document: 8heicyda                  Score: 1.2079777677341625
+Document: rqzdkyas                  Score: 1.2079777677341625
+Document: 3463iule                  Score: 1.2079777677341625
+Document: uf1ao1x1                  Score: 1.2079777677341625
+Document: bcocsjij                  Score: 1.2079777677341625
+Document: lgqvfh7s                  Score: 1.2079777677341625
+Document: iyv86437                  Score: 1.2079777677341625
+Document: mm2sp48e                  Score: 1.1753902308863666
+Document: 624g6tmu                  Score: 1.1753902308863666
+Document: 50y4vog6                  Score: 1.1753902308863666
+Document: 0lbxvudt                  Score: 1.1753902308863666
+Document: z122v1uz                  Score: 1.1753902308863666
 
  -> Query: coronavirus vaccine candidates
 
-Query latency: 0.19466662406921387
+Query latency: 0.27121472358703613 seconds
 
 Document: iu2ziccm                  Score: 1.3276968562304712
 Document: ukh84gvu                  Score: 1.3276968562304712
@@ -500,10 +1779,50 @@ Document: fn7l93wh                  Score: 1.3276968562304712
 Document: ebbzx8yr                  Score: 1.3276968562304712
 Document: amg5dice                  Score: 1.3276968562304712
 Document: yv9or7cu                  Score: 1.3276968562304712
+Document: 69toerzi                  Score: 1.3276968562304712
+Document: 5dle3e3c                  Score: 1.3276968562304712
+Document: vm4721yd                  Score: 1.3276968562304712
+Document: gizxnw4n                  Score: 1.3276968562304712
+Document: nad0cbv3                  Score: 1.3276968562304712
+Document: krufo80s                  Score: 1.3276968562304712
+Document: l6wqi58t                  Score: 1.3276968562304712
+Document: ldwx1wyc                  Score: 1.3276968562304712
+Document: gag7fwa2                  Score: 1.3276968562304712
+Document: crj0yqmx                  Score: 1.3276968562304712
+Document: x4yqw0yl                  Score: 1.3276968562304712
+Document: r8molh8c                  Score: 1.3276968562304712
+Document: h88pax6z                  Score: 1.3276968562304712
+Document: isypu1ga                  Score: 1.3276968562304712
+Document: kgtou9ca                  Score: 1.3276968562304712
+Document: zcqsffxy                  Score: 1.3276968562304712
+Document: wcdg5d54                  Score: 1.3276968562304712
+Document: 33h22ikl                  Score: 1.3276968562304712
+Document: hxtk8zqm                  Score: 1.3276968562304712
+Document: 2loi97f8                  Score: 1.3276968562304712
+Document: xsuq2np8                  Score: 1.3276968562304712
+Document: uw41ygmc                  Score: 1.3276968562304712
+Document: odyb4slr                  Score: 1.3276968562304712
+Document: 2o8u4eny                  Score: 1.3276968562304712
+Document: vgq6gjpx                  Score: 1.3276968562304712
+Document: 5pzeey4b                  Score: 1.3276968562304712
+Document: 1spgrrmw                  Score: 1.3276968562304712
+Document: 0y9x4g17                  Score: 1.3276968562304712
+Document: zznq162b                  Score: 1.3276968562304712
+Document: 4ejtmoht                  Score: 1.3276968562304712
+Document: q9rrdvcr                  Score: 1.3276968562304712
+Document: zz9bhnuv                  Score: 1.3276968562304712
+Document: 345fmq8h                  Score: 1.3276968562304712
+Document: g1nvmt0t                  Score: 1.3276968562304712
+Document: 0fj0onoh                  Score: 1.3276968562304712
+Document: ttfgpnhm                  Score: 1.3276968562304712
+Document: piwp8umv                  Score: 1.3276968562304712
+Document: c3d2rpzh                  Score: 1.3276968562304712
+Document: x3at6mgp                  Score: 1.3276968562304712
+Document: 5ns1onkw                  Score: 1.3276968562304712
 
  -> Query: coronavirus recovery
 
-Query latency: 0.1992948055267334
+Query latency: 0.2759692668914795 seconds
 
 Document: x2bl5lcn                  Score: 1.2834366045590617
 Document: owjgs6ja                  Score: 1.2834366045590617
@@ -515,10 +1834,50 @@ Document: vr5hnzp8                  Score: 1.2834366045590617
 Document: 5i0w74q4                  Score: 1.2834366045590617
 Document: 15rtwl26                  Score: 1.2834366045590617
 Document: fbilhauu                  Score: 1.2834366045590617
+Document: 2klytw6c                  Score: 1.2834366045590617
+Document: 82d0s6po                  Score: 1.2834366045590617
+Document: gjg297f3                  Score: 1.2834366045590617
+Document: toy8lt0i                  Score: 1.2834366045590617
+Document: 1lu72bzf                  Score: 1.2834366045590617
+Document: xr5rm6dn                  Score: 1.2834366045590617
+Document: wxb0lrjo                  Score: 1.2834366045590617
+Document: 345fmq8h                  Score: 1.2834366045590617
+Document: 3glqszsm                  Score: 1.2834366045590617
+Document: 34t6ndqm                  Score: 1.2834366045590617
+Document: 4dyuper0                  Score: 1.2834366045590617
+Document: 8ukwlzz6                  Score: 1.2834366045590617
+Document: hq77l95d                  Score: 1.2834366045590617
+Document: 39qkxqe2                  Score: 1.2834366045590617
+Document: eku7f1g8                  Score: 1.2834366045590617
+Document: m6479wyv                  Score: 1.2834366045590617
+Document: ey4dsila                  Score: 1.2834366045590617
+Document: rdvj8wkv                  Score: 1.2834366045590617
+Document: e4bwrobw                  Score: 1.2834366045590617
+Document: z37athi5                  Score: 1.2834366045590617
+Document: x107b4kq                  Score: 1.2834366045590617
+Document: w4zad1zt                  Score: 1.203671866992083
+Document: 68193u0a                  Score: 1.203671866992083
+Document: 6g34qwer                  Score: 1.203671866992083
+Document: b3y9zxjr                  Score: 1.203671866992083
+Document: tuhesrpb                  Score: 1.203671866992083
+Document: cmde6yx9                  Score: 1.203671866992083
+Document: ovpgw054                  Score: 1.203671866992083
+Document: 5uoepd0r                  Score: 1.203671866992083
+Document: fddk5xrz                  Score: 1.203671866992083
+Document: t9nx7a7b                  Score: 1.203671866992083
+Document: t0kdd34r                  Score: 1.203671866992083
+Document: z0wmxn10                  Score: 1.203671866992083
+Document: md2k7850                  Score: 1.203671866992083
+Document: 0qcy07ws                  Score: 1.203671866992083
+Document: mtarxe5l                  Score: 1.203671866992083
+Document: mheawgn9                  Score: 1.203671866992083
+Document: w30tkiff                  Score: 1.203671866992083
+Document: 7u06919l                  Score: 1.203671866992083
+Document: tgpsu4qz                  Score: 1.203671866992083
 
  -> Query: coronavirus public datasets
 
-Query latency: 0.20581388473510742
+Query latency: 0.2831296920776367 seconds
 
 Document: jc1k3fki                  Score: 1.5678215689876696
 Document: 3svnvozz                  Score: 1.5033457407614037
@@ -530,10 +1889,50 @@ Document: 0xqhpqm4                  Score: 1.477812331371487
 Document: dbwfn27p                  Score: 1.4681371395789544
 Document: 66rygtoa                  Score: 1.4681371395789544
 Document: thu861hj                  Score: 1.4631001640818302
+Document: gxstlzuk                  Score: 1.4458749435389953
+Document: 6uaj8fb7                  Score: 1.4036613113526886
+Document: 32gw2ug3                  Score: 1.3781279019627721
+Document: 56zhxd6e                  Score: 1.3641847599703512
+Document: faec051u                  Score: 1.3641847599703512
+Document: kfsuiz5t                  Score: 1.3239391832907779
+Document: qejmwvst                  Score: 1.2891616755354391
+Document: t16n853r                  Score: 1.2891616755354391
+Document: rzzsmuoc                  Score: 1.2891616755354391
+Document: 7v4y02j6                  Score: 1.2891616755354391
+Document: jknfhd7d                  Score: 1.2891616755354391
+Document: 8ixb2a8z                  Score: 1.2891616755354391
+Document: 50pu07f5                  Score: 1.2891616755354391
+Document: x5bucsrd                  Score: 1.2891616755354391
+Document: 7qd03xfi                  Score: 1.2891616755354391
+Document: n92j9y0j                  Score: 1.2891616755354391
+Document: dwdh5xn6                  Score: 1.2891616755354391
+Document: zuh78iul                  Score: 1.2891616755354391
+Document: l17y7cdo                  Score: 1.2891616755354391
+Document: hstomkk5                  Score: 1.2891616755354391
+Document: s17vz7vf                  Score: 1.2891616755354391
+Document: nx2wrguu                  Score: 1.2891616755354391
+Document: xbsvofir                  Score: 1.2891616755354391
+Document: kw5bfgmb                  Score: 1.2891616755354391
+Document: 9uyeflgg                  Score: 1.2891616755354391
+Document: 47e37xl0                  Score: 1.2891616755354391
+Document: 5bub4yrc                  Score: 1.2891616755354391
+Document: zrh96n7m                  Score: 1.2891616755354391
+Document: ef4hs346                  Score: 1.2891616755354391
+Document: l9wcgpez                  Score: 1.2891616755354391
+Document: 3u81ntle                  Score: 1.2891616755354391
+Document: qv5r8a0l                  Score: 1.2891616755354391
+Document: 32z7b3fp                  Score: 1.2891616755354391
+Document: l353fvsp                  Score: 1.1894772461267242
+Document: 3xq5jwof                  Score: 1.1894772461267242
+Document: l6mqum29                  Score: 1.1894772461267242
+Document: vn6x3fb0                  Score: 1.1894772461267242
+Document: 7adncyih                  Score: 1.1894772461267242
+Document: jrz1yd72                  Score: 1.1894772461267242
+Document: dqxnc5o0                  Score: 1.1500006947443868
 
  -> Query: SARS-CoV-2 spike structure
 
-Query latency: 0.2120363712310791
+Query latency: 0.2897374629974365 seconds
 
 Document: pg58hy81                  Score: 1.7539993919348107
 Document: sty7myg4                  Score: 1.7350922533918807
@@ -545,10 +1944,50 @@ Document: lcu1mgno                  Score: 1.664761785245435
 Document: 535lw99y                  Score: 1.6597029133916488
 Document: xxcx7hg5                  Score: 1.6443128016241408
 Document: tid8a464                  Score: 1.6440258211202414
+Document: uw2a8uwj                  Score: 1.6440258211202414
+Document: jmrg4oeb                  Score: 1.6428473638316334
+Document: blnn9q3r                  Score: 1.642822160757559
+Document: eyr5lo5b                  Score: 1.6277468525263878
+Document: elo7kfun                  Score: 1.6241375462254535
+Document: jljpb7rv                  Score: 1.6187080507508744
+Document: 7o3mzzd4                  Score: 1.617036408519878
+Document: 0aa58pi6                  Score: 1.6077801871998376
+Document: de2o91t3                  Score: 1.6024290821570206
+Document: vranj125                  Score: 1.5988824078337718
+Document: ukuia48s                  Score: 1.5904453900984943
+Document: 647zcjgu                  Score: 1.5885970013939945
+Document: jgtbp5r6                  Score: 1.5853553904852453
+Document: ul6ddxce                  Score: 1.5837084792079383
+Document: gcgc9g9x                  Score: 1.5811157620813119
+Document: udkj15zl                  Score: 1.5751419037098553
+Document: uwwabdqb                  Score: 1.5751419037098553
+Document: gceffbfp                  Score: 1.573371698426719
+Document: 6om1y33o                  Score: 1.5687045234818335
+Document: u896icp9                  Score: 1.5687045234818335
+Document: kt9sbn40                  Score: 1.5687045234818335
+Document: 9ehw6x1s                  Score: 1.5687045234818335
+Document: tuzmu7p5                  Score: 1.5687045234818335
+Document: 7aj3fx5u                  Score: 1.5647652076896932
+Document: axbibuo5                  Score: 1.5608029744245098
+Document: 5unlhxst                  Score: 1.5572878949236384
+Document: w0pewq52                  Score: 1.5564909457926293
+Document: f3nbz3o1                  Score: 1.5550818122718932
+Document: kbpem3x8                  Score: 1.5514733464073274
+Document: p60qnxej                  Score: 1.5514733464073274
+Document: 45rhlb8k                  Score: 1.5514733464073274
+Document: d5qlsthi                  Score: 1.549875156463914
+Document: gud4q4sf                  Score: 1.549875156463914
+Document: itsr18vb                  Score: 1.54392222179042
+Document: hyoroqit                  Score: 1.541746369309056
+Document: aso1mdg0                  Score: 1.541746369309056
+Document: ids74oez                  Score: 1.538303288491643
+Document: 3c5ab73l                  Score: 1.5342158794612208
+Document: lgppfs4j                  Score: 1.5341371305999458
+Document: unvabosp                  Score: 1.5337684921961847
 
  -> Query: SARS-CoV-2 phylogenetic analysis
 
-Query latency: 0.2190861701965332
+Query latency: 0.2985236644744873 seconds
 
 Document: skk4c3a5                  Score: 1.9400579474449882
 Document: aeogp8c7                  Score: 1.9400579474449882
@@ -560,10 +1999,50 @@ Document: fqxjzavm                  Score: 1.7842369010631738
 Document: mn0l7nar                  Score: 1.7508297822828638
 Document: hc0ma2cq                  Score: 1.722016524220423
 Document: 9le7uk7m                  Score: 1.719104314391065
+Document: 5bad8qn7                  Score: 1.719104314391065
+Document: ssa59gng                  Score: 1.719104314391065
+Document: sprvon1t                  Score: 1.6798714044185683
+Document: 741tonlc                  Score: 1.6526541731791393
+Document: facjsy92                  Score: 1.6414588752532495
+Document: szg12wfa                  Score: 1.635668801727967
+Document: jsz2lg6l                  Score: 1.635668801727967
+Document: e5nxkvo7                  Score: 1.612565407109553
+Document: 8qnq02gd                  Score: 1.611540798739279
+Document: 1wswi7us                  Score: 1.6113850860870635
+Document: bcdiq8xh                  Score: 1.5950087359010492
+Document: a12708qd                  Score: 1.5859158635679909
+Document: 1mjaycee                  Score: 1.5859158635679909
+Document: 1abp6oom                  Score: 1.5839403959662501
+Document: 797r1kpy                  Score: 1.5835552722296022
+Document: yneiaypf                  Score: 1.5794304524167844
+Document: wt8zfqk0                  Score: 1.5695395133819767
+Document: 26ey3fm8                  Score: 1.5659716226781886
+Document: suhqgmlo                  Score: 1.5523636860454344
+Document: 3zvjyl3g                  Score: 1.5410984995799828
+Document: qsxnirja                  Score: 1.538285359981706
+Document: pt0ci67s                  Score: 1.5346791514110367
+Document: x8yl605n                  Score: 1.5309228686389682
+Document: kzavc4ez                  Score: 1.5233265728225738
+Document: 41ogljo8                  Score: 1.5178207701341075
+Document: 632hqjpo                  Score: 1.5152739815759477
+Document: i936ad8e                  Score: 1.5028574573462476
+Document: kstt07y1                  Score: 1.50083903600608
+Document: kh06egig                  Score: 1.4999223550480658
+Document: 6c68pmem                  Score: 1.4999223550480658
+Document: uadfehr6                  Score: 1.4811609423644077
+Document: pmmweo13                  Score: 1.4801054822581716
+Document: 9at44dtj                  Score: 1.4801054822581716
+Document: 30ou25gw                  Score: 1.4801054822581716
+Document: tboc6zyd                  Score: 1.473656428656426
+Document: 9z8kdpp1                  Score: 1.4642965960907355
+Document: v38tjof3                  Score: 1.4637207735467415
+Document: s8ajikp0                  Score: 1.4576510597483308
+Document: jetmocvk                  Score: 1.4567067915174985
+Document: d6wcgkln                  Score: 1.4567067915174985
 
  -> Query: COVID inflammatory response
 
-Query latency: 0.22459197044372559
+Query latency: 0.3044769763946533 seconds
 
 Document: mk62bybt                  Score: 1.415031121908183
 Document: 5fbcjhqj                  Score: 1.3562169771101624
@@ -575,10 +2054,50 @@ Document: qw5x4b8x                  Score: 1.3228596612740167
 Document: 9ukf9vpg                  Score: 1.2744286258177169
 Document: j0ufth5d                  Score: 1.197422141150978
 Document: g41pd9uz                  Score: 1.1924146935892057
+Document: rkfmgz8w                  Score: 1.176897495638127
+Document: 7k36owrf                  Score: 1.176897495638127
+Document: b2znv6pa                  Score: 1.1188220319125501
+Document: qebbkr6d                  Score: 1.0735484673579285
+Document: m88ha8ry                  Score: 1.0735484673579285
+Document: yv40zt1g                  Score: 1.0735484673579285
+Document: 1vm5r7pq                  Score: 1.0735484673579285
+Document: iqx0rxun                  Score: 1.0690906403702773
+Document: 73gxq2w6                  Score: 1.0480703768988653
+Document: owhx6k4t                  Score: 1.0480703768988653
+Document: e0bp8cuj                  Score: 1.0480703768988653
+Document: 4gze6w35                  Score: 1.0399818619008416
+Document: r2ad8nip                  Score: 1.029314791215386
+Document: cs8n5kid                  Score: 1.029314791215386
+Document: yaow639d                  Score: 1.023734040745322
+Document: owjgs6ja                  Score: 1.023734040745322
+Document: erdity4m                  Score: 1.023734040745322
+Document: h5ire02h                  Score: 1.023734040745322
+Document: fn9b7adi                  Score: 1.023734040745322
+Document: wt4pxu08                  Score: 1.023734040745322
+Document: s956fh59                  Score: 1.023734040745322
+Document: n7ylgqfu                  Score: 1.023734040745322
+Document: 9595vm0k                  Score: 1.023734040745322
+Document: mzcajw8c                  Score: 1.023734040745322
+Document: tjmx6msm                  Score: 1.023734040745322
+Document: vvhhpchm                  Score: 1.023734040745322
+Document: zknmfgsh                  Score: 1.023734040745322
+Document: ea88olv5                  Score: 1.023734040745322
+Document: 9i0a9beo                  Score: 1.023734040745322
+Document: 4xpkzx0h                  Score: 1.023734040745322
+Document: li6j93ty                  Score: 1.023734040745322
+Document: b6219mp3                  Score: 1.023734040745322
+Document: 6sgeraws                  Score: 1.023734040745322
+Document: 32gw2ug3                  Score: 1.023734040745322
+Document: s6wdwfiq                  Score: 1.023734040745322
+Document: 1e28zj1d                  Score: 1.023734040745322
+Document: kbd2h4l0                  Score: 1.002894853112502
+Document: nthxicak                  Score: 1.002894853112502
+Document: j6y806qu                  Score: 0.9524356309971772
+Document: 2w0zr9c0                  Score: 0.9524356309971772
 
  -> Query: COVID-19 cytokine storm
 
-Query latency: 0.22596526145935059
+Query latency: 0.30611515045166016 seconds
 
 Document: 6wdwrttn                  Score: 1.652814381234648
 Document: p4q64ksa                  Score: 1.549761470642334
@@ -590,10 +2109,50 @@ Document: msohf5oa                  Score: 1.4695784553894335
 Document: b3ui95vx                  Score: 1.4579048308633795
 Document: 68193u0a                  Score: 1.3623294731139348
 Document: 8l1vfsbc                  Score: 1.35324124104752
+Document: iqx0rxun                  Score: 1.2857814855163663
+Document: c3dxfet9                  Score: 1.2803828186576642
+Document: 9xmeyrtu                  Score: 1.27887633156386
+Document: b2znv6pa                  Score: 1.2786755233216458
+Document: sdij1d90                  Score: 1.2074271116858104
+Document: iptnwr45                  Score: 1.2074271116858104
+Document: 4bbpytn5                  Score: 1.2074271116858104
+Document: p350i54m                  Score: 1.2074271116858104
+Document: 1ib0n0yu                  Score: 1.2074271116858104
+Document: p604vvbi                  Score: 1.2074271116858104
+Document: 6ztwho9k                  Score: 1.2074271116858104
+Document: zt28t7ly                  Score: 1.2074271116858104
+Document: idw7o54y                  Score: 1.2074271116858104
+Document: m9e5kxxg                  Score: 1.2074271116858104
+Document: e9nwx5oa                  Score: 1.2074271116858104
+Document: kubfw9d4                  Score: 1.2074271116858104
+Document: 1dbkqwx2                  Score: 1.2074271116858104
+Document: g41pd9uz                  Score: 1.1188747137281156
+Document: f21dknmb                  Score: 1.1118517539363655
+Document: mbctin6l                  Score: 1.1118517539363655
+Document: 7qh8dsew                  Score: 1.1118517539363655
+Document: 32zroj99                  Score: 1.1118517539363655
+Document: u40w5hog                  Score: 1.1118517539363655
+Document: ey1rx4oj                  Score: 1.1118517539363655
+Document: fymfqvp3                  Score: 1.1118517539363655
+Document: rinlrdra                  Score: 1.1118517539363655
+Document: 13yxty47                  Score: 1.1118517539363655
+Document: 7zeyapv5                  Score: 1.1118517539363655
+Document: far3moar                  Score: 1.0740024574769191
+Document: gy472fk4                  Score: 1.0740024574769191
+Document: 1zu664jr                  Score: 1.0740024574769191
+Document: 2c78dom8                  Score: 1.0740024574769191
+Document: hkyiy1gm                  Score: 1.0740024574769191
+Document: cfg2ij2p                  Score: 1.0521939644236138
+Document: x8tcmtpj                  Score: 1.051452831114854
+Document: 1i6hni9s                  Score: 1.0374868444527057
+Document: 6cqfw693                  Score: 1.0374868444527057
+Document: nsp2t0i6                  Score: 1.0222651689838462
+Document: urr5iuy2                  Score: 1.012205667687257
+Document: je266mj1                  Score: 1.0114094643938594
 
  -> Query: coronavirus mutations
 
-Query latency: 0.23085856437683105
+Query latency: 0.3120589256286621 seconds
 
 Document: bgdcm1i1                  Score: 1.3513560271070717
 Document: mp3a9c9u                  Score: 1.3513560271070717
@@ -605,10 +2164,50 @@ Document: fvp45ho6                  Score: 1.3513560271070717
 Document: 69toerzi                  Score: 1.3513560271070717
 Document: covwyddp                  Score: 1.3513560271070717
 Document: 6z7rt5dd                  Score: 1.3513560271070717
+Document: uzzuoy9v                  Score: 1.3513560271070717
+Document: 2otgb2w8                  Score: 1.3513560271070717
+Document: xkx56h0o                  Score: 1.3513560271070717
+Document: xvx6jt9w                  Score: 1.3513560271070717
+Document: 6g55l35h                  Score: 1.3513560271070717
+Document: zyy8gx25                  Score: 1.3513560271070717
+Document: k11fpm1g                  Score: 1.3513560271070717
+Document: vf9n2vf9                  Score: 1.3513560271070717
+Document: ltp17r6v                  Score: 1.3513560271070717
+Document: mameyzih                  Score: 1.3513560271070717
+Document: sgmssck4                  Score: 1.3513560271070717
+Document: 75o706nb                  Score: 1.3513560271070717
+Document: wu77xf6c                  Score: 1.3513560271070717
+Document: pda9knvv                  Score: 1.3513560271070717
+Document: xl48fi53                  Score: 1.3513560271070717
+Document: nwbi0l4r                  Score: 1.3513560271070717
+Document: ri0ckfyx                  Score: 1.3513560271070717
+Document: ijw5bl20                  Score: 1.3513560271070717
+Document: pe52rajd                  Score: 1.3513560271070717
+Document: rrx2r4n2                  Score: 1.3513560271070717
+Document: jryjxpnh                  Score: 1.3513560271070717
+Document: 0pkbbb99                  Score: 1.3513560271070717
+Document: 8fxst74b                  Score: 1.3513560271070717
+Document: 2i48ld8d                  Score: 1.3513560271070717
+Document: v6ivj67h                  Score: 1.3513560271070717
+Document: xnwk1jqb                  Score: 1.3513560271070717
+Document: c2uuvfm5                  Score: 1.3513560271070717
+Document: 3zvwu5bd                  Score: 1.3513560271070717
+Document: vj6gbwsp                  Score: 1.3513560271070717
+Document: m5isb4vj                  Score: 1.3513560271070717
+Document: 5g0n9na8                  Score: 1.3513560271070717
+Document: 4pm9bey1                  Score: 1.3513560271070717
+Document: cgq4szcn                  Score: 1.3513560271070717
+Document: 1i2w3gcp                  Score: 1.3513560271070717
+Document: nr5dq615                  Score: 1.3513560271070717
+Document: ja73e4h8                  Score: 1.3513560271070717
+Document: spbiy43j                  Score: 1.3513560271070717
+Document: jhm7u8ka                  Score: 1.3513560271070717
+Document: ih0z0ohw                  Score: 1.3513560271070717
+Document: 4ew0c2gx                  Score: 1.3513560271070717
 
  -> Query: COVID-19 in African-Americans
 
-Query latency: 0.23172450065612793
+Query latency: 0.31305575370788574 seconds
 
 Document: pne9qolr                  Score: 1.2528251315104275
 Document: kifsxqq2                  Score: 1.2528251315104275
@@ -620,10 +2219,50 @@ Document: db79kb5c                  Score: 1.2528251315104275
 Document: jia7rliz                  Score: 1.2528251315104275
 Document: 857qqfxr                  Score: 1.2528251315104275
 Document: bghvdaw0                  Score: 1.2528251315104275
+Document: rc6ge2zv                  Score: 1.2528251315104275
+Document: ychkinlp                  Score: 1.2528251315104275
+Document: 1edp2ri6                  Score: 1.2528251315104275
+Document: xtjtvldh                  Score: 1.2528251315104275
+Document: 54otwuu1                  Score: 1.2528251315104275
+Document: fct4fi4h                  Score: 1.2528251315104275
+Document: dxp34rkm                  Score: 1.2528251315104275
+Document: 103nlup8                  Score: 1.2528251315104275
+Document: h0c6yt29                  Score: 1.2528251315104275
+Document: 94mbxnss                  Score: 1.1113095651275282
+Document: xttzg46i                  Score: 1.1113095651275282
+Document: iex98lr1                  Score: 1.1044642575628034
+Document: kew3dyg8                  Score: 1.0750604554126082
+Document: 5zukxemu                  Score: 0.967830454583421
+Document: rb4h9edr                  Score: 0.9629486911799043
+Document: 4ipimv1a                  Score: 0.9629486911799043
+Document: 7s9ot4vq                  Score: 0.9304828064750905
+Document: xt6vwcu6                  Score: 0.8481532084840229
+Document: 8pptsdrs                  Score: 0.7820088750059534
+Document: ivmxw2us                  Score: 0.770272569847976
+Document: 3en3yey1                  Score: 0.7593823130100614
+Document: 7hvbbq15                  Score: 0.742881778522817
+Document: atsa7lif                  Score: 0.737402737136639
+Document: mrsjhjh4                  Score: 0.7363640920653525
+Document: g93jd1wt                  Score: 0.6412050292962787
+Document: kex1pe6f                  Score: 0.6412050292962787
+Document: 47ema2dq                  Score: 0.6412050292962787
+Document: 37qoupvk                  Score: 0.6412050292962787
+Document: u0fs6xcj                  Score: 0.6412050292962787
+Document: zolwjl9u                  Score: 0.6412050292962787
+Document: x7omipn2                  Score: 0.6412050292962787
+Document: urm6lnzy                  Score: 0.6412050292962787
+Document: mrst93rh                  Score: 0.6412050292962787
+Document: liqhbqxl                  Score: 0.6412050292962787
+Document: g1zynbul                  Score: 0.6412050292962787
+Document: p7ugp7xn                  Score: 0.6412050292962787
+Document: vwye3pk9                  Score: 0.6412050292962787
+Document: r3r2bc7v                  Score: 0.6412050292962787
+Document: 9awx92cv                  Score: 0.6412050292962787
+Document: cnnosvx0                  Score: 0.6412050292962787
 
  -> Query: Vitamin D and COVID-19
 
-Query latency: 0.2323441505432129
+Query latency: 0.31374406814575195 seconds
 
 Document: gbdaad4l                  Score: 0.8642184306301235
 Document: hlu1noym                  Score: 0.8642184306301235
@@ -635,10 +2274,50 @@ Document: ki3yd87z                  Score: 0.8642184306301235
 Document: thkzoirr                  Score: 0.8642184306301235
 Document: u61mcemm                  Score: 0.8642184306301235
 Document: gvh0wdxn                  Score: 0.8642184306301235
+Document: q5j3vcfm                  Score: 0.8642184306301235
+Document: 2vraae5h                  Score: 0.8642184306301235
+Document: 8shnkrto                  Score: 0.8642184306301235
+Document: 419qs7qf                  Score: 0.8642184306301235
+Document: h0thpn5h                  Score: 0.8642184306301235
+Document: cpbbjm13                  Score: 0.8642184306301235
+Document: 1mrj6nb3                  Score: 0.8642184306301235
+Document: payjduek                  Score: 0.8642184306301235
+Document: 3kktelw2                  Score: 0.8642184306301235
+Document: ukcv4t4f                  Score: 0.8642184306301235
+Document: n264431o                  Score: 0.8642184306301235
+Document: c30cdaw5                  Score: 0.8642184306301235
+Document: h6czy5bh                  Score: 0.8642184306301235
+Document: nmmkkvaq                  Score: 0.8642184306301235
+Document: b9a6k17l                  Score: 0.8642184306301235
+Document: 3lr0t5k1                  Score: 0.8642184306301235
+Document: 1lrzsl3m                  Score: 0.8642184306301235
+Document: q6ifwmc7                  Score: 0.8642184306301235
+Document: s99vbgbh                  Score: 0.8642184306301235
+Document: j2x39v1x                  Score: 0.8642184306301235
+Document: m6doac3k                  Score: 0.8642184306301235
+Document: 54f67o77                  Score: 0.8642184306301235
+Document: t64g596a                  Score: 0.8642184306301235
+Document: r623k00d                  Score: 0.8642184306301235
+Document: sb43y1cl                  Score: 0.8642184306301235
+Document: 1k215hy7                  Score: 0.8642184306301235
+Document: nsbek99j                  Score: 0.8642184306301235
+Document: 0nvwbdwb                  Score: 0.8642184306301235
+Document: zafnq8gl                  Score: 0.8642184306301235
+Document: j6g0au0b                  Score: 0.8642184306301235
+Document: nclkfw4h                  Score: 0.8642184306301235
+Document: n4q8rubt                  Score: 0.8642184306301235
+Document: 79cgct71                  Score: 0.8642184306301235
+Document: z56sdng5                  Score: 0.8642184306301235
+Document: apxv9fd8                  Score: 0.8642184306301235
+Document: dtfw8o4g                  Score: 0.8642184306301235
+Document: eu9v2m3t                  Score: 0.8642184306301235
+Document: egxrvtts                  Score: 0.8642184306301235
+Document: bx7bdtqp                  Score: 0.8642184306301235
+Document: tsh7b5r6                  Score: 0.8642184306301235
 
  -> Query: violence during pandemic
 
-Query latency: 0.2331547737121582
+Query latency: 0.3146698474884033 seconds
 
 Document: x8hbm1b7                  Score: 1.301506784442199
 Document: itp1hnql                  Score: 0.9273759193455761
@@ -650,10 +2329,50 @@ Document: vr65eg6g                  Score: 0.9273759193455761
 Document: mappbzc6                  Score: 0.9273759193455761
 Document: k8gry749                  Score: 0.9273759193455761
 Document: wrv2ru2q                  Score: 0.9273759193455761
+Document: ieh3fmui                  Score: 0.9273759193455761
+Document: a25elc4a                  Score: 0.9273759193455761
+Document: oo55yqfv                  Score: 0.9273759193455761
+Document: e9cgnhbq                  Score: 0.9273759193455761
+Document: 103nlup8                  Score: 0.9273759193455761
+Document: 6448x26k                  Score: 0.9273759193455761
+Document: kio53s5b                  Score: 0.9273759193455761
+Document: m410d4ts                  Score: 0.9273759193455761
+Document: nxqer3m7                  Score: 0.7128013362000076
+Document: 44knig6g                  Score: 0.7128013362000076
+Document: iwueedmm                  Score: 0.5458459637184752
+Document: i9tbix2v                  Score: 0.3741308650966229
+Document: jjkf5gg3                  Score: 0.3741308650966229
+Document: yd7tu7u4                  Score: 0.3741308650966229
+Document: ac00tai9                  Score: 0.3741308650966229
+Document: 90tccg03                  Score: 0.3741308650966229
+Document: rv26qfmf                  Score: 0.3741308650966229
+Document: zbqbogwu                  Score: 0.3741308650966229
+Document: 6r6zwfoy                  Score: 0.3741308650966229
+Document: prqeufwg                  Score: 0.3741308650966229
+Document: y7d3ux28                  Score: 0.3741308650966229
+Document: 3nipr212                  Score: 0.3741308650966229
+Document: 3r0nqzgu                  Score: 0.3741308650966229
+Document: nzynerfu                  Score: 0.3741308650966229
+Document: bxzprauu                  Score: 0.3741308650966229
+Document: bnnt05fn                  Score: 0.3741308650966229
+Document: o3hytzwu                  Score: 0.3741308650966229
+Document: sjod3q3j                  Score: 0.3741308650966229
+Document: lad31adx                  Score: 0.3741308650966229
+Document: jadzias9                  Score: 0.3741308650966229
+Document: s43mous6                  Score: 0.3741308650966229
+Document: qs7dsxn5                  Score: 0.3741308650966229
+Document: dop8knqn                  Score: 0.3741308650966229
+Document: tvm1rf3d                  Score: 0.3741308650966229
+Document: q4i9kh65                  Score: 0.3741308650966229
+Document: bc9retcq                  Score: 0.3741308650966229
+Document: hiw576og                  Score: 0.3741308650966229
+Document: xckkdci1                  Score: 0.3741308650966229
+Document: x88vw3ga                  Score: 0.3741308650966229
+Document: rike3ukb                  Score: 0.3741308650966229
 
  -> Query: impact of masks on coronavirus transmission
 
-Query latency: 0.24077558517456055
+Query latency: 0.323087215423584 seconds
 
 Document: jsttsnqz                  Score: 1.446564807156757
 Document: ytsqfqvh                  Score: 1.4164202415913645
@@ -665,10 +2384,50 @@ Document: mxb9f713                  Score: 1.343394732776334
 Document: 4spjox0r                  Score: 1.343394732776334
 Document: kromgrnu                  Score: 1.343394732776334
 Document: 3t0jhzji                  Score: 1.343394732776334
+Document: m5h19hy6                  Score: 1.3201887195176494
+Document: rl1sxssb                  Score: 1.3185553148120146
+Document: arjtjy53                  Score: 1.3171623562925512
+Document: 4zu69e0y                  Score: 1.3171623562925512
+Document: hc9tkujz                  Score: 1.3171623562925512
+Document: e4uyh2zb                  Score: 1.3156287641658455
+Document: 81knkem4                  Score: 1.2705412102426328
+Document: n8kgsz2e                  Score: 1.2642110510278206
+Document: 6k0zkzt6                  Score: 1.258563565123116
+Document: vgbrwegt                  Score: 1.258563565123116
+Document: h0vmnxgc                  Score: 1.235357551864431
+Document: xfjexm5b                  Score: 1.2309317747098367
+Document: ht88wu6s                  Score: 1.2249691314833806
+Document: tku1dr32                  Score: 1.2219864135266505
+Document: apc0lm5e                  Score: 1.2219864135266505
+Document: xvju9vws                  Score: 1.2210327263362961
+Document: 6sb3ipab                  Score: 1.217713073272162
+Document: thobsldp                  Score: 1.217713073272162
+Document: st475jw7                  Score: 1.217713073272162
+Document: m28jw7yj                  Score: 1.217713073272162
+Document: 7zax1bku                  Score: 1.217713073272162
+Document: jfudgl23                  Score: 1.217713073272162
+Document: 3e1ji2mw                  Score: 1.2056122598583854
+Document: zccd1mq5                  Score: 1.2056122598583854
+Document: d3owtd98                  Score: 1.199667107887994
+Document: eufdzgp2                  Score: 1.1925584540518845
+Document: 9ezhwvv9                  Score: 1.1777540282544703
+Document: 1mu1z4xd                  Score: 1.1633863460449922
+Document: kxwgpymq                  Score: 1.1487337620641502
+Document: bb6lv6yg                  Score: 1.1487337620641502
+Document: qun1kyvw                  Score: 1.1487337620641502
+Document: 4r89qacd                  Score: 1.1487337620641502
+Document: a3hogbee                  Score: 1.1487337620641502
+Document: 4bgs1awq                  Score: 1.1487337620641502
+Document: inboxdth                  Score: 1.1487337620641502
+Document: bjwohra0                  Score: 1.1487337620641502
+Document: v6pqwgsy                  Score: 1.1487337620641502
+Document: 31pxa5rv                  Score: 1.1487337620641502
+Document: 2dbnc57b                  Score: 1.1442544444989489
+Document: mcmazu1v                  Score: 1.118458176908671
 
  -> Query: coronavirus mental health impact
 
-Query latency: 0.24895977973937988
+Query latency: 0.333050012588501 seconds
 
 Document: 4xpkzx0h                  Score: 1.6897238796585552
 Document: 27mqgts7                  Score: 1.543554815782033
@@ -680,10 +2439,50 @@ Document: javgi3gr                  Score: 1.4758454154600393
 Document: p8yu17dy                  Score: 1.4307032080302964
 Document: 6k92cnxn                  Score: 1.4307032080302964
 Document: alwieb64                  Score: 1.4307032080302964
+Document: yao1vt02                  Score: 1.4307032080302964
+Document: 1vimqhdp                  Score: 1.4288835019184951
+Document: t9hufrj0                  Score: 1.4276470364511211
+Document: genrps2q                  Score: 1.4061046588677066
+Document: b49zj5cm                  Score: 1.3942877980011745
+Document: ff9vfrvc                  Score: 1.3908425766832857
+Document: 1bqpc3x3                  Score: 1.3696361110350406
+Document: gjfd1jhb                  Score: 1.3524407563575869
+Document: snch80z7                  Score: 1.3377662253612834
+Document: goemluvd                  Score: 1.3052522778847426
+Document: cefkq9fq                  Score: 1.3001963985990912
+Document: 35ewwjfv                  Score: 1.298408461381424
+Document: vnnbmaqp                  Score: 1.298408461381424
+Document: jof8lij8                  Score: 1.2880569232072885
+Document: kxbhlcce                  Score: 1.286270589844105
+Document: 42pjc0lo                  Score: 1.2762092924103123
+Document: 46idf595                  Score: 1.2379613961051594
+Document: dirhry5q                  Score: 1.2340246282311256
+Document: m410d4ts                  Score: 1.2165672853723175
+Document: el4jgfoe                  Score: 1.208527650291586
+Document: ij3ncdb6                  Score: 1.2003776050994563
+Document: qb9jlt9f                  Score: 1.1986241837841136
+Document: 38dhwggn                  Score: 1.196333379199295
+Document: 1nkpd0yv                  Score: 1.1355444824160938
+Document: mlyg4hj0                  Score: 1.1189170626688674
+Document: tvm1rf3d                  Score: 1.1189170626688674
+Document: 58va5h74                  Score: 1.1189170626688674
+Document: 8y1a3tu0                  Score: 1.1189170626688674
+Document: 6mqkqcpc                  Score: 1.1189170626688674
+Document: vlkrgrj3                  Score: 1.1189170626688674
+Document: oaceknrb                  Score: 1.1189170626688674
+Document: ydc47h1k                  Score: 1.1189170626688674
+Document: grp5hx3z                  Score: 1.1189170626688674
+Document: s9qjf05c                  Score: 1.1189170626688674
+Document: dcqb9b2x                  Score: 1.1189170626688674
+Document: 9p9wz7tv                  Score: 1.1189170626688674
+Document: pzk1pyzx                  Score: 1.1189170626688674
+Document: 0i3ewil9                  Score: 1.1189170626688674
+Document: iwueedmm                  Score: 1.1189170626688674
+Document: 7ipppxis                  Score: 1.1189170626688674
 
  -> Query: dexamethasone coronavirus
 
-Query latency: 0.25289082527160645
+Query latency: 0.3375983238220215 seconds
 
 Document: ksbha7kz                  Score: 1.1996079269931204
 Document: 1vimqhdp                  Score: 1.1996079269931204
@@ -695,10 +2494,50 @@ Document: cq8ojfit                  Score: 0.9742838766745798
 Document: bctefhu9                  Score: 0.9742838766745798
 Document: ip4bxki8                  Score: 0.9742838766745798
 Document: 0e9lq1b5                  Score: 0.9742838766745798
+Document: 3svwv8i8                  Score: 0.9742838766745798
+Document: thmdw6oj                  Score: 0.9742838766745798
+Document: jsxqv90f                  Score: 0.9742838766745798
+Document: 9n16ygxq                  Score: 0.9742838766745798
+Document: du446hf2                  Score: 0.9742838766745798
+Document: ed6v6t1s                  Score: 0.9742838766745798
+Document: jhu5j288                  Score: 0.9742838766745798
+Document: 7xuddnr7                  Score: 0.9742838766745798
+Document: v3ap3g3h                  Score: 0.9742838766745798
+Document: hbc4vazy                  Score: 0.9742838766745798
+Document: i6cjxttp                  Score: 0.9742838766745798
+Document: hls2h9ij                  Score: 0.9742838766745798
+Document: qs9z3q6k                  Score: 0.9742838766745798
+Document: fmt3354i                  Score: 0.9742838766745798
+Document: mahs0qef                  Score: 0.9742838766745798
+Document: wly9hmck                  Score: 0.9742838766745798
+Document: 1ijxilpb                  Score: 0.9742838766745798
+Document: f5my8h1z                  Score: 0.9742838766745798
+Document: ql19uuhr                  Score: 0.9742838766745798
+Document: yw6rm761                  Score: 0.9742838766745798
+Document: ewg8q1io                  Score: 0.9742838766745798
+Document: uk7jr5a4                  Score: 0.9742838766745798
+Document: vvtxus7h                  Score: 0.9742838766745798
+Document: hctygq0i                  Score: 0.8895022640863917
+Document: buz3o8x9                  Score: 0.7488558141792523
+Document: 2528jrn6                  Score: 0.7488558141792523
+Document: caalt5cq                  Score: 0.7488558141792523
+Document: ij3ncdb6                  Score: 0.7488558141792523
+Document: dxl7wvcx                  Score: 0.7488558141792523
+Document: btnwopac                  Score: 0.7488558141792523
+Document: x35bqsym                  Score: 0.7488558141792523
+Document: 5z4xlxy2                  Score: 0.7488558141792523
+Document: z1lvq0iv                  Score: 0.6595828701005901
+Document: iomuxdke                  Score: 0.6595828701005901
+Document: wbyw2lrq                  Score: 0.6595828701005901
+Document: soc2aui9                  Score: 0.6081444402509464
+Document: v4r5d26a                  Score: 0.6081444402509464
+Document: dp4dg5g5                  Score: 0.6081444402509464
+Document: 1eyp9ivj                  Score: 0.5479195745943288
+Document: wafvnbdu                  Score: 0.22532405031854044
 
  -> Query: COVID-19 outcomes in children
 
-Query latency: 0.2554917335510254
+Query latency: 0.3404664993286133 seconds
 
 Document: fn9b7adi                  Score: 1.7265584871852808
 Document: ti9b1etu                  Score: 1.5784226475495453
@@ -710,10 +2549,50 @@ Document: z9jk1n7o                  Score: 1.1884094965438863
 Document: 61snvddh                  Score: 1.1884094965438863
 Document: 7y1uoj8l                  Score: 1.1884094965438863
 Document: 6wdwrttn                  Score: 1.1884094965438863
+Document: re8fstqw                  Score: 1.1884094965438863
+Document: ziepfnpz                  Score: 1.1884094965438863
+Document: royt8bo6                  Score: 1.1783814378228084
+Document: 04jwam92                  Score: 1.1783814378228084
+Document: 4by61id3                  Score: 1.0863260400038668
+Document: jb455t9p                  Score: 1.0863260400038668
+Document: bp6st31f                  Score: 1.0863260400038668
+Document: mkebdm73                  Score: 1.0863260400038668
+Document: 8rxaih7e                  Score: 1.0863260400038668
+Document: ejnxoa18                  Score: 1.0863260400038668
+Document: qe1kcyv0                  Score: 1.0863260400038668
+Document: fogm1gkg                  Score: 1.0863260400038668
+Document: zdf5ji4k                  Score: 1.0863260400038668
+Document: b2c18zaa                  Score: 1.0863260400038668
+Document: qtfdtfq4                  Score: 1.0863260400038668
+Document: ldfa616a                  Score: 1.0863260400038668
+Document: r5n3h2vc                  Score: 1.0863260400038668
+Document: fz30r73d                  Score: 1.0863260400038668
+Document: ix314s4n                  Score: 1.0863260400038668
+Document: iptisi1m                  Score: 1.0863260400038668
+Document: qnijw08y                  Score: 1.0863260400038668
+Document: v2usjklm                  Score: 1.0863260400038668
+Document: 1wptx49j                  Score: 1.0863260400038668
+Document: gap5rs40                  Score: 1.0863260400038668
+Document: cq43592t                  Score: 1.0863260400038668
+Document: e3522foi                  Score: 1.0863260400038668
+Document: smstf1m1                  Score: 1.0863260400038668
+Document: i9tl5f99                  Score: 1.0863260400038668
+Document: nrpdzqzn                  Score: 1.0863260400038668
+Document: ce4wsvf1                  Score: 1.0863260400038668
+Document: 9o2jppb6                  Score: 1.0863260400038668
+Document: pla013m7                  Score: 1.0863260400038668
+Document: wzehglsv                  Score: 1.0863260400038668
+Document: 3gis74gc                  Score: 1.0863260400038668
+Document: 3lr0t5k1                  Score: 1.0863260400038668
+Document: prftlaxn                  Score: 1.0863260400038668
+Document: 8tovupdm                  Score: 1.0863260400038668
+Document: 2g6owogs                  Score: 1.0863260400038668
+Document: fv0waku3                  Score: 1.0863260400038668
+Document: 9mvh9rl9                  Score: 1.0863260400038668
 
  -> Query: school reopening coronavirus
 
-Query latency: 0.2595698833465576
+Query latency: 0.34500551223754883 seconds
 
 Document: mz06mkqf                  Score: 1.442135811463064
 Document: 36rnb6et                  Score: 1.3318998474606334
@@ -725,10 +2604,50 @@ Document: ga7dh4nv                  Score: 0.5943678742449702
 Document: n4h08jxc                  Score: 0.5943678742449702
 Document: 1vimqhdp                  Score: 0.5943678742449702
 Document: kcdhfarq                  Score: 0.5943678742449702
+Document: sf55n6kf                  Score: 0.5943678742449702
+Document: xwzfwbbz                  Score: 0.5943678742449702
+Document: 1zthrgy1                  Score: 0.5943678742449702
+Document: aa5vw5rh                  Score: 0.5943678742449702
+Document: t4w4pw12                  Score: 0.5943678742449702
+Document: hm5vvy0c                  Score: 0.5943678742449702
+Document: y8o5j2be                  Score: 0.5611835424793037
+Document: 284qn075                  Score: 0.5611835424793037
+Document: 5y1qgjr8                  Score: 0.5611835424793037
+Document: x0ismfo3                  Score: 0.5611835424793037
+Document: g693adjd                  Score: 0.5611835424793037
+Document: zhrukh5r                  Score: 0.5611835424793037
+Document: mwsq5h4j                  Score: 0.5611835424793037
+Document: zlr4nwc2                  Score: 0.5611835424793037
+Document: 88clzw4v                  Score: 0.5480420419881413
+Document: z4k0dytm                  Score: 0.5480420419881413
+Document: e36mlout                  Score: 0.5404700036946795
+Document: 7qatfxoj                  Score: 0.5404700036946795
+Document: zsegh330                  Score: 0.5404700036946795
+Document: 8kg6wi88                  Score: 0.5263093830937896
+Document: id7cym7b                  Score: 0.49002842930827095
+Document: stao519y                  Score: 0.49002842930827095
+Document: kfw1wnqo                  Score: 0.49002842930827095
+Document: j0go8fw5                  Score: 0.49002842930827095
+Document: tuhesrpb                  Score: 0.45684409754260447
+Document: 10wcqgaq                  Score: 0.45684409754260447
+Document: ngbfiws5                  Score: 0.4509475784768731
+Document: d4dnz2lk                  Score: 0.4509475784768731
+Document: fn9b7adi                  Score: 0.4509475784768731
+Document: 3tfp9hug                  Score: 0.4509475784768731
+Document: 4tx7u2i9                  Score: 0.4509475784768731
+Document: se62cx9w                  Score: 0.4509475784768731
+Document: x8tcmtpj                  Score: 0.4509475784768731
+Document: xqhn0vbp                  Score: 0.4509475784768731
+Document: p8b3ini4                  Score: 0.4509475784768731
+Document: yfn8sy1m                  Score: 0.4509475784768731
+Document: nada82w4                  Score: 0.4509475784768731
+Document: emnln2ix                  Score: 0.4509475784768731
+Document: jj0juopc                  Score: 0.4509475784768731
+Document: 67bhdlzy                  Score: 0.4509475784768731
 
  -> Query: post-infection COVID-19 immunity
 
-Query latency: 0.27472996711730957
+Query latency: 0.3644144535064697 seconds
 
 Document: wmgobb2h                  Score: 1.4436091921115368
 Document: dptgg05n                  Score: 1.4343803149945005
@@ -740,10 +2659,50 @@ Document: ksbha7kz                  Score: 1.2680592240931559
 Document: jljjqs6m                  Score: 1.2525928518889362
 Document: ejre2jwf                  Score: 1.2397039057080486
 Document: 944pn0k9                  Score: 1.1898364198057205
+Document: 7qatfxoj                  Score: 1.1898364198057205
+Document: ghcbttba                  Score: 1.1862232067825433
+Document: cu20dizt                  Score: 1.1862232067825433
+Document: j6y806qu                  Score: 1.1849284608059045
+Document: yaow639d                  Score: 1.1849284608059045
+Document: tjmx6msm                  Score: 1.152381867936694
+Document: abcaoqye                  Score: 1.1444754106438446
+Document: irl5reo4                  Score: 1.1444754106438446
+Document: owjgs6ja                  Score: 1.1394929217558063
+Document: dgy7d6g5                  Score: 1.1333611494205003
+Document: ukz73rp2                  Score: 1.1320664034438614
+Document: 33yyg2z5                  Score: 1.1180839122505026
+Document: nedbi9aq                  Score: 1.1180839122505026
+Document: 2zvqopyu                  Score: 1.1180839122505026
+Document: o3ef0fof                  Score: 1.1180839122505026
+Document: ge7skngl                  Score: 1.1180839122505026
+Document: tt3igt6d                  Score: 1.1180839122505026
+Document: 562d3fvg                  Score: 1.1180839122505026
+Document: pw1cw2yw                  Score: 1.1180839122505026
+Document: ek4sz62e                  Score: 1.1180839122505026
+Document: ixytcvge                  Score: 1.1180839122505026
+Document: 5y1k842n                  Score: 1.1180839122505026
+Document: efyfvrkl                  Score: 1.1180839122505026
+Document: ully8u69                  Score: 1.1180839122505026
+Document: 2nddhxxo                  Score: 1.1180839122505026
+Document: 3zwe6u8w                  Score: 1.1180839122505026
+Document: 2yv787dz                  Score: 1.1180839122505026
+Document: xs32un2d                  Score: 1.1180839122505026
+Document: b5329o75                  Score: 1.103967587123592
+Document: vroqn09t                  Score: 1.1033102695775439
+Document: erdity4m                  Score: 1.1017781710450913
+Document: mk62bybt                  Score: 1.1017781710450913
+Document: 0xqhpqm4                  Score: 1.0984512383662306
+Document: dhkd7omo                  Score: 1.085537319381292
+Document: xroo7z7g                  Score: 1.085537319381292
+Document: mxea3fh4                  Score: 1.085537319381292
+Document: odc5yx7g                  Score: 1.085537319381292
+Document: gdt32ity                  Score: 1.085537319381292
+Document: fuotxqab                  Score: 1.085537319381292
+Document: vjdhcbht                  Score: 1.085537319381292
 
  -> Query: mRNA vaccine coronavirus
 
-Query latency: 0.2794003486633301
+Query latency: 0.3700728416442871 seconds
 
 Document: x3hr1y6o                  Score: 1.3271190028050794
 Document: 2okcuviq                  Score: 1.3271190028050794
@@ -755,3 +2714,43 @@ Document: mib0dy32                  Score: 1.3271190028050794
 Document: kyj6etnc                  Score: 1.3271190028050794
 Document: hzh5tyoo                  Score: 1.3271190028050794
 Document: 100ir651                  Score: 1.3271190028050794
+Document: qp3biiu8                  Score: 1.3271190028050794
+Document: h1hriihu                  Score: 1.3271190028050794
+Document: pda9knvv                  Score: 1.3271190028050794
+Document: ztvvh6wx                  Score: 1.3271190028050794
+Document: bx86tq0y                  Score: 1.3271190028050794
+Document: 4zu69e0y                  Score: 1.3271190028050794
+Document: xsuq2np8                  Score: 1.3271190028050794
+Document: w5dxuyg1                  Score: 1.3271190028050794
+Document: kyavg4vu                  Score: 1.3271190028050794
+Document: 8jl88qg8                  Score: 1.3271190028050794
+Document: ur5n07ey                  Score: 1.3271190028050794
+Document: h5vih1t8                  Score: 1.3271190028050794
+Document: hxfhoajq                  Score: 1.3271190028050794
+Document: ww0c2hac                  Score: 1.3271190028050794
+Document: ahwcbszz                  Score: 1.3271190028050794
+Document: waqpc0ge                  Score: 1.3271190028050794
+Document: vufv17f1                  Score: 1.3271190028050794
+Document: dtvtopht                  Score: 1.3271190028050794
+Document: a2cfhzhn                  Score: 1.3271190028050794
+Document: uo1sr0bk                  Score: 1.3271190028050794
+Document: yu8l0jqz                  Score: 1.3271190028050794
+Document: lo0eghpn                  Score: 1.3271190028050794
+Document: o3qovlu3                  Score: 1.3271190028050794
+Document: brhmr6r3                  Score: 1.3271190028050794
+Document: pagunwch                  Score: 1.3271190028050794
+Document: 69ewjvf1                  Score: 1.3271190028050794
+Document: ndcai5cw                  Score: 1.3271190028050794
+Document: skm6wr62                  Score: 1.3271190028050794
+Document: jmqd5ge9                  Score: 1.3271190028050794
+Document: qg89d1ax                  Score: 1.3271190028050794
+Document: 8keojx8s                  Score: 1.3271190028050794
+Document: m513eawc                  Score: 1.3271190028050794
+Document: p3l0xss0                  Score: 1.3271190028050794
+Document: ab39nz3a                  Score: 1.3271190028050794
+Document: v3yqs4u8                  Score: 1.3271190028050794
+Document: v9mh7nnt                  Score: 1.3271190028050794
+Document: aogqumuf                  Score: 1.3271190028050794
+Document: vn6954wr                  Score: 1.3271190028050794
+Document: 5dl2vc6q                  Score: 1.3271190028050794
+Document: mtj46j82                  Score: 1.3271190028050794

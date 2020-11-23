@@ -83,7 +83,7 @@ class Ranking:
             
             self.scores.append(docs_scores) # self.scores = [ scores_for_query1, scores_for_query2, ...]
             query_latency_time=time.time()-self.start_time_lnc
-            self.queries_latency[self.queries[i]] = query_latency_time
+            self.queries_latency[i+1] = query_latency_time
 
 
 
@@ -116,10 +116,12 @@ class Ranking:
             
             self.scores.append(docs_scores) # self.scores = [ scores_for_query1, scores_for_query2, ...]
             query_latency_time=time.time()-start_time
-            self.queries_latency[query] = query_latency_time
+            self.queries_latency[self.queries.index(query)+1] = query_latency_time
+           
         
 
-    def get_query_latency(self):
+    def get_queries_latency(self):
+        
         return self.queries_latency
         
     

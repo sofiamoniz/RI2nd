@@ -9,37 +9,15 @@ import statistics
 import math
 
 class Evaluation:
-    def __init__(self, relevance_file, score_file):
-        self.relevance_file = relevance_file # queries.relevance.txt -> query_id, cord_ui, relevance
-        self.score_file = score_file # query_id, cord_ui, score    with the corresponding ranking method used
-        self.relevances = self.get_relevances_or_scores(self.relevance_file)  # {query_1 : {doc_1 : relevance, doc_2: relevance,...},...} 
-        self.scores = self.get_relevances_or_scores(self.score_file)  # {query_1 : {doc_1 : score , doc_2: score,...},...} 
+    def __init__(self, relevances, scores):
+        self.relevances = relevances  # {query_1 : {doc_1 : relevance, doc_2: relevance,...},...} 
+        self.scores = scores  # {query_1 : {doc_1 : score , doc_2: score,...},...} 
+
         self.queries_precision = {}
         self.queries_recall = {}
         self.queries_average_precision = {}
         self.dcg_dic = self.dcg()
         self.ndcg_dic = {}
-  
-
-    def get_relevances_or_scores(self, file_to_read):
-        relevances_scores = {}
-        with open (file_to_read, mode='r') as file_to_read:
-            for row in file_to_read:
-                query_id = row.split()[0]
-                cord_ui = row.split()[1]
-                content = float(row.split()[2])
-                if query_id not in relevances_scores.keys():
-                    doc_scores = {}
-                    doc_scores[cord_ui]=content
-                    relevances_scores[query_id] = doc_scores
-                else:
-                    doc_scores=relevances_scores[query_id]
-                    doc_scores[cord_ui]=content
-                    relevances_scores[query_id] = doc_scores
-
-
-        return relevances_scores
-
 
 
     def mean_precision_recall(self):
@@ -127,13 +105,16 @@ class Evaluation:
         #print(self.queries_average_precision)
 
 
+
     def mean_average_precision(self): #MAP
 
         self.average_precision()
 
         mean_average_precision = statistics.mean(list(self.queries_average_precision.values()))
         
-        print("MAP: "+str(mean_average_precision))
+        print("MAP -> "+str(mean_average_precision))
+
+
 
     def dcg(self):
         query_dcg = {}
@@ -172,7 +153,22 @@ class Evaluation:
         
         mean_ndgc = statistics.mean(list(self.ndcg_dic.values()))
         
-        print("Mean NDGC: "+str(mean_ndgc))
+        print("Mean NDGC -> "+str(mean_ndgc))
+
+
+
+    def query_throughput(self):
+        pass
+
+
+
+    def mean_latency(self,queries_latency):
+
+        #print(queries_latency)
+        median_latency = statistics.median(list(queries_latency.values()))
+
+        print("Median of Queries Latency -> "+str(median_latency)+ " seconds")
+
 
 
 
