@@ -12,7 +12,7 @@ class Evaluation:
     def __init__(self, relevances, scores):
         self.relevances = relevances  # {query_1 : {doc_1 : relevance, doc_2: relevance,...},...} 
         self.scores = scores  # {query_1 : {doc_1 : score , doc_2: score,...},...} 
-
+        self.our_queries = self.relevances_query()
         self.queries_precision = {}
         self.queries_recall = {}
         self.queries_average_precision = {}
@@ -115,12 +115,27 @@ class Evaluation:
         print("MAP -> "+str(mean_average_precision))
 
 
+    def relevances_query(self):
+        our_queries = {}
+        query_relevance = {}
+        for query_id in self.relevances:
+            for doc,relevance in self.relevances[query_id].items():
+                if doc in self.scores[query_id]:
+                    if query_id not in our_queries.keys():
+                        query_relevance = {}
+                        query_relevance[doc]=relevance
+                        our_queries[query_id] = query_relevance
+                    else:
+                        query_relevance=our_queries[query_id]
+                        query_relevance[doc]=relevance
+                        our_queries[query_id] = query_relevance        
+        return our_queries
 
     def dcg(self):
         query_dcg = {}
-        for query_id in self.relevances:            
+        for query_id in self.our_queries:            
             count=0
-            for doc,relevance in self.relevances[query_id].items():       
+            for doc,relevance in self.our_queries[query_id].items():       
                 count+=1
                 if query_id not in query_dcg.keys():
                     query_dcg[query_id] = relevance/math.log2(count+1)
@@ -132,10 +147,10 @@ class Evaluation:
     def mean_ndcg(self):
         query_ndcg = {}
         relevances_ordered = {}
-        for query_id in self.relevances: 
+        for query_id in self.our_queries: 
             count=0
-            for doc,relevance in self.relevances[query_id].items():
-                relevances_ordered[query_id] = {k: v for k, v in sorted(self.relevances[query_id].items(), key=lambda item: item[1], reverse=True)}
+            for doc,relevance in self.our_queries[query_id].items():
+                relevances_ordered[query_id] = {k: v for k, v in sorted(self.our_queries[query_id].items(), key=lambda item: item[1], reverse=True)}
             
             for doc,relevance in relevances_ordered[query_id].items():
                 count+=1
