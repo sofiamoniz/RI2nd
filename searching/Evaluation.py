@@ -157,8 +157,13 @@ class Evaluation:
 
 
 
-    def query_throughput(self):
-        pass
+    def query_throughput(self,total_queries_processing):
+
+        total_number_of_queries = len(list(self.scores.keys()))
+        print(total_queries_processing)
+        qt = total_number_of_queries / total_queries_processing
+        
+        print("Query throughput -> "+str(round(qt))+ " queries per second")
 
 
 
@@ -168,7 +173,3 @@ class Evaluation:
         median_latency = statistics.median(list(queries_latency.values()))
 
         print("Median of Queries Latency -> "+str(median_latency)+ " seconds")
-
-
-
-
