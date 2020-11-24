@@ -48,6 +48,7 @@ class RetrievalEngine:
 
         ranking = Ranking(self.tokenizer,self.queries,self.weighted_index)
         
+        start_queries_processing = time.time()
         if self.ranking_type=="lnc.ltc":
             ranking.weight_queries_lnc_ltc() # this step is only for lnc.ltc
             ranking.score_lnc_ltc()
@@ -55,6 +56,7 @@ class RetrievalEngine:
         else:
             ranking.score_bm25() # no need to weight the queries
 
+        queries_processing = time.time() - start_queries_processing
         queries_latency = ranking.get_queries_latency()
 
         # Write TOP N results to file and create dic with N scores for evaluation:
@@ -92,7 +94,7 @@ class RetrievalEngine:
         evaluation.mean_f1()
         evaluation.mean_average_precision()
         evaluation.mean_ndcg()
-        evaluation.query_throughput()
+        evaluation.query_throughput(queries_processing)
         evaluation.mean_latency(queries_latency)
         print("\n")
 
