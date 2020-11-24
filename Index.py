@@ -19,17 +19,17 @@ def main():
 
     Examples of usage:
 
-        python3 Index.py -s all_sources_metadata_2020-03-13.csv -bm25
-        python3 Index.py -i all_sources_metadata_2020-03-13.csv -lnc.ltc
+        python3 Index.py -s metadata_2020-03-27.csv -bm25
+        python3 Index.py -i metadata_2020-03-27.csv -lnc.ltc
 
     After running, the results files are stored in the "results" folder.
     """
 
     if len(sys.argv)!=4: 
-        print ('\nUsage:\n\n   Index.py -s <fileToRead> -bm25\nor Index.py -i <fileToRead> -bm25\nor Index.py -s <fileToRead> -lnc.ltc\nor Index.py -i <fileToRead> -lnc.ltc')
+        print ('Usage:\n\n   Index.py -s <fileToRead> -bm25\nor Index.py -i <fileToRead> -bm25\nor Index.py -s <fileToRead> -lnc.ltc\nor Index.py -i <fileToRead> -lnc.ltc \n\n Example: python3 Index.py -s metadata_2020-03-27.csv -bm25')
         sys.exit()
     elif (sys.argv[1]!="-i" and sys.argv[1]!="-s") or (sys.argv[3]!="-bm25" and sys.argv[3]!="-lnc.ltc"):
-        print ('\nUsage:\n\n   Index.py -s <fileToRead> -bm25\nor Index.py -i <fileToRead> -bm25\nor Index.py -s <fileToRead> -lnc.ltc\nor Index.py -i <fileToRead> -lnc.ltc')
+        print ('Usage:\n\n   Index.py -s <fileToRead> -bm25\nor Index.py -i <fileToRead> -bm25\nor Index.py -s <fileToRead> -lnc.ltc\nor Index.py -i <fileToRead> -lnc.ltc \n\n Example: python3 Index.py -s metadata_2020-03-27.csv -bm25')
         sys.exit()
 
     indexer=DocumentIndexer(sys.argv[1],sys.argv[2],sys.argv[3])

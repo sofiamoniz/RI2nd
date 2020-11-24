@@ -12,15 +12,15 @@ from searching.RetrievalEngine import RetrievalEngine
 def main():
 
     """
-    The program needs 2 arguments: file with the weighted index and file with the queries
+    The program needs 4 arguments: file with the weighted index, file with the queries, file with the relevances and number of documents to retrieve for each query (TOP)
 
     And PyStemmer instaled: pip install pystemmer
                             pip install psutil
 
     Examples of usage:
 
-        python3 Search.py results/improvedTokenizer/weightedIndex_lnc_ltc.txt queries.txt
-        python3 Search.py results/simpleTokenizer/weightedIndex_bm25.txt queries.txt
+        python3 Search.py results/simpleTokenizer/weightedIndex_bm25.txt queries.txt queries.relevance.filtered.txt 50
+        python3 Search.py results/simpleTokenizer/weightedIndex_lnc_ltc.txt queries.txt queries.relevance.filtered.txt 10
     """
 
     if len(sys.argv) != 5: 
@@ -36,8 +36,8 @@ def main():
     query_file=sys.argv[2]
     relevances_file=sys.argv[3]
     number_of_docs_to_return=sys.argv[4]
-    tokenizer=index_file[8:9] # type of tokenizer in the weighted index ('s' or 'i')
-    if "bm25" in index_file: ranking_type="bm25"   # type of ranking in the weighted index ('bm25' or 'lnc.ltc')
+    tokenizer=index_file[8:9] # type of tokenizer used in the weighted index ('s' or 'i')
+    if "bm25" in index_file: ranking_type="bm25"   # type of ranking used in the weighted index ('bm25' or 'lnc.ltc')
     else: ranking_type="lnc.ltc"
  
     search = RetrievalEngine(tokenizer,ranking_type,index_file,query_file,relevances_file,number_of_docs_to_return)

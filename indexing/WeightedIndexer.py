@@ -19,6 +19,7 @@ class WeightedIndexer:
         self.document_len=document_len
         self.dl = [document_len[doc_id] for doc_id in document_len]
         self.avgdl = sum(self.dl) / total_terms
+        
         self.weighted_index={}
         
     ## inverted_index = { "term" : [ doc_freq, {"doc1":occurrences_of_term_in_doc1, "doc2": occurrences_of_term_in_doc2,...}],...  }
@@ -41,15 +42,15 @@ class WeightedIndexer:
             idf = math.log10(self.total_docs/self.inverted_index[term][0])
             idf_docsWeight.append(idf)         
 
-            doc_pow_sum = defaultdict(int) #This will be used as the normalization factor.
-                          #This is a default dictionary so that if a certain value doesn't exist, it will have a default value of 0
+            doc_pow_sum = defaultdict(int) # This will be used as the normalization factor.
+                          # This is a default dictionary so that if a certain value doesn't exist, it will have a default value of 0
             
             for doc_id in self.inverted_index[term][1]: # self.inverted_index[term][1]) contains : {docID: tf}
                 tf = self.inverted_index[term][1][doc_id] # term frequency (tf) - number of times each term appears in a doc
                 weight = 1+math.log10(tf) # this calculates the weight of term-document
                 doc_pow_sum[doc_id] += weight ** 2 # sum of all the weights of each document
-                                                    #each weight to the pow of 2
-                                                    #this will be used in the cossine normalization
+                                                    # each weight to the pow of 2
+                                                    # this will be used in the cossine normalization
 
             # normalization - cossine normalization:
             # the cossine normalization is sqrt the inverse of the sum of all the weights of a document, each one to the pow of 2
@@ -81,7 +82,7 @@ class WeightedIndexer:
             for doc_id in self.inverted_index[term][1]: # self.inverted_index[term][1]) contains : {docID: tf}
                 tf = self.inverted_index[term][1][doc_id] # term frequency (tf) - number of times each term appears in a doc
                 docsWeigh[doc_id] += (idf * tf * (k+1)
-                      / (tf + k * (1 - b + b * self.document_len[doc_id] / self.avgdl))) #bm25 formula
+                      / (tf + k * (1 - b + b * self.document_len[doc_id] / self.avgdl))) # bm25 formula
            
             idf_docsWeight.append(docsWeigh)
 

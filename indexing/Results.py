@@ -8,7 +8,7 @@ Autors: Alina Yanchuk, 89093
 import json
 import operator
 
-## Class that writes the results files and answers the questions in the assignment guide
+## Class that writes the results files and answers some relevant questions about the Indexing process
 class Results:
 
     def __init__(self,inverted_index,docIds,tokenizer_type,input_file,weighted_index,weighted_index_type):
@@ -102,7 +102,7 @@ class Results:
             │   
             └── simpleTokenizer                  
 
-
+        The files must have the names defined here so the Searching process work!
         """
 
         if(self.tokenizer_type=="-s"):
@@ -120,7 +120,6 @@ class Results:
 
 ## OPTIONAL:
 
-    
 
     def print_table_for_inverted_index(self):
 
@@ -144,7 +143,7 @@ class Results:
 
 
 
-    ## TO ANSWER THE QUESTIONS FROM ASSIGNMENT GUIDE:
+    ## TO ANSWER THE QUESTIONS FROM ASSIGNMENT 1 GUIDE:
            
 
     def terms_doc_frequency_1(self):
