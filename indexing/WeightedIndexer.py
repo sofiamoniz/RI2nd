@@ -28,6 +28,10 @@ class WeightedIndexer:
     # lnc.ltc:
     def weighted_index_lnc_ltc(self):       
 
+        """
+        Calculates the lnc.ltc weights of each document
+        """
+
         for term in self.inverted_index:
             
             docsWeigh={} # {"doc1":weight_of_term_in_doc1,"doc2":weight_of_term_in_doc2,...}  only with documents where the term occurs
@@ -59,7 +63,11 @@ class WeightedIndexer:
 
 
     # bm25:
-    def weighted_index_bm25(self,  k = 1.2 , b = 0.75): # k is a value between 1.2 and 2.0     
+    def weighted_index_bm25(self,  k = 1.2 , b = 0.75): # k is a value between 1.2 and 2.0  
+
+        """
+        Calculates the bm25 weights of each document
+        """   
 
         for term in self.inverted_index: 
 
@@ -72,10 +80,8 @@ class WeightedIndexer:
 
             for doc_id in self.inverted_index[term][1]: # self.inverted_index[term][1]) contains : {docID: tf}
                 tf = self.inverted_index[term][1][doc_id] # term frequency (tf) - number of times each term appears in a doc
-                #len_of_doc = self.document_len[doc_id]
-                #avgdl = len_of_doc / total_terms
                 docsWeigh[doc_id] += (idf * tf * (k+1)
-                      / (tf + k * (1 - b + b * self.document_len[doc_id] / self.avgdl)))
+                      / (tf + k * (1 - b + b * self.document_len[doc_id] / self.avgdl))) #bm25 formula
            
             idf_docsWeight.append(docsWeigh)
 
