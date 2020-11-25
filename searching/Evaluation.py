@@ -39,19 +39,20 @@ class Evaluation:
             for doc,relevance in self.relevances[query_id].items():
                 if (doc in self.scores[query_id]) and relevance>0: #if the doc exists in our scores and has relevance
                     tp += 1 # We found a true positive
-                if relevance > 0: # if the doc has relevance but doesn't exist in our scores
+                if relevance > 0: # All relevante docs
                     tp_fn += 1 # We found a true_positive-false_negative
 
-            tp_fp = len(self.scores[query_id]) # All the relevant docs correspond to the len of our dictionary self.scores
+            tp_fp = len(self.scores[query_id]) # All retrieved docs
                         
-            self.queries_precision[query_id] = (tp/tp_fp) # Calculates the precision for each query
+            self.queries_precision[query_id] = (tp/tp_fp) # Calculates the precision for this query
             if tp_fn!=0: # If true_positive-false_negative exist, we calculate the recall for each query
                 self.queries_recall[query_id] = (tp/tp_fn)
+            ##else:
+                ##self.queries_recall[query_id] = 0
 
-        mean_precision = statistics.mean(list(self.queries_precision.values())) # he mean precision is the mean of all values
-                                                                                # Of the precision dict
-        mean_recall = statistics.mean(list(self.queries_recall.values())) # The mean recall is the mean of all values
-                                                                                # Of the recall dict
+        mean_precision = statistics.mean(list(self.queries_precision.values())) # The mean of precisions of all queries
+                                                                            
+        mean_recall = statistics.mean(list(self.queries_recall.values())) # The mean of recals of all queries
       
         print("Mean Precision -> ", mean_precision)
         print("Mean Recall ->  ", mean_recall)
@@ -70,11 +71,10 @@ class Evaluation:
             if self.queries_precision[query_id] != 0 and self.queries_recall != 0 : # if both precision and recall have a value
                 queries_f1[query_id] = 2 * ((self.queries_precision[query_id]*self.queries_recall[query_id])
                                                      /(self.queries_precision[query_id]+self.queries_recall[query_id])) # f1 calculation
-            else: # If precision or recall is 0
+            else: # If precision and recall is 0
                 queries_f1[query_id] = 0
 
-        mean_f1 = statistics.mean(list(queries_f1.values())) # The mean f1 is the mean of all values
-                                                            # Of the f1 dict
+        mean_f1 = statistics.mean(list(queries_f1.values())) # The mean of f1 of all queries
 
         print("Mean F-Measure -> ", mean_f1)
 
@@ -88,33 +88,28 @@ class Evaluation:
 
         for query_id in self.scores:
 
-            tp_fn = 0
             tp_fp = 0
             tp = 0
             precisions = []
-            average_precision = 0
+            
 
-            for doc,relevance in self.relevances[query_id].items():
-                if relevance > 0: #if the doc has relevance but doesn't exist in our scores
-                    tp_fn += 1 #We found a true_positive-false_negative
-
-            for doc,score in self.scores[query_id].items():
+            for doc,score in self.scores[query_id].items(): # Iterate by the retrieved documents, in the order they were retrieved
                 relevant = False
-                tp_fp += 1
+                tp_fp += 1 # All returned docs
                 if doc in self.relevances[query_id] and self.relevances[query_id][doc]>0:
-                    relevant = True #If the doc exists in our scores and in the relevances (having relevance>1), it means that
-                                    #A relevant doc was found
+                    relevant = True # Its a relevant document
                     tp += 1
-                precision = tp/tp_fp #Calculates the precision for each query
+                precision = tp/tp_fp # At this position/moment
                 
-                if relevant==True: precisions.append(precision) #Saves the precisions in order to calculate the average mean
+                if relevant==True: precisions.append(precision) # Saves the precisions where a relevant document was retrieved, in order to calculate the average precision
 
             if len(precisions)!=0:
-                average_precision = statistics.mean(precisions) #Calculates the mean of the precisions
-            else:
-                average_precision = 0
+                average_precision = statistics.mean(precisions) # Calculates the mean of the precisions where a relevant document was retrieved
+            #else:
+                #average_precision = 0
 
-            self.queries_average_precision[query_id] = average_precision #Calculates the average mean for each query
+            self.queries_average_precision[query_id] = average_precision # Average precision for this query
+            
 
 
 
@@ -127,7 +122,8 @@ class Evaluation:
 
         self.average_precision()
 
-        #The MAP value is the mean of all average precision values, calculated previously
+        #print(self.queries_average_precision)
+        # The MAP value is the mean of all average precision values, calculated previously
         mean_average_precision = statistics.mean(list(self.queries_average_precision.values()))
         
         print("MAP -> "+str(mean_average_precision))
@@ -137,15 +133,16 @@ class Evaluation:
     def get_returned_relevances(self):
 
         """
-        Saves the relevances of the documents returned by the Retrieval Engine and found on the relevances file, for each query
+        Saves the relevances of the documents returned by the Retrieval Engine, for each query
         """
 
         for query_id in self.relevances:
-            for doc,relevance in self.relevances[query_id].items():
-                if doc in self.scores[query_id]: # If the document exists in our scores (was retrieved), we will save its relevance
-                    query_relevance=self.returned_relevances[query_id]
-                    query_relevance[doc]=relevance
-                    self.returned_relevances[query_id] = query_relevance
+            for doc,score in self.scores[query_id].items():
+                docs_relevance=self.returned_relevances[query_id]
+                if doc in self.relevances[query_id]: # If the document exists on the reference file
+                    docs_relevance[doc]=self.relevances[query_id][doc]
+                else: docs_relevance[doc]=0
+                self.returned_relevances[query_id] = docs_relevance
 
 
 
@@ -163,7 +160,7 @@ class Evaluation:
             for doc,relevance in self.returned_relevances[query_id].items():       
                 count+=1 # Count is used as the indice for each document
                 self.queries_dcg[query_id] += relevance/math.log2(count+1) # dcg formula
-
+           
 
 
     def mean_ndcg(self):
@@ -185,9 +182,10 @@ class Evaluation:
             relevances_ordered[query_id] = {k: v for k, v in sorted(self.relevances[query_id].items(), key=lambda item: item[1], reverse=True)}
             
             for doc,relevance in relevances_ordered[query_id].items():
-                count+=1 #Count is used as the indice for each document
+                count+=1 # Count is used as the indice for each document
                 ideal_dcg[query_id] += relevance/math.log2(count+1)
-
+                if count==len(self.scores[query_id]): break # We only need the top N 
+                
         for query_id in self.queries_dcg: 
             if ideal_dcg[query_id] != 0:
                 self.queries_ndcg[query_id] = self.queries_dcg[query_id]/ideal_dcg[query_id] # The NDCG is found by dividing the
