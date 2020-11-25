@@ -176,13 +176,13 @@ class Evaluation:
 
         ideal_dcg = collections.defaultdict(int)
         relevances_ordered = {}
-        for query_id in self.returned_relevances: 
+        for query_id in self.relevances: 
             count=0
             # This time, we will order the relevant docs for each query, in decreasing order
             # Ex: query_1 : {doc1: 2, doc2:1, doc3:1 , doc4:0}
             # So that we can have the ideal elements.
             # Then, by normalizing the dcg with these values, we achive normalized DCG
-            relevances_ordered[query_id] = {k: v for k, v in sorted(self.returned_relevances[query_id].items(), key=lambda item: item[1], reverse=True)}
+            relevances_ordered[query_id] = {k: v for k, v in sorted(self.relevances[query_id].items(), key=lambda item: item[1], reverse=True)}
             
             for doc,relevance in relevances_ordered[query_id].items():
                 count+=1 #Count is used as the indice for each document
