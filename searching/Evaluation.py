@@ -1,7 +1,7 @@
 """
 IR, November 2020
 Assignment 2: Ranked Retrieval
-Autors: Alina Yanchuk, 89093
+Authors: Alina Yanchuk, 89093
         Ana Sofia Fernandes, 88739
 """
 

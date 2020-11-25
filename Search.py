@@ -16,6 +16,7 @@ def main():
 
     And PyStemmer instaled: pip install pystemmer
                             pip install psutil
+                            pip install ntlk
 
     Examples of usage:
 
