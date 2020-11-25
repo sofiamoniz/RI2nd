@@ -7,6 +7,7 @@
     1. Run the command pip install nltk
     2. Run the command pip install psutil
     3. Run the command pip install pystemmer
+    
     4. Execute the command: 
 
         Search.py <weightedIndexFile> <queryFile> <queryRelevancesFile> <numberOfDocsToReturn>
