@@ -37,4 +37,4 @@ In order to everything work correctly, all the generated files by the indexing p
 
 ##### All the results (Weighted Index, document IDs mapping and Ranking) are stored in the "results" folder             
 
-##### The table with the Evaluation metrics can be found in the "results" folder, in the file table_evaluation.pdf
+##### The table with the Evaluation metrics can be found in the "results" folder, in the file table_evaluation.xlsx
