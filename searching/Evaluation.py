@@ -47,8 +47,8 @@ class Evaluation:
             self.queries_precision[query_id] = (tp/tp_fp) # Calculates the precision for this query
             if tp_fn!=0: # If true_positive-false_negative exist, we calculate the recall for each query
                 self.queries_recall[query_id] = (tp/tp_fn)
-            ##else:
-                ##self.queries_recall[query_id] = 0
+            else:
+                self.queries_recall[query_id] = 0
 
         mean_precision = statistics.mean(list(self.queries_precision.values())) # The mean of precisions of all queries
                                                                             
@@ -105,8 +105,8 @@ class Evaluation:
 
             if len(precisions)!=0:
                 average_precision = statistics.mean(precisions) # Calculates the mean of the precisions where a relevant document was retrieved
-            #else:
-                #average_precision = 0
+            else:
+                average_precision = 0
 
             self.queries_average_precision[query_id] = average_precision # Average precision for this query
             
