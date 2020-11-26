@@ -18,6 +18,7 @@ class Evaluation:
         self.returned_relevances = collections.defaultdict(dict)
         self.queries_precision = {}
         self.queries_recall = {}
+        self.queries_f1 = {}
         self.queries_average_precision = {}
         self.queries_dcg = collections.defaultdict(int)
         self.queries_ndcg = {}
@@ -37,7 +38,7 @@ class Evaluation:
             total_precision = 0
 
             for doc,relevance in self.relevances[query_id].items():
-                if (doc in self.scores[query_id]) and relevance>0: #if the doc exists in our scores and has relevance
+                if (doc in self.scores[query_id]) and relevance>0: # if the doc exists in our scores and has relevance
                     tp += 1 # We found a true positive
                 if relevance > 0: # All relevante docs
                     tp_fn += 1 # We found a true_positive-false_negative
@@ -53,7 +54,7 @@ class Evaluation:
         mean_precision = statistics.mean(list(self.queries_precision.values())) # The mean of precisions of all queries
                                                                             
         mean_recall = statistics.mean(list(self.queries_recall.values())) # The mean of recals of all queries
-      
+        print(list(self.queries_recall.values()))
         print("Mean Precision -> ", mean_precision)
         print("Mean Recall ->  ", mean_recall)
 
@@ -65,16 +66,14 @@ class Evaluation:
         Calculates the mean f-measure
         """
 
-        queries_f1 = {}
-
         for query_id in self.queries_precision:
             if self.queries_precision[query_id] != 0 and self.queries_recall != 0 : # if both precision and recall have a value
-                queries_f1[query_id] = 2 * ((self.queries_precision[query_id]*self.queries_recall[query_id])
+                self.queries_f1[query_id] = 2 * ((self.queries_precision[query_id]*self.queries_recall[query_id])
                                                      /(self.queries_precision[query_id]+self.queries_recall[query_id])) # f1 calculation
             else: # If precision and recall is 0
-                queries_f1[query_id] = 0
+                self.queries_f1[query_id] = 0
 
-        mean_f1 = statistics.mean(list(queries_f1.values())) # The mean of f1 of all queries
+        mean_f1 = statistics.mean(list(self.queries_f1.values())) # The mean of f1 of all queries
 
         print("Mean F-Measure -> ", mean_f1)
 

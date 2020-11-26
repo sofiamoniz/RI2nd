@@ -58,7 +58,7 @@ class RetrievalEngine:
         queries_latency = ranking.get_queries_latency() # latency of each query
 
         # Writes TOP N results (for each query) to file and creates dictionary with N scores for evaluation:
-
+       
         scores_for_evaluation = {} # {query_1 : {doc_1: score , doc_2: score,...},...} 
         with open("results/ranking_"+self.ranking_type+".txt", 'w') as file_ranking:
             file_ranking.write("***  TOP "+self.top+" RETURNED DOCUMENTS *** ")
@@ -95,7 +95,15 @@ class RetrievalEngine:
 
         print("\nResults of Ranking in: "+"results/ranking_"+self.ranking_type+".txt\n")
         
-
+        import csv
+        from itertools import zip_longest
+        d = [list(evaluation.queries_precision.values()), list(evaluation.queries_recall.values()), list(evaluation.queries_f1.values()), list(evaluation.queries_average_precision.values()),list(evaluation.queries_ndcg.values()),list(queries_latency.values())]
+        export_data = zip_longest(*d, fillvalue = '')
+        with open('numbers.csv', 'w', encoding="ISO-8859-1", newline='') as myfile:
+            wr = csv.writer(myfile)
+            wr.writerow(("Precision", "Recall", "F-Measure", "Average Precision", "NDGC", "Latency"))
+            wr.writerows(export_data)
+        myfile.close()
 
 
 

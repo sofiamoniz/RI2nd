@@ -87,9 +87,7 @@ class WeightedIndexer:
             idf_docsWeight.append(docsWeigh)
 
             self.weighted_index[term]=idf_docsWeight
-  
 
-            
 
 
 
